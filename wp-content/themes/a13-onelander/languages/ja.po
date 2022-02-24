@@ -1,0 +1,5730 @@
+# Translation of Themes - Rife Pro in Japanese
+# This file is distributed under the same license as the Themes - Rife Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Themes - Rife Pro\n"
+"POT-Creation-Date: 2019-04-09 12:37+0200\n"
+"PO-Revision-Date: 2019-04-09 12:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:33
+msgid "The page you are looking for can't be found!"
+msgstr "お探しのページは見つかりませんでした。"
+
+#: 404.php:36
+#, php-format
+msgid "Go to our %1$s or go back to %2$s"
+msgstr "サイト %1$s に移動するか、%2$s に戻る"
+
+#: 404.php:37
+msgid "home page"
+msgstr "ホームページ"
+
+#: 404.php:38
+msgid "previous page"
+msgstr "前のページ"
+
+#: advance/admin/admin.php:9
+msgid ""
+"There are rows in content with identical \"Navigation anchor title\" "
+"parameter, which has to be unique for each item. Please fix it by editing "
+"row parameters. Duplicated titles are:"
+msgstr ""
+"コンテンツ内に同じ「ナビゲーションアンカータイトル」パラメータを持つ行があり"
+"ます。これらはそれぞれ固有の値でなければなりません。行パラメータを編集してく"
+"ださい。重複する行:"
+
+#: advance/admin/admin.php:10
+msgid "Do You want to delete selected One Page Navigation Pointer?"
+msgstr "選択した One Page Navigation Pointer を削除しますか ?"
+
+#: advance/admin/admin.php:112
+#, php-format
+msgid "%s Import &amp; Info"
+msgstr "%s インポートと情報"
+
+#: advance/admin/admin.php:135
+msgid "Start typing to filter icons"
+msgstr "タイピングしてアイコンをフィルタリングする"
+
+#: advance/admin/apollo13-pages-functions.php:29
+msgid "Server/WordPress Environment"
+msgstr "サーバー / WordPress 環境"
+
+#: advance/admin/apollo13-pages-functions.php:36
+msgid "Demo Data Directory"
+msgstr "デモデータディレクトリ"
+
+#: advance/admin/apollo13-pages-functions.php:37
+msgid ""
+"The directory must be writable so downloaded demo data could be saved for "
+"the import process."
+msgstr ""
+"インポート処理がダウンロードしたデータを保存できるよう、ディレクトリは書き込"
+"み可能にしてください。"
+
+#: advance/admin/apollo13-pages-functions.php:43
+#, php-format
+msgid "To allow import, make %s writable."
+msgstr "インポートするには %s を書き込み可能にしてください。"
+
+#: advance/admin/apollo13-pages-functions.php:49
+msgid "WP Memory Limit"
+msgstr "WordPress メモリー上限"
+
+#: advance/admin/apollo13-pages-functions.php:50
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr "サイトで一度に利用可能な最大メモリー (RAM)"
+
+#: advance/admin/apollo13-pages-functions.php:59
+#, php-format
+msgid ""
+"%1$s - We can not determine the true memory limit that is set on your "
+"server. It is possible that your server admin blocked manipulating this "
+"limit. See: %2$s"
+msgstr ""
+"%1$s - サーバーに設定されたメモリー上限を検知できません。この値への操作はサー"
+"バー管理者により制限されているかもしれません。参照; %2$s"
+
+#: advance/admin/apollo13-pages-functions.php:59
+#: advance/admin/apollo13-pages-functions.php:63
+#: advance/admin/apollo13-pages-functions.php:67
+msgid "Increasing memory allocated to PHP"
+msgstr "PHP に割り当てるメモリーの増加"
+
+#: advance/admin/apollo13-pages-functions.php:63
+#, php-format
+msgid ""
+"%1$s - Having memory lower than 96 MB(we recommend 128 MB or more) can "
+"produce errors while importing demo data, depending on how many plugins you "
+"have active. See: %2$s"
+msgstr ""
+"%1$s - 96 MB 以下のメモリーの場合、有効化したプラグインの数によってはデモデー"
+"タのインポートでエラーが発生します。128 MB 以上を推奨します。参照: %2$s"
+
+#: advance/admin/apollo13-pages-functions.php:67
+#, php-format
+msgid ""
+"%1$s - You should be fine with so much memory, however, depending on how "
+"many plugins you have active you should change it to 128 MB or more. See: "
+"%2$s"
+msgstr ""
+"%1$s - 通常の使用であれば十分なメモリーですが、有効化したプラグインの数によっ"
+"ては 128MB 以上が必要な場合があります。参照: %2$s"
+
+#: advance/admin/apollo13-pages-functions.php:75
+msgid "PHP Version"
+msgstr "PHP バージョン"
+
+#: advance/admin/apollo13-pages-functions.php:76
+msgid "The version of PHP installed on your hosting server."
+msgstr "ホスティングサーバーにインストールされている PHP のバージョン。"
+
+#: advance/admin/apollo13-pages-functions.php:84
+#: advance/admin/apollo13-pages-functions.php:88
+#, php-format
+msgid ""
+"%1$s - We recommend a minimum PHP version of 5.6. Having version 7 or higher "
+"is even better. See: %2$s"
+msgstr ""
+"%1$s - PHP のバージョンは最低でも 5.6 を推奨します。特に 7 以上を推奨します。"
+"参照: %2$s"
+
+#: advance/admin/apollo13-pages-functions.php:84
+#: advance/admin/apollo13-pages-functions.php:88
+msgid "How to update your PHP version"
+msgstr "PHP バージョンのアップデート方法"
+
+#: advance/admin/apollo13-pages-functions.php:94
+msgid "Couldn't determine PHP version because phpversion() doesn't exist."
+msgstr "PHP のバージョンが検知できません。phpversion() が存在しません。"
+
+#: advance/admin/apollo13-pages-functions.php:99
+msgid "PHP Time Limit"
+msgstr "PHP タイムアウト上限"
+
+#: advance/admin/apollo13-pages-functions.php:100
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups). Recommended 60 "
+"seconds or more for the import process."
+msgstr ""
+"一回の操作でタイムアウトが発生するまでの時間 (秒数)。60秒、データのインポート"
+"時にはそれ以上を推奨します。"
+
+#: advance/admin/apollo13-pages-functions.php:107
+#, php-format
+msgid ""
+"%1$s - Having %2$s less than 30 can hurt the import process. We recommend "
+"setting it to at least 60 if possible, even if only for the import process."
+msgstr ""
+"%1$s - 最大実行時間 %2$s - 30秒以下はインポート処理に問題が発生します。可能で"
+"あれば60秒以上に、インポート処理の間だけでも設定してください。"
+
+#: advance/admin/apollo13-pages-functions.php:120
+msgid "PHP Post Max Size"
+msgstr "PHP 投稿の最大サイズ"
+
+#: advance/admin/apollo13-pages-functions.php:121
+msgid ""
+"The largest file size that can be contained in one post. Recommended 64 MB "
+"or more."
+msgstr "1件の投稿の最大ファイルサイズ。64MB 以上を推奨。"
+
+#: advance/admin/apollo13-pages-functions.php:127
+#: advance/admin/apollo13-pages-functions.php:142
+#, php-format
+msgid ""
+"%s - too low value for this setting might cause problems. Recommended 64MB "
+"or more."
+msgstr ""
+"%s - 設定値が小さい場合は問題が発生する場合があります。64MB 以上を推奨しま"
+"す。"
+
+#: advance/admin/apollo13-pages-functions.php:135
+msgid "Max Upload Size"
+msgstr "最大アップロードサイズ"
+
+#: advance/admin/apollo13-pages-functions.php:136
+msgid ""
+"The largest file size that can be uploaded to your WordPress installation. "
+"Recommended 64 MB or more."
+msgstr ""
+"WordPress でアップロード可能な最大ファイルサイズ。64MB 以上を推奨します。"
+
+#: advance/admin/apollo13-pages-functions.php:167
+#: advance/admin/apollo13-pages.php:94
+msgid "Recommended Tools"
+msgstr "おすすめツール"
+
+#: advance/admin/apollo13-pages-functions.php:168
+msgid ""
+"Below you can find various tools that can improve your site and workflow. "
+"All of these tools we use in our websites and recommend them as great help!"
+msgstr ""
+"サイトやワークフローを改善するツールをリストアップしました。どれも私達の Web "
+"サイトで利用している、おすすめのツールです。"
+
+#: advance/admin/apollo13-pages-functions.php:171
+msgid "Shortpixel"
+msgstr "Shortpixel"
+
+#: advance/admin/apollo13-pages-functions.php:172
+msgid ""
+"Image optimization is one element that can cut off your page weight by 50 "
+"percent or more. Check this great plugin & service to achieve better results "
+"in no time."
+msgstr ""
+"画像の最適化は全体のページサイズを50%以上削減します。今すぐこの素晴らしいプラ"
+"グインとサービスで結果を確認してください。"
+
+#: advance/admin/apollo13-pages-functions.php:174
+#: advance/admin/apollo13-pages-functions.php:182
+#: advance/admin/apollo13-pages-functions.php:190
+#: advance/admin/apollo13-pages-functions.php:206
+#: advance/admin/apollo13-pages-functions.php:214
+msgid "Read more details on our Blog"
+msgstr "ブログで詳細を参照する"
+
+#: advance/admin/apollo13-pages-functions.php:179
+msgid "Kinsta"
+msgstr "Kinsta"
+
+#: advance/admin/apollo13-pages-functions.php:180
+msgid ""
+"Great speed with flawless support - a managed hosting for WordPress. In "
+"terms of speed, hosting is the first thing you have to upgrade to make your "
+"website fly!"
+msgstr ""
+"抜群のスピードと完全なサポートを誇る WordPress マネージドホスティングです。"
+"Web サイトのスピードに関してはホスティングサービスのアップグレードを最初に考"
+"えましょう。"
+
+#: advance/admin/apollo13-pages-functions.php:187
+msgid "Autoptimize"
+msgstr "Autoptimize"
+
+#: advance/admin/apollo13-pages-functions.php:188
+msgid ""
+"A lightweight plugin that can help you speed up your website by optimizing "
+"various assets."
+msgstr ""
+"さまざまなアセットを最適化し Web サイトのスピード向上を支援する軽量プラグイン"
+"です。"
+
+#: advance/admin/apollo13-pages-functions.php:195
+msgid "WPML"
+msgstr "WPML"
+
+#: advance/admin/apollo13-pages-functions.php:196
+msgid ""
+"Releasing website in few languages is a lot of work. Use the WPML plugin to "
+"get much help with this."
+msgstr ""
+"Web サイトの複数言語対応には多大な労力が必要です。WPML プラグインを使用して省"
+"力化しましょう。"
+
+#: advance/admin/apollo13-pages-functions.php:198
+msgid "Read more details in the documentation."
+msgstr "ドキュメントで詳細を参照する"
+
+#: advance/admin/apollo13-pages-functions.php:203
+msgid "Elementor Pro"
+msgstr "Elementor Pro"
+
+#: advance/admin/apollo13-pages-functions.php:204
+msgid ""
+"You already know Elementor Page builder in its great free version. Support "
+"team behind it and get more cool widgets by upgrading to Pro version."
+msgstr ""
+"Elementor ページビルダーフリー版の素晴らしさはすでにご存知でしょう。プロ版に"
+"アップグレードすると、更にサポートとクールなウィジェットを追加できます。"
+
+#: advance/admin/apollo13-pages-functions.php:211
+#: advance/plugins/plugins-list.php:29
+msgid "Rife Elementor Extensions &amp; Templates"
+msgstr "Rife Elementor Extensions &amp; Templates"
+
+#: advance/admin/apollo13-pages-functions.php:212
+msgid ""
+"If you are looking for more beautiful and Free templates for Elementor try "
+"our Templates pack. It also includes new Elementor widgets."
+msgstr ""
+"Elementor 用の無料の美しいテンプレートをお探しであれば Templates パックを試し"
+"てください。新しい Elementor ウィジェットも含まれています。"
+
+#: advance/admin/apollo13-pages.php:40
+msgid "Where to get help?"
+msgstr "ヘルプガイド"
+
+#: advance/admin/apollo13-pages.php:42 advance/inc/pro/rife_admin.php:302
+msgid "Support Forum"
+msgstr "サポートフォーラム"
+
+#: advance/admin/apollo13-pages.php:44
+msgid ""
+"If you have question about how something works, or you feel like you have "
+"found bug please come to our support forum! It is the best place, where we "
+"can work together to solve issues and explain various topics."
+msgstr ""
+"動作について質問があったりバグを見つけた場合はサポートフォーラムにアクセスし"
+"てください。一緒に問題を解決しましょう。またさまざまなトピックについても解説"
+"しています。"
+
+#: advance/admin/apollo13-pages.php:47
+msgid "To access forum you will need your license code."
+msgstr "フォーラムにアクセスするにはライセンスコードが必要です。"
+
+#: advance/admin/apollo13-pages.php:48 advance/inc/pro/rife_admin.php:160
+#: advance/inc/pro/rife_admin.php:323
+msgid "Where to find your code?"
+msgstr "ライセンスコードを確認するには ?"
+
+#: advance/admin/apollo13-pages.php:50
+msgid ""
+"We understand that most of our customers are not developers(programmers), "
+"that is why we will also help you with issues caused by other components "
+"(plugins for example) and we will provide you instructions to help fixing "
+"issues, even if it is not directly related to our theme."
+msgstr ""
+"多くのお客さまが開発者やプログラマーでないことを知っています。私達はテーマと"
+"直接関係のない他のコンポーネントに起因する問題であっても問題解決のお手伝いを"
+"します。"
+
+#: advance/admin/apollo13-pages.php:52 advance/inc/pro/rife_admin.php:300
+msgid "Online Documentation"
+msgstr "オンラインドキュメント"
+
+#: advance/admin/apollo13-pages.php:54
+msgid ""
+"Online documentation is always most up to date if it comes to explaining how "
+"to work with the theme. It will come handy as the first source when you "
+"trying to work out problematic topics."
+msgstr ""
+"オンラインドキュメントでは常に最新の使用方法が説明されています。何か分からな"
+"いことがあれば最初にオンラインドキュメントを参照してください。"
+
+#: advance/admin/apollo13-pages.php:57
+msgid "Video Tutorials"
+msgstr "ビデオチュートリアル"
+
+#: advance/admin/apollo13-pages.php:59
+msgid "We have prepared some basics tutorials on how to work with the theme."
+msgstr "テーマの基本的な使用方法についてチュートリアルを準備しました。"
+
+#: advance/admin/apollo13-pages.php:62
+msgid ""
+"We are planning to do more, but if you have idea for subject that we should "
+"cover in next tutorials, please let us know."
+msgstr ""
+"今後もチュートリアルは追加予定です。何か希望があればぜひお聞かせください。"
+
+#: advance/admin/apollo13-pages.php:65 advance/inc/pro/rife_admin.php:333
+#: advance/inc/pro/rife_admin.php:345
+msgid "Contact Apollo13Themes"
+msgstr "Apollo13Themes の連絡先"
+
+#: advance/admin/apollo13-pages.php:67
+msgid "Just come and say hi :-)"
+msgstr "あいさつだけでも Welcome です :-)"
+
+#: advance/admin/apollo13-pages.php:71 advance/inc/pro/rife_admin.php:301
+msgid "Changelog"
+msgstr "変更履歴"
+
+#: advance/admin/apollo13-pages.php:72 advance/inc/pro/rife_admin.php:357
+msgid "Visit the Changelog"
+msgstr "変更履歴を参照する"
+
+#: advance/admin/apollo13-pages.php:74
+msgid "Theme requirements:"
+msgstr "テーマの要件:"
+
+#: advance/admin/apollo13-pages.php:87
+msgid "Sorry, you are not allowed to access this page."
+msgstr "このページにアクセスする権限がありません。"
+
+#: advance/admin/apollo13-pages.php:90
+msgid "License &amp; Info"
+msgstr "ライセンス &amp; 情報"
+
+#: advance/admin/apollo13-pages.php:91
+msgid "Design Importer"
+msgstr "デザインのインポート"
+
+#: advance/admin/apollo13-pages.php:92
+msgid "Export"
+msgstr "エクスポート"
+
+#: advance/admin/apollo13-pages.php:93
+msgid "Get Help"
+msgstr "ヘルプ"
+
+#: advance/admin/apollo13-pages.php:103
+#, php-format
+msgid "Welcome to %s Theme"
+msgstr "%s テーマへようこそ"
+
+#: advance/admin/apollo13-pages.php:107
+msgid ""
+"On these pages you can get info what is new, import designs and get help if "
+"you will ever need it."
+msgstr ""
+"このページから新着情報、デザインのインポート、ヘルプページにアクセスできま"
+"す。"
+
+#: advance/admin/apollo13-pages.php:108
+msgid "Thanks for being with us!"
+msgstr "インストールいただきありがとうございます !"
+
+#: advance/admin/apollo13-pages.php:109
+msgid "Apollo13Themes on Twitter"
+msgstr "Apollo13Themes の Twitter アカウント"
+
+#: advance/admin/apollo13-pages.php:111
+#: advance/inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "バージョン"
+
+#: advance/admin/apollo13-pages.php:152
+msgid "Live preview"
+msgstr "ライブプレビュー"
+
+#: advance/admin/apollo13-pages.php:154
+msgid "Choose & move to next step"
+msgstr "選択し、次のステップに進む"
+
+#: advance/admin/metaboxes.php:8 advance/admin/metaboxes.php:25
+#: advance/admin/metaboxes.php:42 advance/admin/metaboxes.php:59
+#, php-format
+msgid ""
+"Theme options for this page can be found in <a href=\"%1$s\">Appearance -"
+"&gt; Customize -&gt; %2$s</a>."
+msgstr ""
+"このページのテーマオプションにアクセスするには <a href=\"%1$s\">外観 -&gt; カ"
+"スタマイズ -&gt; %2$s</a> を選択してください。"
+
+#: advance/admin/metaboxes.php:16 advance/theme-options.php:3714
+msgid "Blog settings"
+msgstr "ブログ設定"
+
+#: advance/admin/metaboxes.php:33 advance/theme-options.php:4502
+msgid "Shop(WooCommerce) settings"
+msgstr "商品 (WooCommerce) 設定"
+
+#: advance/admin/metaboxes.php:50 advance/theme-options.php:6523
+msgid "Albums settings"
+msgstr "アルバム設定"
+
+#: advance/admin/metaboxes.php:67 advance/theme-options.php:5725
+msgid "Works settings"
+msgstr "ワーク設定"
+
+#: advance/admin/metaboxes.php:80
+msgid "Blog post details"
+msgstr "ブログ投稿の詳細"
+
+#: advance/admin/metaboxes.php:112
+msgid "Page details"
+msgstr "ページの詳細"
+
+#: advance/admin/metaboxes.php:126
+msgid "Album details"
+msgstr "アルバムの詳細"
+
+#: advance/admin/metaboxes.php:135
+msgid "Album media - Add images/videos"
+msgstr "アルバムメディア - 画像 / 動画の追加"
+
+#: advance/admin/metaboxes.php:145
+msgid "People details"
+msgstr "ピープルの詳細"
+
+#: advance/admin/metaboxes.php:155
+msgid "Work details"
+msgstr "ワークの詳細"
+
+#: advance/admin/metaboxes.php:164
+msgid "Work media - Add images/videos"
+msgstr "ワークメディア - 画像や動画の追加"
+
+#: advance/admin/metaboxes.php:277
+msgid "Select/Upload images and videos"
+msgstr "画像や動画の選択 / アップロード"
+
+#: advance/admin/metaboxes.php:280
+msgid "Add Video from Youtube/Vimeo"
+msgstr "Youtube / Vimeo から動画の追加"
+
+#: advance/admin/metaboxes.php:281
+msgid "Add items at beginning of the list"
+msgstr "アイテムをリストの先頭に追加"
+
+#: advance/admin/metaboxes.php:283
+msgid "Remove selected"
+msgstr "選択を削除"
+
+#: advance/admin/metaboxes.php:288
+msgid ""
+"To mark more items in Media Library and in below list, you can use "
+"<code>Ctrl</code>(<code>Cmd</code>) or <code>Shift</code> key while "
+"selecting them with mouse."
+msgstr ""
+"メディアライブラリやリストで複数のアイテムを選択するには、<code>Ctrl</code> "
+"キー (<code>Cmd</code> キー) または <code>Shift</code> キーを押しながらマウス"
+"で選択します。"
+
+#: advance/admin/print-options.php:123
+msgid "Upload"
+msgstr "アップロード"
+
+#: advance/admin/print-options.php:142
+msgid "Clear field"
+msgstr "フィールドのクリア"
+
+#: advance/admin/print-options.php:235
+msgid ""
+"Use the correct <code>color</code> property in CSS( <code>green, #33FF99, "
+"rgb(255,128,0), rgba(222,112,12,0.5)</code> ), or choose a color with a "
+"color picker. Leave an empty value to use the default theme value."
+msgstr ""
+"CSS の正しい <code>color</code> プロパティを入力するか( <code>green, "
+"#33FF99, rgb(255,128,0), rgba(222,112,12,0.5)</code> )、カラーピッカーで選択"
+"してください。テーマのデフォルト値を使用するには空白のままにしてください。"
+
+#: advance/admin/print-options.php:235
+msgid "Use the \"Transparent\" button to insert a transparent value."
+msgstr "透過値を入力するには「透過」ボタンを使用してください。"
+
+#: advance/admin/print-options.php:237
+msgid "Transparent"
+msgstr "透過"
+
+#: advance/admin/print-options.php:252 advance/inc/pro/pro_admin.php:127
+msgid "Add"
+msgstr "追加"
+
+#: advance/admin/print-options.php:269
+msgid ""
+"Use slider to set proper value. You can click on slider handle and then use "
+"arrows keys(on keyboard) to adjust value precisely. You can also type in "
+"input value that is in/out of range of slider, and it will be used."
+msgstr ""
+"スライダーを使用して適切な値を設定してください。微調整するにはスライダーハン"
+"ドルをクリックし矢印キーで調整します。直接数値を入力すると、スライダーの範囲"
+"に関係なくその値が使用されます。"
+
+#: advance/admin/print-options.php:299 advance/meta.php:1047
+#: advance/meta.php:1183 advance/meta.php:1233 advance/meta.php:1862
+#: advance/meta.php:2030 advance/meta.php:2080 advance/theme-options.php:17
+#: advance/theme-options.php:66 advance/theme-options.php:143
+#: advance/theme-options.php:6491 advance/theme-options.php:7407
+msgid "None"
+msgstr "なし"
+
+#: advance/admin/print-options.php:309
+msgid "There are no products yet!"
+msgstr "商品がまだありません"
+
+#: advance/class-apollo13-framework.php:454
+msgid "Site Navigation"
+msgstr "サイトナビゲーション"
+
+#: advance/class-apollo13-framework.php:455 advance/theme-options.php:2412
+msgid "Alternative short top bar menu"
+msgstr "代替の短いトップバーメニュー"
+
+#: advance/class-apollo13-framework.php:478
+#: advance/class-apollo13-framework.php:488
+#, php-format
+msgid ""
+"Warning - slug reserved for %1$s post type is used by some post or page. It "
+"may cause problems with reaching some of your content. You should change "
+"slug of <a href=\"%2$s\">this post</a> to make sure everything will work "
+"proper."
+msgstr ""
+"警告 - 投稿または固定ページで投稿タイプ「%1$s」で予約済みのスラッグが使用され"
+"ました。コンテンツを表示する際に問題が生じる可能性があります。正しい動作のた"
+"め<a href=\"%2$s\">この投稿</a> のスラッグを変更してください。"
+
+#: advance/class-apollo13-framework.php:1065
+#: advance/inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "インストール"
+
+#: advance/class-apollo13-framework.php:1065
+#: advance/class-apollo13-framework.php:1075
+#: advance/class-apollo13-framework.php:1084
+#: advance/plugins/plugins-list.php:57
+msgid "Apollo13 Framework Extensions"
+msgstr "Apollo13 Framework Extensions"
+
+#: advance/class-apollo13-framework.php:1075
+#: advance/inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "有効化"
+
+#: advance/class-apollo13-framework.php:1084
+#: advance/inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "更新"
+
+#: advance/class-apollo13-framework.php:1088
+msgid ""
+"This feature requires Apollo13 Framework Extensions plugin to be active and "
+"in the proper version."
+msgstr ""
+"この機能を使用するには「Apollo13 Framework Extensions」プラグインの適切なバー"
+"ジョンをインストールし、有効化してください。"
+
+#: advance/compatibility.php:34
+#, php-format
+msgid ""
+"%1$s theme requires at least WordPress version %2$s. You are running version "
+"%3$s. Please upgrade and try again."
+msgstr ""
+"%1$s テーマは最低 WordPress バージョン %2$s が必要です。現在のバージョンは "
+"%3$s です。アップグレードしてから再試行してください。"
+
+#: advance/compatibility.php:44
+#, php-format
+msgid ""
+"%1$s theme requires at least PHP version %2$s. You are running version %3$s. "
+"Please upgrade and try again."
+msgstr ""
+"%1$s テーマは最低 PHP バージョン %2$s が必要です。現在のバージョンは %3$s で"
+"す。アップグレードしてから再試行してください。"
+
+#: advance/cpt-admin.php:108 attachment.php:86
+msgid "Edit"
+msgstr "編集"
+
+#: advance/cpt-admin.php:109
+msgid "Remove item"
+msgstr "項目の削除"
+
+#: advance/customizer.php:96
+msgid "There are no albums yet!"
+msgstr "アルバムがまだありません。"
+
+#: advance/customizer.php:128
+msgid "There are no works yet!"
+msgstr "ワークがまだありません"
+
+#: advance/customizer.php:458
+msgid "thin"
+msgstr "薄"
+
+#: advance/customizer.php:459
+msgid "extra-light"
+msgstr "極細"
+
+#: advance/customizer.php:460
+msgid "light"
+msgstr "細"
+
+#: advance/customizer.php:461
+msgid "regular"
+msgstr "中細"
+
+#: advance/customizer.php:462
+msgid "medium"
+msgstr "中"
+
+#: advance/customizer.php:463
+msgid "semi-bold"
+msgstr "中太"
+
+#: advance/customizer.php:464
+msgid "bold"
+msgstr "太"
+
+#: advance/customizer.php:465
+msgid "extra-bold"
+msgstr "特太"
+
+#: advance/customizer.php:466
+msgid "black"
+msgstr "黒"
+
+#: advance/head-scripts-styles.php:158
+msgid "Load more"
+msgstr "さらにロード"
+
+#: advance/head-scripts-styles.php:159
+msgid "Loading next items"
+msgstr "次の項目のロード"
+
+#: advance/head-scripts-styles.php:243
+msgid "Add comment"
+msgstr "コメントの追加"
+
+#: advance/head-scripts-styles.php:244
+msgid "Write your comment here&hellip;"
+msgstr "ここにコメントを書く&hellip;"
+
+#: advance/head-scripts-styles.php:245
+msgid "Mark item"
+msgstr "項目の選択"
+
+#: advance/head-scripts-styles.php:246
+msgid "Uncheck item"
+msgstr "項目の選択解除"
+
+#: advance/inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "必須プラグインのインストール"
+
+#: advance/inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "プラグインのインストール"
+
+#: advance/inc/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "プラグインのインストール中: %s"
+
+#: advance/inc/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "プラグインを更新中:  %s"
+
+#: advance/inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "プラグイン API で問題が発生しました。"
+
+#: advance/inc/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "このテーマは次のプラグインが必要です: %1$s"
+
+#: advance/inc/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "このテーマは次のプラグインを推奨します: %1$s"
+
+#: advance/inc/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"このテーマと最大限互換性を保つには次のプラグインを最新版に更新する必要があり"
+"ます: %1$s"
+
+#: advance/inc/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "次のプラグインには利用可能な更新があります: %1$s"
+
+#: advance/inc/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "次の必須プラグインは現在、停止中です: %1$s"
+
+#: advance/inc/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "次の推奨プラグインは現在、停止中です: %1$s"
+
+#: advance/inc/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインのインストールを開始"
+
+#: advance/inc/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "プラグインの更新を開始"
+
+#: advance/inc/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "プラグインの有効化を開始"
+
+#: advance/inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "必須プラグインのインストール画面に戻る"
+
+#: advance/inc/class-tgm-plugin-activation.php:386
+#: advance/inc/class-tgm-plugin-activation.php:827
+#: advance/inc/class-tgm-plugin-activation.php:2533
+#: advance/inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: advance/inc/class-tgm-plugin-activation.php:387
+#: advance/inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "プラグインを有効化しました。"
+
+#: advance/inc/class-tgm-plugin-activation.php:388
+#: advance/inc/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "次のプラグインを有効化しました:"
+
+#: advance/inc/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "操作を実行しませんでした。プラグイン %1$s はすでに有効化されています。"
+
+#: advance/inc/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"プラグインを有効化できませんでした。このテーマはプラグイン %s の現在のバー"
+"ジョンをサポートしていません。プラグインを更新してください。"
+
+#: advance/inc/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "すべてのプラグインを正常にインストールし、有効化しました。 %1$s"
+
+#: advance/inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "通知を無視"
+
+#: advance/inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"インストール、更新、有効化可能な必須、または推奨のプラグインがあります。"
+
+#: advance/inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "ヘルプが必要な場合はこのサイトの管理者にお問い合わせください。"
+
+#: advance/inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"使用中のテーマとの互換性を保つため、このプラグインを更新する必要があります。"
+
+#: advance/inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "更新が必要"
+
+#: advance/inc/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"リモートプラグインパッケージには、指定されたスラッグのフォルダーがないため、"
+"名前を変更できませんでした。"
+
+#: advance/inc/class-tgm-plugin-activation.php:934
+#: advance/inc/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"プラグイン開発者に連絡し、WordPress のガイドラインに沿ったプラグインのパッ"
+"ケージ化を依頼してください。"
+
+#: advance/inc/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"リモートプラグインパッケージは複数のファイルで構成されていますが、ファイルは1"
+"つのフォルダ内にパッケージされていません。"
+
+#: advance/inc/class-tgm-plugin-activation.php:1121
+#: advance/inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "と"
+
+#: advance/inc/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: advance/inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "必須"
+
+#: advance/inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "推奨"
+
+#: advance/inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress 公式ディレクトリ"
+
+#: advance/inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "外部ソース"
+
+#: advance/inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "プリパッケージ"
+
+#: advance/inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "未インストール"
+
+#: advance/inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "停止中"
+
+#: advance/inc/class-tgm-plugin-activation.php:2321
+#: advance/inc/pro/rife_admin.php:188
+msgid "Active"
+msgstr "有効"
+
+#: advance/inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "必要な更新が利用不可"
+
+#: advance/inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "更新が必要"
+
+#: advance/inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "更新を推奨"
+
+#: advance/inc/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: advance/inc/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "すべて <span class=\"count\">(%s)</span>"
+
+#: advance/inc/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "未インストール <span class=\"count\">(%s)</span>"
+
+#: advance/inc/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "更新可能 <span class=\"count\">(%s)</span>"
+
+#: advance/inc/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "停止中 <span class=\"count\">(%s)</span>"
+
+#: advance/inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "不明"
+
+#: advance/inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "インストール済みバージョン:"
+
+#: advance/inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "最低要求バージョン:"
+
+#: advance/inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "利用可能なバージョン:"
+
+#: advance/inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "インストール、更新、有効化可能なプラグインがありません。"
+
+#: advance/inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: advance/inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "取得元"
+
+#: advance/inc/class-tgm-plugin-activation.php:2549 advance/meta.php:244
+#: advance/meta.php:629 advance/meta.php:1175 advance/meta.php:2022
+#: advance/meta.php:2356 advance/theme-options.php:397
+#: advance/theme-options.php:1104 advance/theme-options.php:1559
+#: advance/theme-options.php:1835 advance/theme-options.php:3277
+#: advance/theme-options.php:3402 advance/theme-options.php:3452
+#: advance/theme-options.php:3484 advance/theme-options.php:3516
+#: advance/theme-options.php:3566 advance/theme-options.php:3893
+#: advance/theme-options.php:4064 advance/theme-options.php:4429
+#: advance/theme-options.php:4692 advance/theme-options.php:4774
+#: advance/theme-options.php:4989 advance/theme-options.php:5171
+#: advance/theme-options.php:5558 advance/theme-options.php:5647
+#: advance/theme-options.php:5701 advance/theme-options.php:5993
+#: advance/theme-options.php:6082 advance/theme-options.php:6391
+#: advance/theme-options.php:6488 advance/theme-options.php:6780
+#: advance/theme-options.php:6869 advance/theme-options.php:7085
+#: advance/theme-options.php:7404
+msgid "Type"
+msgstr "タイプ"
+
+#: advance/inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "状態"
+
+#: advance/inc/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "%2$s インストール"
+
+#: advance/inc/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "%2$s 更新"
+
+#: advance/inc/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "%2$s 有効化"
+
+#: advance/inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "プラグイン作者からの更新メッセージ:"
+
+#: advance/inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "インストールするプラグインが選択されていません。処理を中断しました。"
+
+#: advance/inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "更新するプラグインが選択されていません。処理を中断しました。"
+
+#: advance/inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "現在インストール可能なプラグインはありません。"
+
+#: advance/inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "現在更新可能なプラグインはありません。"
+
+#: advance/inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "有効化するプラグインが選択されていません。処理を中断しました。"
+
+#: advance/inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "現在有効化可能なプラグインはありません。"
+
+#: advance/inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "プラグインの有効化に失敗しました。"
+
+#: advance/inc/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインを更新中 %1$s (%2$d/%3$d)"
+
+#: advance/inc/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "<strong>%2$s</strong>%1$s のインストール中にエラーが発生しました。"
+
+#: advance/inc/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s のインストールに失敗しました。"
+
+#: advance/inc/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"インストールと有効化を開始しました。環境によっては時間がかかる場合がありま"
+"す。しばらくお待ちください。"
+
+#: advance/inc/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s を正常にインストールし、有効化しました。"
+
+#: advance/inc/class-tgm-plugin-activation.php:3509
+#: advance/inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "詳細を表示"
+
+#: advance/inc/class-tgm-plugin-activation.php:3509
+#: advance/inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "詳細を非表示"
+
+#: advance/inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "すべてのインストールと有効化が完了しました。"
+
+#: advance/inc/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインをインストール、有効化中 %1$s (%2$d/%3$d)"
+
+#: advance/inc/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"更新プロセスを開始しました。環境によっては時間がかかる場合があります。しばら"
+"くお待ちください。"
+
+#: advance/inc/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s を正常にインストールしました。"
+
+#: advance/inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "すべてのインストールが完了しました。"
+
+#: advance/inc/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインをインストール中 %1$s (%2$d/%3$d)"
+
+#: advance/inc/customizer/controls/class-a13-customize-font-control.php:78
+msgid "Font Family"
+msgstr "フォントファミリー"
+
+#: advance/inc/customizer/controls/class-a13-customize-font-control.php:81
+msgid "Standard Fonts"
+msgstr "標準フォント"
+
+#: advance/inc/customizer/controls/class-a13-customize-font-control.php:89
+msgid "Google Webfonts"
+msgstr "Google Web フォント"
+
+#: advance/inc/customizer/controls/class-a13-customize-font-control.php:99
+msgid "Font Subsets"
+msgstr "フォントサブセット"
+
+#: advance/inc/customizer/controls/class-a13-customize-font-control.php:106
+msgid "Font Weights & Styles"
+msgstr "フォントウエイト、フォントスタイル"
+
+#: advance/inc/customizer/controls/class-a13-customize-font-control.php:120
+msgid "Word Spacing"
+msgstr "単語の間隔"
+
+#: advance/inc/customizer/controls/class-a13-customize-font-control.php:124
+msgid "Letter Spacing"
+msgstr "文字の間隔"
+
+#: advance/inc/customizer/controls/class-a13-customize-font-control.php:129
+msgid ""
+"Sample text with <strong>some bold words</strong>, <em>some italic ones</em> "
+"and numbers 1 2 3 4 5 6 7 8 9 :-)"
+msgstr ""
+"サンプルのテキスト / Text、<strong>太字 / bold</strong>、<em>イタリック / "
+"italic</em> 数字 1 2 3 4 5 6 7 8 9 :-)"
+
+#: advance/inc/customizer/controls/class-a13-customize-sidebars-control.php:49
+msgid "Name of sidebar"
+msgstr "サイドバー名"
+
+#: advance/inc/customizer/controls/class-a13-customize-sidebars-control.php:51
+msgid "Remove this sidebar"
+msgstr "このサイドバーの削除"
+
+#: advance/inc/customizer/controls/class-a13-customize-sidebars-control.php:54
+msgid "Add sidebar"
+msgstr "サイドバーの追加"
+
+#: advance/inc/customizer/controls/class-a13-customize-spacing-control.php:40
+#: advance/theme-options.php:286 advance/theme-options.php:457
+msgid "Top"
+msgstr "上方"
+
+#: advance/inc/customizer/controls/class-a13-customize-spacing-control.php:41
+#: advance/theme-options.php:74 advance/theme-options.php:287
+#: advance/theme-options.php:856 advance/theme-options.php:1586
+#: advance/theme-options.php:1597 advance/theme-options.php:3810
+#: advance/theme-options.php:3821 advance/theme-options.php:4256
+#: advance/theme-options.php:4267 advance/theme-options.php:4595
+#: advance/theme-options.php:4606 advance/theme-options.php:4880
+#: advance/theme-options.php:4891
+msgid "Right"
+msgstr "右"
+
+#: advance/inc/customizer/controls/class-a13-customize-spacing-control.php:42
+#: advance/theme-options.php:288 advance/theme-options.php:458
+msgid "Bottom"
+msgstr "下方"
+
+#: advance/inc/customizer/controls/class-a13-customize-spacing-control.php:43
+#: advance/theme-options.php:72 advance/theme-options.php:289
+#: advance/theme-options.php:855 advance/theme-options.php:1585
+#: advance/theme-options.php:1596 advance/theme-options.php:3809
+#: advance/theme-options.php:3820 advance/theme-options.php:4255
+#: advance/theme-options.php:4266 advance/theme-options.php:4594
+#: advance/theme-options.php:4605 advance/theme-options.php:4879
+#: advance/theme-options.php:4890
+msgid "Left"
+msgstr "左"
+
+#: advance/inc/customizer/controls/class-a13-customize-spacing-control.php:96
+msgid "Unit"
+msgstr "ユニット"
+
+#: advance/inc/pro/pro_admin.php:85
+msgid "Product represented by this image"
+msgstr "この画像で表される商品"
+
+#: advance/inc/pro/pro_admin.php:86
+msgid "This option will add a \"add to cart\" button to the image."
+msgstr "このオプションは画像に「カートに追加」ボタンを追加します。"
+
+#: advance/inc/pro/pro_admin.php:92 advance/inc/pro/pro_admin.php:103
+#: advance/meta.php:1497 advance/meta.php:1504 advance/theme-options.php:7351
+msgid "Photo Proofing"
+msgstr "写真の校正"
+
+#: advance/inc/pro/pro_admin.php:92 advance/inc/pro/pro_admin.php:103
+msgid "ID"
+msgstr "ID"
+
+#: advance/inc/pro/pro_admin.php:125
+msgid "Add tags to selected items"
+msgstr "選択した項目へのタグの追加"
+
+#: advance/inc/pro/rife_admin.php:145
+msgid ""
+"The license information is blocked on this installation, probably by the "
+"developer of this site."
+msgstr ""
+"恐らくサイト開発者によりインストールに対するライセンス情報がブロックされてい"
+"ます。"
+
+#: advance/inc/pro/rife_admin.php:153 advance/inc/pro/rife_admin.php:154
+msgid "Your license code"
+msgstr "ライセンスコード"
+
+#: advance/inc/pro/rife_admin.php:155
+msgctxt "submit the form"
+msgid "Submit"
+msgstr "送信"
+
+#: advance/inc/pro/rife_admin.php:159
+msgid "Here you can add or update your license code."
+msgstr "ここでライセンスコードを追加するか更新できます。"
+
+#: advance/inc/pro/rife_admin.php:163
+msgid ""
+"The code is protected, so nobody can steal it when logging in to the admin "
+"panel."
+msgstr ""
+"コードは保護されており管理画面にログインしている間は誰も盗み見できません。"
+
+#: advance/inc/pro/rife_admin.php:187 advance/inc/pro/rife_admin.php:349
+msgid "License status"
+msgstr "ライセンスの状態"
+
+#: advance/inc/pro/rife_admin.php:188
+msgid "Updates"
+msgstr "更新"
+
+#: advance/inc/pro/rife_admin.php:188
+msgid "Not active"
+msgstr "非アクティブ"
+
+#: advance/inc/pro/rife_admin.php:190
+msgid "Effective date of cancellation"
+msgstr "キャンセルの有効日"
+
+#: advance/inc/pro/rife_admin.php:193
+msgid "Billing cycle"
+msgstr "課金サイクル"
+
+#: advance/inc/pro/rife_admin.php:194
+msgid "Next billing date"
+msgstr "次回課金日"
+
+#: advance/inc/pro/rife_admin.php:199
+msgid "Update the payment method"
+msgstr "支払い方法の更新"
+
+#: advance/inc/pro/rife_admin.php:200
+msgid "Cancel subscription"
+msgstr "サブスクリプションのキャンセル"
+
+#: advance/inc/pro/rife_admin.php:210
+msgid "Active to"
+msgstr "アクティブ"
+
+#: advance/inc/pro/rife_admin.php:219
+msgid "Hide license information in this installation"
+msgstr "インストールのライセンス情報を隠す"
+
+#: advance/inc/pro/rife_admin.php:220
+msgid ""
+"<p>By clicking this button the license information will not appear anywhere "
+"in the theme.</p><p>This is a good option if you create a website for "
+"someone and you do not want that person to have access to your license.</p>"
+msgstr ""
+"<p>このボタンをクリックするとライセンス情報はテーマのすべての場所で表示されま"
+"せん。</p><p>このオプションは依頼されてWeb サイトを作成しており、ユーザーにラ"
+"イセンスをアクセスさせたくない場合に便利です。</p>"
+
+#: advance/inc/pro/rife_admin.php:240
+msgid "Subscribed"
+msgstr "サブスクライブ済"
+
+#: advance/inc/pro/rife_admin.php:241
+msgid "Overdue payment"
+msgstr "支払いの督促"
+
+#: advance/inc/pro/rife_admin.php:242
+msgid "Subscription canceled"
+msgstr "サブスクリプションはキャンセルされました"
+
+#: advance/inc/pro/rife_admin.php:261
+msgid "Monthly"
+msgstr "月ごと"
+
+#: advance/inc/pro/rife_admin.php:262
+msgid "Yearly"
+msgstr "年ごと"
+
+#: advance/inc/pro/rife_admin.php:321
+msgid "How to start?"
+msgstr "開始するには ?"
+
+#: advance/inc/pro/rife_admin.php:322
+msgid ""
+"Before you will be able to do anything, you must enter the license code in "
+"the form below to activate the theme."
+msgstr "以下のフォームにライセンスコードを入力しテーマを有効化してください。"
+
+#: advance/inc/pro/rife_admin.php:328
+msgid "The theme is blocked. What now?"
+msgstr "テーマはブロックされています。"
+
+#: advance/inc/pro/rife_admin.php:329
+msgid ""
+"It looks like your license key is no longer valid and that is why you can "
+"not use this theme anymore."
+msgstr "ライセンスキーが有効でないためこのテーマを使用できません。"
+
+#: advance/inc/pro/rife_admin.php:330
+msgid "How to unlock the theme?"
+msgstr "テーマをアンロックするには ?"
+
+#: advance/inc/pro/rife_admin.php:332 advance/inc/pro/rife_admin.php:344
+msgid "Get a new license"
+msgstr "新規ライセンスの取得"
+
+#: advance/inc/pro/rife_admin.php:335
+msgid "Another thing you can do is change the theme to another one."
+msgstr "または別のテーマに変更してください。"
+
+#: advance/inc/pro/rife_admin.php:340 advance/inc/pro/rife_admin.php:404
+msgid "The license code has expired."
+msgstr "ライセンスコードが期限切れです。"
+
+#: advance/inc/pro/rife_admin.php:341
+msgid ""
+"When the license code is not active, access to updates and the support is "
+"not available. However, you can still use the theme normally."
+msgstr ""
+"ライセンスコードがアクティブでない場合、更新やサポートは利用できません。通常"
+"どおりテーマを使用することはできます。"
+
+#: advance/inc/pro/rife_admin.php:342
+msgid "How do I activate the support and updates again?"
+msgstr "サポートや更新を再度有効にするには ?"
+
+#: advance/inc/pro/rife_admin.php:353
+msgid "What's next?"
+msgstr "次のステップ"
+
+#: advance/inc/pro/rife_admin.php:355
+msgid ""
+"Some features(like Albums, Works, shortcodes, plugins support) of the Theme "
+"requires an additional plugin before you will be able to use it. "
+msgstr ""
+"Album、Work、ショートコード、プラグインサポートなどテーマのいくつかの機能には"
+"使用前に追加プラグインが必要です。"
+
+#: advance/inc/pro/rife_admin.php:356
+msgid ""
+"You can check out what is new in the Changelog or just move on with your "
+"usual work."
+msgstr "変更履歴で新着情報を確認できます。"
+
+#: advance/inc/pro/rife_admin.php:360
+msgid ""
+"If you have fresh installation then it would be good time to import one of "
+"our designs."
+msgstr ""
+"新規のサイトにインストールした場合は私たちが制作したデザインをインポートでき"
+"ます。"
+
+#: advance/inc/pro/rife_admin.php:361
+msgid "Go to Design Importer"
+msgstr "デザインインポーターへ移動する"
+
+#: advance/inc/pro/rife_admin.php:364
+msgid ""
+"If you have an existing website, then you can start from scratch by changing "
+"theme options."
+msgstr ""
+"コンテンツを含むWeb サイトにインストールした場合にはテーマのオプションを変更"
+"できます。"
+
+#: advance/inc/pro/rife_admin.php:365
+msgid "Go to Customizer"
+msgstr "カスタマイザーに移動する"
+
+#: advance/inc/pro/rife_admin.php:368
+msgid ""
+"If you have an existing website, you can also try to import one of our "
+"designs to speed up your work. You will have to do it without demo data."
+msgstr ""
+"コンテンツを含むWeb サイトにインストールした場合でも省力化のため私たちのデザ"
+"インをインポートすることはできます。この場合、デモデータはインポートから除外"
+"する必要があります。"
+
+#: advance/inc/pro/rife_admin.php:369
+msgid "How to do it is explained in the documentation here."
+msgstr "詳細についてはドキュメントを参照してください。"
+
+#: advance/inc/pro/rife_admin.php:381
+msgid "The license code is needed to access the importer."
+msgstr "インポーターにアクセスするにはライセンスコードが必要です。"
+
+#: advance/inc/pro/rife_admin.php:382
+msgid "You must provide the license code to access Design Importer."
+msgstr ""
+"デザインインポーターにアクセスするにはライセンスコードを入力してください。"
+
+#: advance/inc/pro/rife_admin.php:383
+msgid "You can do this on the License &amp; Info page."
+msgstr "ライセンス &amp; 情報ページで実行できます。"
+
+#: advance/inc/pro/rife_admin.php:405
+msgid "Go to the Rife Pro theme license page for more information."
+msgstr ""
+"詳細については Rife Pro テーマのライセンスページにアクセスしてください。"
+
+#: advance/inc/pro/rife_admin.php:483
+#, php-format
+msgid "Import settings from the %s theme"
+msgstr "%s テーマから設定をインポートする"
+
+#: advance/inc/pro/rife_admin.php:490
+msgid "Import theme options to the Rife theme"
+msgstr "Rife テーマへのテーマオプションのインポート"
+
+#: advance/inc/pro/rife_admin.php:491
+msgid ""
+"No content will be deleted. Only the Rife Theme theme settings will be "
+"replaced with those from the selected theme."
+msgstr ""
+"コンテンツは削除されません。選択したテーマの設定でRife テーマの設定だけを置換"
+"します。"
+
+#: advance/meta.php:6 advance/meta.php:109 advance/meta.php:124
+#: advance/meta.php:161 advance/meta.php:368 advance/meta.php:395
+#: advance/meta.php:435 advance/meta.php:479 advance/meta.php:494
+#: advance/meta.php:546 advance/meta.php:840 advance/meta.php:946
+#: advance/meta.php:1167 advance/meta.php:1182 advance/meta.php:1250
+#: advance/meta.php:1550 advance/meta.php:1564 advance/meta.php:1675
+#: advance/meta.php:2014 advance/meta.php:2029 advance/meta.php:2097
+#: advance/meta.php:2165 advance/meta.php:2221 advance/meta.php:2236
+#: advance/meta.php:2273 advance/meta.php:2469 advance/meta.php:2495
+#: advance/theme-options.php:37
+msgid "Global settings"
+msgstr "グローバル設定"
+
+#: advance/meta.php:7 advance/meta.php:369 advance/meta.php:444
+#: advance/meta.php:841 advance/meta.php:1676 advance/meta.php:2471
+#: advance/theme-options.php:36 advance/theme-options.php:3811
+#: advance/theme-options.php:3822 advance/theme-options.php:4257
+#: advance/theme-options.php:4268 advance/theme-options.php:4596
+#: advance/theme-options.php:4607 advance/theme-options.php:4881
+#: advance/theme-options.php:4892 advance/theme-options.php:5433
+#: advance/theme-options.php:5449
+msgid "Off"
+msgstr "無効"
+
+#: advance/meta.php:20 advance/theme-options.php:3761
+#: advance/theme-options.php:4003 advance/theme-options.php:4133
+msgid "Posts list"
+msgstr "投稿リスト"
+
+#: advance/meta.php:26 advance/meta.php:861 advance/meta.php:1695
+msgid "Size of brick"
+msgstr "タイルのサイズ"
+
+#: advance/meta.php:27
+msgid "What should be the width of this post on the Posts list?"
+msgstr "投稿リストでのこの投稿の幅"
+
+#: advance/meta.php:45 advance/meta.php:729
+msgid "Featured media"
+msgstr "アイキャッチメディア"
+
+#: advance/meta.php:51 advance/meta.php:735
+msgid "Post media"
+msgstr "投稿メディア"
+
+#: advance/meta.php:52 advance/meta.php:736
+msgid ""
+"Choose between image, video and images slider. For the image use the "
+"Featured Image option. For the <strong>Images slider</strong> you need "
+"plugin the <a href=\"https://wordpress.org/plugins/featured-galleries/\" "
+"target=\"_blank\">Featured galleries</a>."
+msgstr ""
+"画像、動画、画像スライダーから選択してください。画像についてはアイキャッチ画"
+"像オプションを使用してください。<strong>画像スライダー</strong>については<a "
+"href=\"https://wordpress.org/plugins/featured-galleries/\" target=\"_blank"
+"\">Featured galleries</a> プラグインが必要です。"
+
+#: advance/meta.php:56 advance/meta.php:740 advance/theme-options.php:1837
+#: advance/theme-options.php:1853 advance/theme-options.php:2495
+#: advance/theme-options.php:2720 advance/theme-options.php:2944
+msgid "Image"
+msgstr "画像"
+
+#: advance/meta.php:57 advance/meta.php:741
+msgid "Images slider"
+msgstr "画像スライダー"
+
+#: advance/meta.php:62 advance/meta.php:746
+msgid "Featured Image "
+msgstr "アイキャッチ画像"
+
+#: advance/meta.php:62 advance/meta.php:73 advance/meta.php:229
+#: advance/meta.php:244 advance/meta.php:266 advance/meta.php:614
+#: advance/meta.php:629 advance/meta.php:651 advance/meta.php:746
+#: advance/meta.php:757 advance/meta.php:2341 advance/meta.php:2356
+#: advance/meta.php:2378 advance/theme-options.php:600
+#: advance/theme-options.php:4056 advance/theme-options.php:4064
+#: advance/theme-options.php:4076 advance/theme-options.php:4418
+#: advance/theme-options.php:4429 advance/theme-options.php:4442
+#: advance/theme-options.php:4766 advance/theme-options.php:4774
+#: advance/theme-options.php:4786 advance/theme-options.php:4978
+#: advance/theme-options.php:4989 advance/theme-options.php:5002
+#: advance/theme-options.php:5163 advance/theme-options.php:5171
+#: advance/theme-options.php:5183 advance/theme-options.php:5547
+#: advance/theme-options.php:5558 advance/theme-options.php:5571
+#: advance/theme-options.php:6074 advance/theme-options.php:6082
+#: advance/theme-options.php:6094 advance/theme-options.php:6383
+#: advance/theme-options.php:6391 advance/theme-options.php:6403
+#: advance/theme-options.php:6861 advance/theme-options.php:6869
+#: advance/theme-options.php:6881 advance/theme-options.php:7077
+#: advance/theme-options.php:7085 advance/theme-options.php:7097
+msgid "Parallax"
+msgstr "パララックス"
+
+#: advance/meta.php:67 advance/meta.php:234 advance/meta.php:330
+#: advance/meta.php:619 advance/meta.php:715 advance/meta.php:751
+#: advance/meta.php:806 advance/meta.php:884 advance/meta.php:921
+#: advance/meta.php:1008 advance/meta.php:1020 advance/meta.php:1075
+#: advance/meta.php:1086 advance/meta.php:1098 advance/meta.php:1110
+#: advance/meta.php:1121 advance/meta.php:1135 advance/meta.php:1168
+#: advance/meta.php:1211 advance/meta.php:1251 advance/meta.php:1263
+#: advance/meta.php:1375 advance/meta.php:1390 advance/meta.php:1405
+#: advance/meta.php:1419 advance/meta.php:1433 advance/meta.php:1447
+#: advance/meta.php:1476 advance/meta.php:1510 advance/meta.php:1718
+#: advance/meta.php:1754 advance/meta.php:1823 advance/meta.php:1835
+#: advance/meta.php:1890 advance/meta.php:1901 advance/meta.php:1913
+#: advance/meta.php:1925 advance/meta.php:1936 advance/meta.php:1950
+#: advance/meta.php:1965 advance/meta.php:2015 advance/meta.php:2058
+#: advance/meta.php:2098 advance/meta.php:2110 advance/meta.php:2346
+#: advance/meta.php:2442 advance/theme-options.php:47
+#: advance/theme-options.php:1622
+msgid "Enable"
+msgstr "有効"
+
+#: advance/meta.php:68 advance/meta.php:235 advance/meta.php:331
+#: advance/meta.php:620 advance/meta.php:716 advance/meta.php:752
+#: advance/meta.php:807 advance/meta.php:885 advance/meta.php:922
+#: advance/meta.php:1009 advance/meta.php:1021 advance/meta.php:1076
+#: advance/meta.php:1087 advance/meta.php:1099 advance/meta.php:1111
+#: advance/meta.php:1122 advance/meta.php:1136 advance/meta.php:1169
+#: advance/meta.php:1212 advance/meta.php:1252 advance/meta.php:1264
+#: advance/meta.php:1315 advance/meta.php:1376 advance/meta.php:1391
+#: advance/meta.php:1406 advance/meta.php:1420 advance/meta.php:1434
+#: advance/meta.php:1448 advance/meta.php:1477 advance/meta.php:1511
+#: advance/meta.php:1719 advance/meta.php:1755 advance/meta.php:1824
+#: advance/meta.php:1836 advance/meta.php:1891 advance/meta.php:1902
+#: advance/meta.php:1914 advance/meta.php:1926 advance/meta.php:1937
+#: advance/meta.php:1951 advance/meta.php:1966 advance/meta.php:2016
+#: advance/meta.php:2059 advance/meta.php:2099 advance/meta.php:2111
+#: advance/meta.php:2347 advance/meta.php:2443 advance/theme-options.php:48
+#: advance/theme-options.php:1088 advance/theme-options.php:1624
+#: advance/theme-options.php:2413 advance/theme-options.php:3957
+#: advance/theme-options.php:4296
+msgid "Disable"
+msgstr "無効"
+
+#: advance/meta.php:73 advance/meta.php:757 advance/theme-options.php:1896
+msgid "Area height"
+msgstr "エリアの高さ"
+
+#: advance/meta.php:74 advance/meta.php:758
+msgid "This limits the height of the image so that the parallax can work."
+msgstr "パララックスのために画像の高さを制限します。"
+
+#: advance/meta.php:95 advance/meta.php:465 advance/meta.php:1536
+#: advance/meta.php:2207 advance/theme-options.php:2589
+#: advance/theme-options.php:2814 advance/theme-options.php:3096
+#: advance/theme-options.php:3993 advance/theme-options.php:4703
+#: advance/theme-options.php:6011 advance/theme-options.php:6798
+msgid "Header"
+msgstr "ヘッダー"
+
+#: advance/meta.php:101 advance/meta.php:471 advance/meta.php:1542
+#: advance/meta.php:2213 advance/theme-options.php:3770
+#: advance/theme-options.php:4228 advance/theme-options.php:4567
+#: advance/theme-options.php:4852 advance/theme-options.php:5084
+#: advance/theme-options.php:5399 advance/theme-options.php:5788
+#: advance/theme-options.php:6253 advance/theme-options.php:6586
+#: advance/theme-options.php:7170
+msgid "Hide content under the header"
+msgstr "ヘッダーの下のコンテンツを隠す"
+
+#: advance/meta.php:102 advance/meta.php:117 advance/meta.php:472
+#: advance/meta.php:487 advance/meta.php:502 advance/meta.php:1543
+#: advance/meta.php:1557 advance/meta.php:2214 advance/meta.php:2229
+#: advance/theme-options.php:601 advance/theme-options.php:1944
+#: advance/theme-options.php:2127 advance/theme-options.php:2340
+#: advance/theme-options.php:2487 advance/theme-options.php:2712
+#: advance/theme-options.php:2936 advance/theme-options.php:3771
+#: advance/theme-options.php:3780 advance/theme-options.php:4229
+#: advance/theme-options.php:4238 advance/theme-options.php:4568
+#: advance/theme-options.php:4577 advance/theme-options.php:4853
+#: advance/theme-options.php:4862 advance/theme-options.php:5085
+#: advance/theme-options.php:5094 advance/theme-options.php:5400
+#: advance/theme-options.php:5409 advance/theme-options.php:5789
+#: advance/theme-options.php:5798 advance/theme-options.php:6254
+#: advance/theme-options.php:6263 advance/theme-options.php:6587
+#: advance/theme-options.php:6596 advance/theme-options.php:7171
+#: advance/theme-options.php:7183
+msgid "Works only with the horizontal header."
+msgstr "水平ヘッダーにのみ適用されます。"
+
+#: advance/meta.php:110 advance/meta.php:480 advance/meta.php:1551
+#: advance/meta.php:2222 advance/theme-options.php:122
+#: advance/theme-options.php:7173
+msgid "Yes, hide the content"
+msgstr "コンテンツを隠す"
+
+#: advance/meta.php:111 advance/meta.php:481 advance/meta.php:2223
+#: advance/theme-options.php:123
+msgid "Yes, hide the content and add top padding to the outside title bar."
+msgstr "コンテンツを隠す。タイトルバーの外側の上部にパディングを加える"
+
+#: advance/meta.php:112 advance/meta.php:163 advance/meta.php:482
+#: advance/meta.php:548 advance/meta.php:1552 advance/meta.php:2224
+#: advance/meta.php:2275 advance/theme-options.php:124
+#: advance/theme-options.php:7174
+msgid "Turn it off"
+msgstr "コンテンツを隠さない"
+
+#: advance/meta.php:116 advance/meta.php:486 advance/meta.php:1556
+#: advance/meta.php:2228 advance/theme-options.php:3779
+#: advance/theme-options.php:4237 advance/theme-options.php:4576
+#: advance/theme-options.php:4861 advance/theme-options.php:5093
+#: advance/theme-options.php:5408 advance/theme-options.php:5797
+#: advance/theme-options.php:6262 advance/theme-options.php:6595
+#: advance/theme-options.php:7182
+msgid "Header color variant"
+msgstr "ヘッダー色プリセット"
+
+#: advance/meta.php:125 advance/meta.php:495 advance/meta.php:1565
+#: advance/meta.php:2237 advance/theme-options.php:115
+#: advance/theme-options.php:305 advance/theme-options.php:5809
+msgid "Normal"
+msgstr "ノーマル"
+
+#: advance/meta.php:126 advance/meta.php:496 advance/meta.php:1566
+#: advance/meta.php:2238 advance/theme-options.php:116
+msgid "Light"
+msgstr "ライト"
+
+#: advance/meta.php:127 advance/meta.php:497 advance/meta.php:1567
+#: advance/meta.php:2239 advance/theme-options.php:117
+msgid "Dark"
+msgstr "ダーク"
+
+#: advance/meta.php:131 advance/meta.php:516 advance/meta.php:1571
+#: advance/meta.php:2243 advance/theme-options.php:1749
+#: advance/theme-options.php:3993 advance/theme-options.php:4703
+#: advance/theme-options.php:6011 advance/theme-options.php:6798
+msgid "Custom sidebar"
+msgstr "カスタムサイドバー"
+
+#: advance/meta.php:132 advance/meta.php:517 advance/meta.php:1572
+#: advance/meta.php:2244 advance/theme-options.php:1700
+#: advance/theme-options.php:2157 advance/theme-options.php:2224
+#: advance/theme-options.php:3994 advance/theme-options.php:4704
+#: advance/theme-options.php:6012 advance/theme-options.php:6799
+msgid "Works only with the vertical header."
+msgstr "垂直ヘッダーにのみ適用されます。"
+
+#: advance/meta.php:132 advance/meta.php:517 advance/meta.php:1572
+#: advance/meta.php:2244
+msgid "Special widgets that should be displayed on this page in the header."
+msgstr "このページのヘッダーに表示される特殊なウィジェット。"
+
+#: advance/meta.php:149 advance/meta.php:155 advance/meta.php:534
+#: advance/meta.php:540 advance/meta.php:2261 advance/meta.php:2267
+#: advance/theme-options.php:4003 advance/theme-options.php:4342
+#: advance/theme-options.php:4713 advance/theme-options.php:4916
+#: advance/theme-options.php:5111 advance/theme-options.php:5485
+#: advance/theme-options.php:6021 advance/theme-options.php:6318
+#: advance/theme-options.php:6808 advance/theme-options.php:7024
+msgid "Title bar"
+msgstr "タイトルバー"
+
+#: advance/meta.php:156 advance/meta.php:541 advance/meta.php:2268
+#: advance/meta.php:2490
+msgid "You can use global settings or override them here"
+msgstr "グローバル設定を使用するか上書きできます"
+
+#: advance/meta.php:162 advance/meta.php:547 advance/meta.php:2274
+#: advance/meta.php:2496
+msgid "Use custom settings"
+msgstr "カスタム設定を使用する"
+
+#: advance/meta.php:167 advance/meta.php:552 advance/meta.php:2279
+#: advance/theme-options.php:455
+msgid "Position"
+msgstr "位置"
+
+#: advance/meta.php:172 advance/meta.php:557 advance/meta.php:2284
+#: advance/theme-options.php:4360 advance/theme-options.php:4934
+#: advance/theme-options.php:5503 advance/theme-options.php:6336
+msgid "Before the content"
+msgstr "コンテンツの前"
+
+#: advance/meta.php:173 advance/meta.php:558 advance/meta.php:2285
+#: advance/theme-options.php:4361 advance/theme-options.php:4935
+#: advance/theme-options.php:5504
+msgid "Inside the content"
+msgstr "コンテンツの内部"
+
+#: advance/meta.php:175 advance/meta.php:560 advance/meta.php:2287
+msgid ""
+"To set the background image for the \"Before the content\" option, use the "
+"<strong>featured image</strong>."
+msgstr ""
+"「コンテンツの前」オプションで背景画像を設定するには<strong>アイキャッチ画像"
+"</strong>を使用してください。"
+
+#: advance/meta.php:179 advance/meta.php:564 advance/meta.php:2291
+#: advance/theme-options.php:1605 advance/theme-options.php:1667
+#: advance/theme-options.php:4019 advance/theme-options.php:4369
+#: advance/theme-options.php:4729 advance/theme-options.php:4943
+#: advance/theme-options.php:5126 advance/theme-options.php:5512
+#: advance/theme-options.php:6037 advance/theme-options.php:6346
+#: advance/theme-options.php:6824 advance/theme-options.php:7040
+msgid "Variant"
+msgstr "プリセット"
+
+#: advance/meta.php:184 advance/meta.php:569 advance/meta.php:2296
+#: advance/theme-options.php:4021 advance/theme-options.php:4371
+#: advance/theme-options.php:4731 advance/theme-options.php:4945
+#: advance/theme-options.php:5128 advance/theme-options.php:5514
+#: advance/theme-options.php:6039 advance/theme-options.php:6348
+#: advance/theme-options.php:6826 advance/theme-options.php:7042
+msgid "Classic(to side)"
+msgstr "クラシック (横揃え)"
+
+#: advance/meta.php:185 advance/meta.php:570 advance/meta.php:2297
+#: advance/theme-options.php:705 advance/theme-options.php:4022
+#: advance/theme-options.php:4372 advance/theme-options.php:4732
+#: advance/theme-options.php:4946 advance/theme-options.php:5129
+#: advance/theme-options.php:5515 advance/theme-options.php:6040
+#: advance/theme-options.php:6349 advance/theme-options.php:6827
+#: advance/theme-options.php:7043
+msgid "Centered"
+msgstr "中央揃え"
+
+#: advance/meta.php:194 advance/meta.php:579 advance/meta.php:2306
+#: advance/theme-options.php:690 advance/theme-options.php:4030
+#: advance/theme-options.php:4383 advance/theme-options.php:4740
+#: advance/theme-options.php:5137 advance/theme-options.php:6048
+#: advance/theme-options.php:6357 advance/theme-options.php:6835
+#: advance/theme-options.php:7051
+msgid "Width"
+msgstr "幅"
+
+#: advance/meta.php:199 advance/meta.php:584 advance/meta.php:2311
+#: advance/theme-options.php:4032 advance/theme-options.php:4385
+#: advance/theme-options.php:4742 advance/theme-options.php:5139
+#: advance/theme-options.php:6050 advance/theme-options.php:6359
+#: advance/theme-options.php:6837 advance/theme-options.php:7053
+msgid "Full"
+msgstr "全幅"
+
+#: advance/meta.php:200 advance/meta.php:585 advance/meta.php:2312
+#: advance/theme-options.php:260 advance/theme-options.php:4033
+#: advance/theme-options.php:4386 advance/theme-options.php:4743
+#: advance/theme-options.php:5140 advance/theme-options.php:6051
+#: advance/theme-options.php:6360 advance/theme-options.php:6838
+#: advance/theme-options.php:7054
+msgid "Boxed"
+msgstr "ボックス"
+
+#: advance/meta.php:209 advance/meta.php:594 advance/meta.php:2321
+#: advance/meta.php:2508 advance/theme-options.php:241
+#: advance/theme-options.php:380 advance/theme-options.php:1706
+#: advance/theme-options.php:3745 advance/theme-options.php:4048
+#: advance/theme-options.php:4407 advance/theme-options.php:4534
+#: advance/theme-options.php:4758 advance/theme-options.php:4967
+#: advance/theme-options.php:5155 advance/theme-options.php:5469
+#: advance/theme-options.php:5536 advance/theme-options.php:5757
+#: advance/theme-options.php:6066 advance/theme-options.php:6375
+#: advance/theme-options.php:6555 advance/theme-options.php:6853
+#: advance/theme-options.php:7069
+msgid "How to fit the background image"
+msgstr "背景画像の配置"
+
+#: advance/meta.php:213 advance/meta.php:598 advance/meta.php:1346
+#: advance/meta.php:1360 advance/meta.php:2325 advance/meta.php:2512
+#: advance/theme-options.php:79
+msgid "Cover"
+msgstr "拡張 - 余白なし"
+
+#: advance/meta.php:214 advance/meta.php:599 advance/meta.php:1347
+#: advance/meta.php:1361 advance/meta.php:1385 advance/meta.php:2326
+#: advance/meta.php:2513 advance/theme-options.php:80
+msgid "Contain"
+msgstr "拡張 - 余白あり"
+
+#: advance/meta.php:215 advance/meta.php:600 advance/meta.php:2327
+#: advance/meta.php:2514 advance/theme-options.php:81
+msgid "Fit Vertically"
+msgstr "縦に拡張"
+
+#: advance/meta.php:216 advance/meta.php:601 advance/meta.php:2328
+#: advance/meta.php:2515 advance/theme-options.php:82
+msgid "Fit Horizontally"
+msgstr "横に拡張"
+
+#: advance/meta.php:217 advance/meta.php:602 advance/meta.php:2329
+#: advance/meta.php:2516 advance/theme-options.php:83
+msgid "Just center"
+msgstr "中央"
+
+#: advance/meta.php:218 advance/meta.php:603 advance/meta.php:2330
+#: advance/meta.php:2517 advance/theme-options.php:84
+msgid "Repeat"
+msgstr "繰り返し"
+
+#: advance/meta.php:219 advance/meta.php:604 advance/meta.php:2331
+#: advance/meta.php:2518 advance/theme-options.php:85
+msgid "Repeat X"
+msgstr "横に繰り返し"
+
+#: advance/meta.php:220 advance/meta.php:605 advance/meta.php:2332
+#: advance/meta.php:2519 advance/theme-options.php:86
+msgid "Repeat Y"
+msgstr "縦に繰り返し"
+
+#: advance/meta.php:245 advance/meta.php:630 advance/meta.php:2357
+#: advance/theme-options.php:4065 advance/theme-options.php:4430
+#: advance/theme-options.php:4775 advance/theme-options.php:4990
+#: advance/theme-options.php:5172 advance/theme-options.php:5559
+#: advance/theme-options.php:6083 advance/theme-options.php:6392
+#: advance/theme-options.php:6870 advance/theme-options.php:7086
+msgid ""
+"It defines how the image will scroll in the background while the page is "
+"scrolled down."
+msgstr ""
+"ページを下にスクロールする際、背景で画像をどのようにスクロールするかを設定で"
+"きます。"
+
+#: advance/meta.php:249 advance/meta.php:634 advance/meta.php:2361
+#: advance/theme-options.php:103
+msgid "top to bottom"
+msgstr "上から下"
+
+#: advance/meta.php:250 advance/meta.php:635 advance/meta.php:2362
+#: advance/theme-options.php:104
+msgid "bottom to top"
+msgstr "下から上"
+
+#: advance/meta.php:251 advance/meta.php:636 advance/meta.php:2363
+#: advance/theme-options.php:105
+msgid "left to right"
+msgstr "左から右"
+
+#: advance/meta.php:252 advance/meta.php:637 advance/meta.php:2364
+#: advance/theme-options.php:106
+msgid "right to left"
+msgstr "右から左"
+
+#: advance/meta.php:253 advance/meta.php:638 advance/meta.php:2365
+#: advance/theme-options.php:107
+msgid "top-left to bottom-right"
+msgstr "左上から右下"
+
+#: advance/meta.php:254 advance/meta.php:639 advance/meta.php:2366
+#: advance/theme-options.php:108
+msgid "top-right to bottom-left"
+msgstr "右上から左下"
+
+#: advance/meta.php:255 advance/meta.php:640 advance/meta.php:2367
+#: advance/theme-options.php:109
+msgid "bottom-left to top-right"
+msgstr "左下から右上"
+
+#: advance/meta.php:256 advance/meta.php:641 advance/meta.php:2368
+#: advance/theme-options.php:110
+msgid "bottom-right to top-left"
+msgstr "右下から左上"
+
+#: advance/meta.php:266 advance/meta.php:651 advance/meta.php:2378
+#: advance/theme-options.php:1145 advance/theme-options.php:4076
+#: advance/theme-options.php:4442 advance/theme-options.php:4786
+#: advance/theme-options.php:5002 advance/theme-options.php:5183
+#: advance/theme-options.php:5571 advance/theme-options.php:6094
+#: advance/theme-options.php:6403 advance/theme-options.php:6501
+#: advance/theme-options.php:6881 advance/theme-options.php:7097
+#: advance/theme-options.php:7417
+msgid "Speed"
+msgstr "速度"
+
+#: advance/meta.php:267 advance/meta.php:652 advance/meta.php:2379
+#: advance/theme-options.php:4077 advance/theme-options.php:4443
+#: advance/theme-options.php:4787 advance/theme-options.php:5003
+#: advance/theme-options.php:5184 advance/theme-options.php:5572
+#: advance/theme-options.php:6095 advance/theme-options.php:6404
+#: advance/theme-options.php:6882 advance/theme-options.php:7098
+msgid ""
+"It will be only used for the background that is repeated. If the background "
+"is set to not repeat this value will be ignored."
+msgstr ""
+"背景が繰り返しの場合のみ使用されます。繰り返しでない場合、設定値は無視されま"
+"す。"
+
+#: advance/meta.php:278 advance/meta.php:663 advance/meta.php:871
+#: advance/meta.php:1030 advance/meta.php:1637 advance/meta.php:1705
+#: advance/meta.php:1845 advance/meta.php:2390 advance/theme-options.php:4090
+#: advance/theme-options.php:4457 advance/theme-options.php:4800
+#: advance/theme-options.php:5017 advance/theme-options.php:5197
+#: advance/theme-options.php:5586 advance/theme-options.php:6108
+#: advance/theme-options.php:6417 advance/theme-options.php:6895
+#: advance/theme-options.php:7111
+msgid "Overlay color"
+msgstr "オーバーレイの色"
+
+#: advance/meta.php:279 advance/meta.php:664 advance/meta.php:2391
+#: advance/theme-options.php:4091 advance/theme-options.php:4458
+#: advance/theme-options.php:4801 advance/theme-options.php:5018
+#: advance/theme-options.php:5198 advance/theme-options.php:5587
+#: advance/theme-options.php:6109 advance/theme-options.php:6418
+#: advance/theme-options.php:6896 advance/theme-options.php:7112
+msgid "Will be placed above the image(if used)"
+msgstr "画像の上に置かれます。"
+
+#: advance/meta.php:289 advance/meta.php:674 advance/meta.php:2401
+#: advance/theme-options.php:4098 advance/theme-options.php:4465
+#: advance/theme-options.php:4808 advance/theme-options.php:5028
+#: advance/theme-options.php:5205 advance/theme-options.php:5594
+#: advance/theme-options.php:6116 advance/theme-options.php:6425
+#: advance/theme-options.php:6903 advance/theme-options.php:7119
+msgid "Titles"
+msgstr "タイトル"
+
+#: advance/meta.php:289 advance/meta.php:299 advance/meta.php:674
+#: advance/meta.php:684 advance/meta.php:1643 advance/meta.php:2401
+#: advance/meta.php:2411 advance/theme-options.php:487
+#: advance/theme-options.php:496 advance/theme-options.php:506
+#: advance/theme-options.php:788 advance/theme-options.php:797
+#: advance/theme-options.php:806 advance/theme-options.php:938
+#: advance/theme-options.php:944 advance/theme-options.php:1002
+#: advance/theme-options.php:1008 advance/theme-options.php:1014
+#: advance/theme-options.php:1038 advance/theme-options.php:1303
+#: advance/theme-options.php:1444 advance/theme-options.php:1450
+#: advance/theme-options.php:2014 advance/theme-options.php:2021
+#: advance/theme-options.php:2171 advance/theme-options.php:2178
+#: advance/theme-options.php:2297 advance/theme-options.php:2304
+#: advance/theme-options.php:2379 advance/theme-options.php:2386
+#: advance/theme-options.php:2393 advance/theme-options.php:2518
+#: advance/theme-options.php:2528 advance/theme-options.php:2538
+#: advance/theme-options.php:2544 advance/theme-options.php:2666
+#: advance/theme-options.php:2673 advance/theme-options.php:2680
+#: advance/theme-options.php:2743 advance/theme-options.php:2753
+#: advance/theme-options.php:2763 advance/theme-options.php:2769
+#: advance/theme-options.php:2891 advance/theme-options.php:2898
+#: advance/theme-options.php:2905 advance/theme-options.php:3025
+#: advance/theme-options.php:3035 advance/theme-options.php:3045
+#: advance/theme-options.php:3051 advance/theme-options.php:3184
+#: advance/theme-options.php:3194 advance/theme-options.php:3204
+#: advance/theme-options.php:3671 advance/theme-options.php:3678
+#: advance/theme-options.php:4098 advance/theme-options.php:4105
+#: advance/theme-options.php:4170 advance/theme-options.php:4177
+#: advance/theme-options.php:4465 advance/theme-options.php:4475
+#: advance/theme-options.php:4808 advance/theme-options.php:4815
+#: advance/theme-options.php:5028 advance/theme-options.php:5038
+#: advance/theme-options.php:5205 advance/theme-options.php:5212
+#: advance/theme-options.php:5299 advance/theme-options.php:5305
+#: advance/theme-options.php:5323 advance/theme-options.php:5329
+#: advance/theme-options.php:5594 advance/theme-options.php:5604
+#: advance/theme-options.php:6116 advance/theme-options.php:6123
+#: advance/theme-options.php:6188 advance/theme-options.php:6195
+#: advance/theme-options.php:6425 advance/theme-options.php:6432
+#: advance/theme-options.php:6903 advance/theme-options.php:6910
+#: advance/theme-options.php:6975 advance/theme-options.php:6982
+#: advance/theme-options.php:7119 advance/theme-options.php:7126
+#: advance/theme-options.php:7302 advance/theme-options.php:7309
+msgid "Text color"
+msgstr "テキストの色"
+
+#: advance/meta.php:299 advance/meta.php:684 advance/meta.php:2411
+#: advance/theme-options.php:4105 advance/theme-options.php:4475
+#: advance/theme-options.php:4815 advance/theme-options.php:5038
+#: advance/theme-options.php:5212 advance/theme-options.php:5604
+#: advance/theme-options.php:6123 advance/theme-options.php:6432
+#: advance/theme-options.php:6910 advance/theme-options.php:7126
+msgid "Other elements"
+msgstr "その他の要素"
+
+#: advance/meta.php:300 advance/meta.php:685 advance/meta.php:2412
+#: advance/theme-options.php:4106 advance/theme-options.php:4476
+#: advance/theme-options.php:4816 advance/theme-options.php:5039
+#: advance/theme-options.php:5213 advance/theme-options.php:5605
+#: advance/theme-options.php:6124 advance/theme-options.php:6433
+#: advance/theme-options.php:6911 advance/theme-options.php:7127
+msgid "Used in breadcrumbs."
+msgstr "パンくずリストで使用されます。"
+
+#: advance/meta.php:310 advance/meta.php:407 advance/meta.php:695
+#: advance/meta.php:2177 advance/meta.php:2422 advance/theme-options.php:3795
+#: advance/theme-options.php:4113 advance/theme-options.php:4486
+#: advance/theme-options.php:4823 advance/theme-options.php:5049
+#: advance/theme-options.php:5220 advance/theme-options.php:5615
+#: advance/theme-options.php:6131 advance/theme-options.php:6440
+#: advance/theme-options.php:6918 advance/theme-options.php:7134
+msgid "Top/bottom padding"
+msgstr "上下のパディング"
+
+#: advance/meta.php:324 advance/meta.php:709 advance/meta.php:2436
+#: advance/theme-options.php:4124 advance/theme-options.php:4834
+#: advance/theme-options.php:5063 advance/theme-options.php:5231
+#: advance/theme-options.php:5629 advance/theme-options.php:6142
+#: advance/theme-options.php:6451 advance/theme-options.php:6929
+#: advance/theme-options.php:7145
+msgid "Breadcrumbs"
+msgstr "パンくずリスト"
+
+#: advance/meta.php:344 advance/meta.php:779 advance/meta.php:2483
+#: advance/meta.php:2489
+msgid "Page background"
+msgstr "ページ背景"
+
+#: advance/meta.php:362
+msgid "Default for pages"
+msgstr "固定ページのデフォルト"
+
+#: advance/meta.php:382
+msgid "Layout &amp; Sidebar"
+msgstr "レイアウト &amp; スライダー"
+
+#: advance/meta.php:388 advance/meta.php:2158 advance/theme-options.php:3788
+#: advance/theme-options.php:4246 advance/theme-options.php:4585
+#: advance/theme-options.php:4870 advance/theme-options.php:5102
+#: advance/theme-options.php:5417 advance/theme-options.php:6271
+msgid "Content Layout"
+msgstr "コンテンツレイアウト"
+
+#: advance/meta.php:396 advance/meta.php:2166 advance/theme-options.php:91
+msgid "Center fixed width"
+msgstr "中央固定幅"
+
+#: advance/meta.php:397 advance/meta.php:2167 advance/theme-options.php:92
+msgid "Left fixed width"
+msgstr "左固定幅"
+
+#: advance/meta.php:398 advance/meta.php:2168 advance/theme-options.php:93
+msgid "Left fixed width + padding"
+msgstr "左固定幅 + パディング"
+
+#: advance/meta.php:399 advance/meta.php:2169 advance/theme-options.php:94
+msgid "Right fixed width"
+msgstr "右固定幅"
+
+#: advance/meta.php:400 advance/meta.php:2170 advance/theme-options.php:95
+msgid "Right fixed width + padding"
+msgstr "右固定幅 + パディング"
+
+#: advance/meta.php:401 advance/meta.php:2171 advance/theme-options.php:96
+msgid "Full width + fixed content"
+msgstr "全幅 + 固定コンテンツ"
+
+#: advance/meta.php:402 advance/meta.php:2172 advance/theme-options.php:97
+msgid "Full width + padding"
+msgstr "全幅 + パディング"
+
+#: advance/meta.php:403 advance/meta.php:2173 advance/theme-options.php:98
+#: advance/theme-options.php:258 advance/theme-options.php:693
+#: advance/theme-options.php:1635
+msgid "Full width"
+msgstr "全幅"
+
+#: advance/meta.php:407 advance/meta.php:419 advance/meta.php:2177
+#: advance/meta.php:2189 advance/meta.php:2456 advance/theme-options.php:523
+#: advance/theme-options.php:627 advance/theme-options.php:690
+#: advance/theme-options.php:702 advance/theme-options.php:986
+#: advance/theme-options.php:1359 advance/theme-options.php:1519
+#: advance/theme-options.php:1654 advance/theme-options.php:2432
+#: advance/theme-options.php:3289 advance/theme-options.php:3795
+msgid "Content"
+msgstr "コンテンツ"
+
+#: advance/meta.php:412 advance/meta.php:424 advance/meta.php:2182
+#: advance/meta.php:2194 advance/theme-options.php:3797
+msgid "Both on"
+msgstr "両方とも有効"
+
+#: advance/meta.php:413 advance/meta.php:2183 advance/theme-options.php:3798
+msgid "Only top"
+msgstr "上方のみ有効"
+
+#: advance/meta.php:414 advance/meta.php:2184 advance/theme-options.php:3799
+msgid "Only bottom"
+msgstr "下方のみ有効"
+
+#: advance/meta.php:415 advance/meta.php:425 advance/meta.php:2185
+#: advance/meta.php:2195 advance/theme-options.php:3800
+msgid "Both off"
+msgstr "両方とも無効"
+
+#: advance/meta.php:419 advance/meta.php:2189 advance/theme-options.php:1654
+msgid "Left/right padding"
+msgstr "左右のパディング"
+
+#: advance/meta.php:429 advance/theme-options.php:3807
+#: advance/theme-options.php:3818 advance/theme-options.php:4253
+#: advance/theme-options.php:4264 advance/theme-options.php:4592
+#: advance/theme-options.php:4603 advance/theme-options.php:4877
+#: advance/theme-options.php:4888 advance/theme-options.php:5424
+#: advance/theme-options.php:5440
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: advance/meta.php:436 advance/meta.php:437 advance/theme-options.php:5427
+#: advance/theme-options.php:5443
+msgid "Sidebar on the left"
+msgstr "左にサイドバー"
+
+#: advance/meta.php:437 advance/meta.php:439 advance/meta.php:441
+#: advance/meta.php:443
+msgid "Children Navigation"
+msgstr "子ページナビゲーション"
+
+#: advance/meta.php:439
+#, php-format
+msgid "Only %s on the left"
+msgstr "左に %s のみ"
+
+#: advance/meta.php:440 advance/meta.php:441 advance/theme-options.php:5430
+#: advance/theme-options.php:5446
+msgid "Sidebar on the right"
+msgstr "右にサイドバー"
+
+#: advance/meta.php:443
+#, php-format
+msgid "Only %s on the right"
+msgstr "右に %s のみ"
+
+#: advance/meta.php:449
+msgid "Sidebar to show"
+msgstr "サイドバー内の表示"
+
+#: advance/meta.php:501
+msgid "Show header from the Nth row"
+msgstr "ヘッダーの表示を始める行"
+
+#: advance/meta.php:502
+msgid ""
+"If you use Elementor or WPBakery Page Builder, then you can decide to show "
+"header after the content is scrolled to Nth row. Thanks to that you can have "
+"a clean welcome screen."
+msgstr ""
+"「Elementor」または「WPBakery Page Builder」を使用している場合、コンテンツを"
+"何行目までスクロールしたらヘッダーを表示するかを設定できます。クリーンなトッ"
+"プ画面を作成できます。"
+
+#: advance/meta.php:507
+msgid "Show always"
+msgstr "常に表示"
+
+#: advance/meta.php:508
+msgid "from 1st row"
+msgstr "1行目から"
+
+#: advance/meta.php:509
+msgid "from 2nd row"
+msgstr "2行目から"
+
+#: advance/meta.php:510
+msgid "from 3rd row"
+msgstr "3行目から"
+
+#: advance/meta.php:511
+msgid "from 4th row"
+msgstr "4行目から"
+
+#: advance/meta.php:512
+msgid "from 5th row"
+msgstr "5行目から"
+
+#: advance/meta.php:794 advance/meta.php:800
+msgid "Sticky One Page mode"
+msgstr "固定シングルページモード"
+
+#: advance/meta.php:801
+msgid ""
+"This works only when page is designed with WPBakery Page Builder. With this "
+"option enabled, the page will turn into a vertical slider to the full height "
+"of the browser window, and each row created in the WPBakery Page Builder is "
+"a single slide."
+msgstr ""
+"この機能はページが「WPBakery Page Builder」でデザインされている場合のみ適用さ"
+"れます。このオプションを有効にすると、ページはブラウザーのウィンドウと同じ高"
+"さの垂直スライダーとなり、「WPBakery Page Builder」内で作成された各行は単一の"
+"スライドになります。"
+
+#: advance/meta.php:811
+msgid "Color of navigation bullets"
+msgstr "ナビゲーションアイコンの色"
+
+#: advance/meta.php:820
+msgid "Default bullets icon"
+msgstr "デフォルトのリスト行頭のアイコン"
+
+#: advance/meta.php:854 advance/theme-options.php:192
+#: advance/theme-options.php:6571 advance/theme-options.php:6580
+#: advance/theme-options.php:6808 advance/theme-options.php:6938
+msgid "Albums list"
+msgstr "アルバムリスト"
+
+#: advance/meta.php:862
+msgid "What should be the width of this album on the Albums list?"
+msgstr "アルバムリストでのこのアルバムの幅"
+
+#: advance/meta.php:873
+msgid "Works only when titles are displayed over images in the Albums list."
+msgstr "アルバムリストの画像の上にタイトルが表示される場合のみ動作します。"
+
+#: advance/meta.php:878
+msgid "Exclude from the Albums list page"
+msgstr "アルバムリストページから除外する"
+
+#: advance/meta.php:879
+msgid ""
+"If enabled, then this Album will not be listed on the Albums list page, but "
+"you can still select it for the front page or in other places."
+msgstr ""
+"有効にするとこのアルバムはアルバムリストページに表示されませんがフロントペー"
+"ジや他の場所に指定することはできます。"
+
+#: advance/meta.php:897
+msgid "Album media"
+msgstr "アルバムメディア"
+
+#: advance/meta.php:903 advance/meta.php:1736
+msgid "Items order"
+msgstr "アイテムの順序"
+
+#: advance/meta.php:904 advance/meta.php:1737
+msgid ""
+"It will display your images/videos from the first to the last or in a "
+"different way."
+msgstr "画像や動画の表示の順番を設定できます。"
+
+#: advance/meta.php:908 advance/meta.php:1741
+msgid "First on the list, first displayed"
+msgstr "リストの最初の項目を最初に表示する"
+
+#: advance/meta.php:909 advance/meta.php:1742
+msgid "First on the list, last displayed"
+msgstr "リストの最初の項目を最後に表示する"
+
+#: advance/meta.php:910 advance/meta.php:1743
+msgid "Random"
+msgstr "ランダム"
+
+#: advance/meta.php:915
+msgid "Show title and description of album items"
+msgstr "アルバムアイテムのタイトルと説明を表示する"
+
+#: advance/meta.php:916 advance/meta.php:1749
+msgid ""
+"If enabled, then it will affect displaying in bricks and slider option, and "
+"also in lightbox."
+msgstr ""
+"有効にすると、タイル内、スライダーオプション、ライトボックス内での表示に適用"
+"されます。"
+
+#: advance/meta.php:926 advance/meta.php:1759
+msgid "Show media in"
+msgstr "メディアの表示"
+
+#: advance/meta.php:927
+msgid "Slider and Bricks work for both images and videos."
+msgstr "タイルとスライダーは画像と動画の両方に適用されます。"
+
+#: advance/meta.php:927
+msgid "Scrollers only work with images."
+msgstr "スクローラーは画像にのみ適用されます。"
+
+#: advance/meta.php:931 advance/meta.php:1763 advance/theme-options.php:7234
+msgid "Bricks"
+msgstr "タイル"
+
+#: advance/meta.php:932 advance/meta.php:1764 advance/meta.php:2117
+#: advance/theme-options.php:6460 advance/theme-options.php:7376
+msgid "Slider"
+msgstr "スライダー"
+
+#: advance/meta.php:933
+msgid "Scroller"
+msgstr "スクローラー"
+
+#: advance/meta.php:934
+msgid "Scroller with parallax"
+msgstr "パララックス付きのスクローラー"
+
+#: advance/meta.php:939 advance/theme-options.php:7244
+msgid "Content column"
+msgstr "コンテンツの列"
+
+#: advance/meta.php:940 advance/theme-options.php:7245
+msgid "This will display separate block with title and text about the album."
+msgstr "タイトルとテキストを持つ個別のブロックとしてアルバムを表示します。"
+
+#: advance/meta.php:947 advance/theme-options.php:7247
+msgid "Show on the left"
+msgstr "左に表示"
+
+#: advance/meta.php:948 advance/theme-options.php:7248
+msgid "Show on the right"
+msgstr "右に表示"
+
+#: advance/meta.php:949 advance/meta.php:1765 advance/theme-options.php:7217
+#: advance/theme-options.php:7249
+msgid "Do not display it"
+msgstr "表示しない"
+
+#: advance/meta.php:955 advance/meta.php:1770 advance/theme-options.php:3852
+#: advance/theme-options.php:4654 advance/theme-options.php:5938
+#: advance/theme-options.php:6725
+msgid "Bricks columns"
+msgstr "タイルの列数"
+
+#: advance/meta.php:965 advance/meta.php:1780 advance/theme-options.php:3864
+#: advance/theme-options.php:5949 advance/theme-options.php:6736
+msgid "The maximum width of the brick layout"
+msgstr "タイルレイアウトの最大幅"
+
+#: advance/meta.php:966 advance/meta.php:1781 advance/theme-options.php:3865
+#: advance/theme-options.php:5950 advance/theme-options.php:6737
+msgid ""
+"Depending on the actual width of the screen, the available space for bricks "
+"may be smaller, but never greater than this number."
+msgstr ""
+"画面の横幅によりタイルで利用可能な領域は変化しますがこの値が上限値になりま"
+"す。"
+
+#: advance/meta.php:976 advance/meta.php:1791 advance/theme-options.php:3876
+#: advance/theme-options.php:4675 advance/theme-options.php:5960
+#: advance/theme-options.php:6747
+msgid "Brick margin"
+msgstr "タイルのマージン"
+
+#: advance/meta.php:986 advance/meta.php:1801 advance/theme-options.php:5970
+#: advance/theme-options.php:6757
+msgid "Choose the proportions of the bricks"
+msgstr "タイルの比率の選択"
+
+#: advance/meta.php:987 advance/meta.php:1802
+msgid ""
+"It works only for images. If you change the theme option, which is called "
+"\"Display thumbnails instead of video\", then for videos that have set a "
+"featured image, it will also work."
+msgstr ""
+"画像のみに適用されます。オプション「動画の代わりにアイキャッチ画像を表示す"
+"る」を設定した場合も、動画の代替のアイキャッチ画像に対して適用されます。"
+
+#: advance/meta.php:991 advance/meta.php:1806 advance/theme-options.php:5972
+#: advance/theme-options.php:6759
+msgid "Original size"
+msgstr "オリジナルのサイズ"
+
+#: advance/meta.php:992 advance/meta.php:1807 advance/theme-options.php:5973
+#: advance/theme-options.php:6760
+msgid "1:1"
+msgstr "1:1"
+
+#: advance/meta.php:993 advance/meta.php:1808 advance/theme-options.php:5974
+#: advance/theme-options.php:6761
+msgid "2:3"
+msgstr "2:3"
+
+#: advance/meta.php:994 advance/meta.php:1809 advance/theme-options.php:5975
+#: advance/theme-options.php:6762
+msgid "3:2"
+msgstr "3:2"
+
+#: advance/meta.php:995 advance/meta.php:1810 advance/theme-options.php:5976
+#: advance/theme-options.php:6763
+msgid "3:4"
+msgstr "3:4"
+
+#: advance/meta.php:996 advance/meta.php:1811 advance/theme-options.php:5977
+#: advance/theme-options.php:6764
+msgid "4:3"
+msgstr "4:3"
+
+#: advance/meta.php:997 advance/meta.php:1812 advance/theme-options.php:5978
+#: advance/theme-options.php:6765
+msgid "9:16"
+msgstr "9:16"
+
+#: advance/meta.php:998 advance/meta.php:1813 advance/theme-options.php:5979
+#: advance/theme-options.php:6766
+msgid "16:9"
+msgstr "16:9"
+
+#: advance/meta.php:1006 advance/meta.php:1017 advance/meta.php:1821
+#: advance/meta.php:1832
+msgid "Open bricks to lightbox"
+msgstr "タイルをライトボックスで開く"
+
+#: advance/meta.php:1017 advance/meta.php:1290 advance/meta.php:1832
+#: advance/theme-options.php:7513
+msgid "on mobiles"
+msgstr "モバイル時"
+
+#: advance/meta.php:1018 advance/meta.php:1291 advance/meta.php:1833
+msgid "Works on devices less than 600 pixels wide."
+msgstr "600ピクセル幅以下のデバイスに適用されます。"
+
+#: advance/meta.php:1031 advance/meta.php:1219 advance/meta.php:1846
+#: advance/meta.php:2066
+msgid "Leave empty to not set any background"
+msgstr "背景を設定しない場合は空白にしてください"
+
+#: advance/meta.php:1038 advance/meta.php:1853 advance/theme-options.php:2108
+#: advance/theme-options.php:5910 advance/theme-options.php:6697
+msgid "Hover effect"
+msgstr "マウスホバー時の効果"
+
+#: advance/meta.php:1042 advance/meta.php:1857 advance/theme-options.php:137
+msgid "Show cross"
+msgstr "十字を表示"
+
+#: advance/meta.php:1043 advance/meta.php:1858 advance/theme-options.php:138
+msgid "Drop"
+msgstr "下げる"
+
+#: advance/meta.php:1044 advance/meta.php:1859 advance/theme-options.php:139
+msgid "Shift"
+msgstr "上げる"
+
+#: advance/meta.php:1045 advance/meta.php:1860
+msgid "Pop"
+msgstr "ポップアップ"
+
+#: advance/meta.php:1046 advance/meta.php:1861 advance/theme-options.php:141
+msgid "Border"
+msgstr "枠線"
+
+#: advance/meta.php:1055 advance/meta.php:1870 advance/theme-options.php:5834
+#: advance/theme-options.php:5902 advance/theme-options.php:6621
+#: advance/theme-options.php:6689
+msgid "Texts position"
+msgstr "テキスト位置"
+
+#: advance/meta.php:1057 advance/meta.php:1872 advance/theme-options.php:5836
+#: advance/theme-options.php:6623
+msgid "Top left"
+msgstr "左上"
+
+#: advance/meta.php:1058 advance/meta.php:1873 advance/theme-options.php:5837
+#: advance/theme-options.php:6624
+msgid "Top center"
+msgstr "中央上"
+
+#: advance/meta.php:1059 advance/meta.php:1874 advance/theme-options.php:5838
+#: advance/theme-options.php:6625
+msgid "Top right"
+msgstr "右上"
+
+#: advance/meta.php:1060 advance/meta.php:1875 advance/theme-options.php:5839
+#: advance/theme-options.php:6626
+msgid "Middle left"
+msgstr "左中央"
+
+#: advance/meta.php:1061 advance/meta.php:1876 advance/theme-options.php:5840
+#: advance/theme-options.php:6627
+msgid "Middle center"
+msgstr "中心"
+
+#: advance/meta.php:1062 advance/meta.php:1877 advance/theme-options.php:5841
+#: advance/theme-options.php:6628
+msgid "Middle right"
+msgstr "右中央"
+
+#: advance/meta.php:1063 advance/meta.php:1878 advance/theme-options.php:5842
+#: advance/theme-options.php:6629
+msgid "Bottom left"
+msgstr "左下"
+
+#: advance/meta.php:1064 advance/meta.php:1879 advance/theme-options.php:5843
+#: advance/theme-options.php:6630
+msgid "Bottom center"
+msgstr "中央下"
+
+#: advance/meta.php:1065 advance/meta.php:1880 advance/theme-options.php:5844
+#: advance/theme-options.php:6631
+msgid "Bottom right"
+msgstr "右下"
+
+#: advance/meta.php:1073 advance/meta.php:1084 advance/meta.php:1888
+#: advance/meta.php:1899 advance/theme-options.php:5852
+#: advance/theme-options.php:5860 advance/theme-options.php:6639
+#: advance/theme-options.php:6647
+msgid "Show overlay"
+msgstr "オーバーレイ表示"
+
+#: advance/meta.php:1073 advance/meta.php:1095 advance/meta.php:1119
+#: advance/meta.php:1888 advance/meta.php:1910 advance/meta.php:1934
+#: advance/theme-options.php:5852 advance/theme-options.php:5868
+#: advance/theme-options.php:5886 advance/theme-options.php:6639
+#: advance/theme-options.php:6655 advance/theme-options.php:6673
+msgid "without hover"
+msgstr "マウスホバー以外"
+
+#: advance/meta.php:1084 advance/meta.php:1107 advance/meta.php:1133
+#: advance/meta.php:1472 advance/meta.php:1899 advance/meta.php:1922
+#: advance/meta.php:1948 advance/theme-options.php:506
+#: advance/theme-options.php:678 advance/theme-options.php:806
+#: advance/theme-options.php:944 advance/theme-options.php:1014
+#: advance/theme-options.php:1296 advance/theme-options.php:1324
+#: advance/theme-options.php:1385 advance/theme-options.php:1397
+#: advance/theme-options.php:1438 advance/theme-options.php:1450
+#: advance/theme-options.php:1692 advance/theme-options.php:1790
+#: advance/theme-options.php:1994 advance/theme-options.php:2021
+#: advance/theme-options.php:2464 advance/theme-options.php:2528
+#: advance/theme-options.php:2616 advance/theme-options.php:2630
+#: advance/theme-options.php:2648 advance/theme-options.php:2698
+#: advance/theme-options.php:2753 advance/theme-options.php:2841
+#: advance/theme-options.php:2855 advance/theme-options.php:2873
+#: advance/theme-options.php:2923 advance/theme-options.php:3035
+#: advance/theme-options.php:3123 advance/theme-options.php:3137
+#: advance/theme-options.php:3155 advance/theme-options.php:3226
+#: advance/theme-options.php:3359 advance/theme-options.php:3375
+#: advance/theme-options.php:3678 advance/theme-options.php:5293
+#: advance/theme-options.php:5305 advance/theme-options.php:5317
+#: advance/theme-options.php:5329 advance/theme-options.php:5860
+#: advance/theme-options.php:5877 advance/theme-options.php:5894
+#: advance/theme-options.php:6647 advance/theme-options.php:6664
+#: advance/theme-options.php:6681
+msgid "on hover"
+msgstr "マウスホバー時"
+
+#: advance/meta.php:1095 advance/meta.php:1107 advance/meta.php:1910
+#: advance/meta.php:1922 advance/theme-options.php:5868
+#: advance/theme-options.php:5877 advance/theme-options.php:6655
+#: advance/theme-options.php:6664
+msgid "Show gradient"
+msgstr "傾斜の表示"
+
+#: advance/meta.php:1096 advance/meta.php:1108 advance/meta.php:1911
+#: advance/meta.php:1923
+msgid "The main use of this function is to make the texts more readable."
+msgstr "この機能の主な目的としてテキストを読みやすくします。"
+
+#: advance/meta.php:1119 advance/meta.php:1133 advance/meta.php:1934
+#: advance/meta.php:1948 advance/theme-options.php:5886
+#: advance/theme-options.php:5894 advance/theme-options.php:6673
+#: advance/theme-options.php:6681
+msgid "Show texts"
+msgstr "テキストの表示"
+
+#: advance/meta.php:1145 advance/meta.php:1341 advance/meta.php:1356
+#: advance/meta.php:1992
+msgid "Fit images"
+msgstr "画像に合わせる"
+
+#: advance/meta.php:1146 advance/meta.php:1993
+msgid ""
+"How pictures will fit in the area of the slider. <strong>Fit when needed</"
+"strong> is best suited for small images that should not be stretched to "
+"larger sizes, only to smaller ones (so that they are always completely "
+"visible)."
+msgstr ""
+"画像のスライダー領域への合わせ方は小さな画像の場合、「<strong>必要に応じて合"
+"わせる</strong>」が最適です。大きなサイズには拡張されず、小さな場合のみ縮小さ"
+"れます。したがって画像は常に完全に表示されます。"
+
+#: advance/meta.php:1150 advance/meta.php:1997
+msgid "Fit always"
+msgstr "常に合わせる"
+
+#: advance/meta.php:1151 advance/meta.php:1998
+msgid "Fit landscape"
+msgstr "横に合わせる"
+
+#: advance/meta.php:1152 advance/meta.php:1999
+msgid "Fit portrait"
+msgstr "縦に合わせる"
+
+#: advance/meta.php:1153 advance/meta.php:2000
+msgid "Fit when needed"
+msgstr "必要であれば合わせる"
+
+#: advance/meta.php:1154 advance/meta.php:2001
+msgid "Cover the whole screen"
+msgstr "画面全体を覆う"
+
+#: advance/meta.php:1160 advance/meta.php:1443 advance/meta.php:1457
+#: advance/meta.php:1472 advance/meta.php:2007 advance/theme-options.php:1176
+#: advance/theme-options.php:1234 advance/theme-options.php:6469
+#: advance/theme-options.php:7385
+msgid "Autoplay"
+msgstr "自動プレイ"
+
+#: advance/meta.php:1161 advance/meta.php:2008 advance/theme-options.php:6470
+#: advance/theme-options.php:7386
+msgid "If autoplay is on, slider will run on page load."
+msgstr "自動再生の場合、スライダーはページロードで始まります。"
+
+#: advance/meta.php:1175 advance/meta.php:2022 advance/theme-options.php:1104
+#: advance/theme-options.php:1145 advance/theme-options.php:6488
+#: advance/theme-options.php:6501 advance/theme-options.php:7404
+#: advance/theme-options.php:7417
+msgid "Transition"
+msgstr "切り換え"
+
+#: advance/meta.php:1176 advance/meta.php:2023 advance/theme-options.php:1105
+#: advance/theme-options.php:6489 advance/theme-options.php:7405
+msgid "Animation between slides."
+msgstr "スライド間のアニメーション。"
+
+#: advance/meta.php:1184 advance/meta.php:2031 advance/theme-options.php:6492
+#: advance/theme-options.php:7408
+msgid "Fade"
+msgstr "フェード"
+
+#: advance/meta.php:1185 advance/meta.php:2032 advance/theme-options.php:6493
+#: advance/theme-options.php:7409
+msgid "Carousel"
+msgstr "カルーセル"
+
+#: advance/meta.php:1186 advance/meta.php:2033 advance/theme-options.php:1226
+#: advance/theme-options.php:6494 advance/theme-options.php:7410
+msgid "Zooming"
+msgstr "ズーム"
+
+#: advance/meta.php:1192 advance/meta.php:2039
+msgid "Zoom in %"
+msgstr "% にズーム"
+
+#: advance/meta.php:1193 advance/meta.php:2040
+msgid "How big the zooming effect will be"
+msgstr "ズーム効果の大きさ"
+
+#: advance/meta.php:1206 advance/meta.php:2053
+msgid "Gradient above photos"
+msgstr "画像上の傾斜"
+
+#: advance/meta.php:1207 advance/meta.php:2054
+msgid "Good for better readability of slide titles."
+msgstr "スライドタイトルの読みやすさを向上します。"
+
+#: advance/meta.php:1218 advance/meta.php:2065 advance/theme-options.php:4012
+#: advance/theme-options.php:4351 advance/theme-options.php:4722
+#: advance/theme-options.php:4925 advance/theme-options.php:5119
+#: advance/theme-options.php:5494 advance/theme-options.php:6030
+#: advance/theme-options.php:6327 advance/theme-options.php:6817
+#: advance/theme-options.php:7033
+msgid "Title"
+msgstr "タイトル"
+
+#: advance/meta.php:1218 advance/meta.php:2065 advance/meta.php:2117
+#: advance/meta.php:2525 advance/theme-options.php:249
+#: advance/theme-options.php:267 advance/theme-options.php:389
+#: advance/theme-options.php:467 advance/theme-options.php:714
+#: advance/theme-options.php:722 advance/theme-options.php:826
+#: advance/theme-options.php:995 advance/theme-options.php:1275
+#: advance/theme-options.php:1282 advance/theme-options.php:1310
+#: advance/theme-options.php:1379 advance/theme-options.php:1385
+#: advance/theme-options.php:1432 advance/theme-options.php:1438
+#: advance/theme-options.php:1686 advance/theme-options.php:1692
+#: advance/theme-options.php:1714 advance/theme-options.php:2138
+#: advance/theme-options.php:2185 advance/theme-options.php:2209
+#: advance/theme-options.php:2364 advance/theme-options.php:2550
+#: advance/theme-options.php:2557 advance/theme-options.php:2563
+#: advance/theme-options.php:2576 advance/theme-options.php:2609
+#: advance/theme-options.php:2616 advance/theme-options.php:2659
+#: advance/theme-options.php:2775 advance/theme-options.php:2782
+#: advance/theme-options.php:2788 advance/theme-options.php:2801
+#: advance/theme-options.php:2834 advance/theme-options.php:2841
+#: advance/theme-options.php:2884 advance/theme-options.php:3057
+#: advance/theme-options.php:3064 advance/theme-options.php:3070
+#: advance/theme-options.php:3083 advance/theme-options.php:3116
+#: advance/theme-options.php:3123 advance/theme-options.php:3174
+#: advance/theme-options.php:3351 advance/theme-options.php:3359
+#: advance/theme-options.php:3664 advance/theme-options.php:3753
+#: advance/theme-options.php:4163 advance/theme-options.php:4542
+#: advance/theme-options.php:5250 advance/theme-options.php:5287
+#: advance/theme-options.php:5293 advance/theme-options.php:5311
+#: advance/theme-options.php:5317 advance/theme-options.php:5477
+#: advance/theme-options.php:5765 advance/theme-options.php:6181
+#: advance/theme-options.php:6563 advance/theme-options.php:6968
+#: advance/theme-options.php:7295
+msgid "Background color"
+msgstr "背景色"
+
+#: advance/meta.php:1229 advance/meta.php:2076
+msgid "Pattern above photos"
+msgstr "画像の上のパターン"
+
+#: advance/meta.php:1234 advance/meta.php:2081
+msgid "Type 1"
+msgstr "タイプ1"
+
+#: advance/meta.php:1235 advance/meta.php:2082
+msgid "Type 2"
+msgstr "タイプ2"
+
+#: advance/meta.php:1236 advance/meta.php:2083
+msgid "Type 3"
+msgstr "タイプ3"
+
+#: advance/meta.php:1237 advance/meta.php:2084
+msgid "Type 4"
+msgstr "タイプ4"
+
+#: advance/meta.php:1238 advance/meta.php:2085
+msgid "Type 5"
+msgstr "タイプ5"
+
+#: advance/meta.php:1244 advance/meta.php:1258 advance/meta.php:2091
+#: advance/meta.php:2105 advance/theme-options.php:1258
+#: advance/theme-options.php:1266 advance/theme-options.php:1310
+#: advance/theme-options.php:1317 advance/theme-options.php:1324
+#: advance/theme-options.php:6512 advance/theme-options.php:7428
+msgid "Thumbnails"
+msgstr "アイキャッチ画像"
+
+#: advance/meta.php:1258 advance/meta.php:2105 advance/theme-options.php:1266
+msgid "Open"
+msgstr "開く"
+
+#: advance/meta.php:1259 advance/meta.php:2106 advance/theme-options.php:1267
+msgid "If thumbnails are enabled, should they be open by default?"
+msgstr "アイキャッチ画像が有効の場合、デフォルトで開きますか?"
+
+#: advance/meta.php:1271 advance/meta.php:1290
+msgid "Cell width"
+msgstr "セル幅"
+
+#: advance/meta.php:1310
+msgid "Effect on inactive elements"
+msgstr "非アクティブ要素での効果"
+
+#: advance/meta.php:1311 advance/theme-options.php:1700
+#: advance/theme-options.php:1944 advance/theme-options.php:2048
+#: advance/theme-options.php:2157 advance/theme-options.php:2968
+#: advance/theme-options.php:2998
+msgid "It works only on large screens(1025px wide or more)."
+msgstr "大きな画面(1024px以上の横幅)の場合のみ適用されます。"
+
+#: advance/meta.php:1311
+msgid ""
+"Effects on images require high computing power, therefore they are disabled "
+"on mobile devices."
+msgstr ""
+"画像の効果には CPU パワーが必要のためモバイルデバイスでは無効化されています。"
+
+#: advance/meta.php:1316 advance/theme-options.php:1984
+#: advance/theme-options.php:1994
+msgid "Opacity"
+msgstr "不透過"
+
+#: advance/meta.php:1317 advance/theme-options.php:142
+msgid "Scale down"
+msgstr "スケールダウン"
+
+#: advance/meta.php:1318
+msgid "Grayscale"
+msgstr "グレースケール"
+
+#: advance/meta.php:1319
+msgid "Blur"
+msgstr "ぼかし"
+
+#: advance/meta.php:1328
+msgid "Space between cells"
+msgstr "セルの間隔"
+
+#: advance/meta.php:1342
+msgid "How pictures will fit in the area of the cell."
+msgstr "セル領域に対する画像の拡張。"
+
+#: advance/meta.php:1356
+msgid "after opening"
+msgstr "開いた後"
+
+#: advance/meta.php:1370
+msgid "Loop"
+msgstr "ループ"
+
+#: advance/meta.php:1371
+msgid "Combine both ends for infinite scrolling."
+msgstr "両端を接続して無限スクロールする。"
+
+#: advance/meta.php:1386
+msgid ""
+"Eliminate the empty space at the ends. Has no effect if \"Loop\" is enabled."
+msgstr "最後の空白領域を削除します。「ループ」が有効の場合、無視されます。"
+
+#: advance/meta.php:1401
+msgid "Free scroll"
+msgstr "フリースクロール"
+
+#: advance/meta.php:1415 advance/theme-options.php:1202
+msgid "Slides navigation"
+msgstr "スライドナビゲーション"
+
+#: advance/meta.php:1429
+msgid "Points navigation"
+msgstr "ポイントナビゲーション"
+
+#: advance/meta.php:1457 advance/theme-options.php:1192
+#: advance/theme-options.php:6477 advance/theme-options.php:7393
+msgid "Time between slides"
+msgstr "スライド間の時間"
+
+#: advance/meta.php:1457
+msgid "in seconds"
+msgstr "秒"
+
+#: advance/meta.php:1472
+msgid "Pause"
+msgstr "一時停止"
+
+#: advance/meta.php:1501
+msgid "This option works only if the album is displayed in bricks mode."
+msgstr "アルバムがタイルモードで表示されている場合のみ適用されます。"
+
+#: advance/meta.php:1505
+msgid "Allows you to comment and select photos and videos from this album."
+msgstr "このアルバムにコメントを残し、写真や動画選択できます。"
+
+#: advance/meta.php:1515
+msgid "Items IDs"
+msgstr "項目 ID"
+
+#: advance/meta.php:1517
+msgid "The IDs for YouTube and Vimeo videos can only be manually added."
+msgstr "YouTube や Vimeo の動画の ID は手動でのみ追加できます。"
+
+#: advance/meta.php:1520 advance/theme-options.php:3916
+msgid "Automatic"
+msgstr "自動"
+
+#: advance/meta.php:1521 advance/theme-options.php:3917
+msgid "Manual"
+msgstr "手動"
+
+#: advance/meta.php:1617
+msgid "General"
+msgstr "全般"
+
+#: advance/meta.php:1623
+msgid "Subtitle"
+msgstr "サブタイトル"
+
+#: advance/meta.php:1624 advance/theme-options.php:524
+#: advance/theme-options.php:628 advance/theme-options.php:1520
+#: advance/theme-options.php:2433
+msgid "You can use HTML here."
+msgstr "HTML を使用できます。"
+
+#: advance/meta.php:1630
+msgid "Testimonial"
+msgstr "推薦"
+
+#: advance/meta.php:1643
+msgid "Overlay"
+msgstr "オーバーレイ"
+
+#: advance/meta.php:1657 advance/theme-options.php:646
+#: advance/theme-options.php:666 advance/theme-options.php:678
+#: advance/theme-options.php:1046 advance/theme-options.php:1242
+#: advance/theme-options.php:1769 advance/theme-options.php:1779
+#: advance/theme-options.php:1790 advance/theme-options.php:1801
+#: advance/theme-options.php:2443 advance/theme-options.php:2453
+#: advance/theme-options.php:2464 advance/theme-options.php:2637
+#: advance/theme-options.php:2648 advance/theme-options.php:2687
+#: advance/theme-options.php:2698 advance/theme-options.php:2862
+#: advance/theme-options.php:2873 advance/theme-options.php:2912
+#: advance/theme-options.php:2923 advance/theme-options.php:3144
+#: advance/theme-options.php:3155 advance/theme-options.php:3214
+#: advance/theme-options.php:3226 advance/theme-options.php:7438
+msgid "Social icons"
+msgstr "SNS アイコン"
+
+#: advance/meta.php:1689 advance/theme-options.php:194
+#: advance/theme-options.php:5773 advance/theme-options.php:5782
+#: advance/theme-options.php:6021 advance/theme-options.php:6151
+msgid "Works list"
+msgstr "ワークリスト"
+
+#: advance/meta.php:1696
+msgid "What should be the width of this work on the Works list?"
+msgstr "ワークリストでのこのワークの横幅"
+
+#: advance/meta.php:1707
+msgid "Works only when titles are displayed over images in the Works list."
+msgstr "ワークリスト内で画像の上にタイトルが表示される場合にのみ適用されます。"
+
+#: advance/meta.php:1712
+msgid "Exclude from the Works list page"
+msgstr "ワークリストページから除外する"
+
+#: advance/meta.php:1713
+msgid ""
+"If enabled, then this Work will not be listed on the Works list page, but "
+"you can still select it for the front page or in other places."
+msgstr ""
+"有効にするとこのワークはワークリストページに表示されませんがフロントページや"
+"他の場所に指定することはできます。"
+
+#: advance/meta.php:1730
+msgid "Work media"
+msgstr "ワークメディア"
+
+#: advance/meta.php:1748
+msgid "Show title and description of work items"
+msgstr "ワークアイテムのタイトルと説明を表示する"
+
+#: advance/meta.php:1961
+msgid "Stretch the slider to the window height"
+msgstr "ウインドウの高さまでスライダーを拡張する"
+
+#: advance/meta.php:1972
+msgid "Slider - width proportion"
+msgstr "スライダー - 横幅の比率"
+
+#: advance/meta.php:1982
+msgid "Slider - height proportion"
+msgstr "スライダー - 高さの比率"
+
+#: advance/meta.php:2124
+msgid "Media top margin"
+msgstr "メディアの上部マージン"
+
+#: advance/meta.php:2134
+msgid "Media bottom margin"
+msgstr "メディアの下部マージン"
+
+#: advance/meta.php:2152 advance/theme-options.php:256
+msgid "Layout"
+msgstr "レイアウト"
+
+#: advance/meta.php:2462 advance/theme-options.php:6278
+#: advance/theme-options.php:7205
+msgid "Categories in content"
+msgstr "コンテンツ内のカテゴリー"
+
+#: advance/meta.php:2470
+msgid "On"
+msgstr "有効"
+
+#: advance/meta.php:2500 advance/theme-options.php:226
+#: advance/theme-options.php:362 advance/theme-options.php:1699
+#: advance/theme-options.php:3739 advance/theme-options.php:4041
+#: advance/theme-options.php:4397 advance/theme-options.php:4528
+#: advance/theme-options.php:4751 advance/theme-options.php:4957
+#: advance/theme-options.php:5148 advance/theme-options.php:5463
+#: advance/theme-options.php:5526 advance/theme-options.php:5751
+#: advance/theme-options.php:6059 advance/theme-options.php:6368
+#: advance/theme-options.php:6549 advance/theme-options.php:6846
+#: advance/theme-options.php:7062
+msgid "Background image"
+msgstr "背景画像"
+
+#: advance/meta.php:2503
+msgid "Upload Image"
+msgstr "画像のアップロード"
+
+#: advance/plugins/plugins-list.php:6
+msgid "WPBakery Page Builder"
+msgstr "WPBakery Page Builder"
+
+#: advance/plugins/plugins-list.php:18
+msgid "Elementor"
+msgstr "Elementor"
+
+#: advance/plugins/plugins-list.php:40
+msgid "Revolution Slider"
+msgstr "Revolution Slider"
+
+#: advance/rife.php:115
+msgid "The code has not been entered."
+msgstr "コードが入力されていません。"
+
+#: advance/rife.php:153
+msgid "It looks like the license server could be down. Please try again later."
+msgstr ""
+"ライセンスサーバーから反応がありません。時間をおいてもう一度試してください。"
+
+#: advance/rife.php:177 advance/rife.php:186
+msgid "The provided code is invalid."
+msgstr "入力されたコードは正しくありません。"
+
+#: advance/rife.php:177
+msgid "Please contact the Apollo13Themes."
+msgstr "Apollo13Themes に連絡してください。"
+
+#: advance/rife.php:186
+msgid " Please try again."
+msgstr "もう一度試してください。"
+
+#: advance/rife.php:196
+msgid "Unknown error."
+msgstr "不明なエラーです。"
+
+#: advance/rife.php:203
+#, php-format
+msgid "Error while checking the license code: %s"
+msgstr "ライセンスコードの確認中にエラーが発生しました: %s"
+
+#: advance/rife.php:414
+msgid "The code is correct. Thank you!"
+msgstr "正しいコードです。ありがとうございます !"
+
+#: advance/sidebars.php:12
+msgid "Blog sidebar"
+msgstr "ブログサイドバー"
+
+#: advance/sidebars.php:13
+msgid ""
+"Widgets from this sidebar will appear on blog, search results, archive page, "
+"and 404 error page."
+msgstr ""
+"このサイドバーのウィジェットは投稿、検索結果、アーカイブページ、404 エラー"
+"ページに表示されます。"
+
+#: advance/sidebars.php:17
+msgid "Post sidebar"
+msgstr "投稿サイドバー"
+
+#: advance/sidebars.php:18
+msgid "Widgets from this sidebar will appear in single posts."
+msgstr "このサイドバーのウィジェットは単一の投稿に表示されます。"
+
+#: advance/sidebars.php:22
+msgid "Page sidebar"
+msgstr "ページサイドバー"
+
+#: advance/sidebars.php:23 advance/sidebars.php:66
+msgid "Widgets from this sidebar will appear in static pages."
+msgstr "このサイドバーのウィジェットは静的ページに表示されます。"
+
+#: advance/sidebars.php:27 advance/utilities/header.php:349
+msgid "Shop sidebar"
+msgstr "ショップサイドバー"
+
+#: advance/sidebars.php:28
+msgid ""
+"Widgets from this sidebar will appear only in shop pages. WooCommerce have "
+"to be installed and activated."
+msgstr ""
+"このサイドバーのウィジェットはショップページでのみ表示できます。WooCommerce "
+"をインストールし、有効化する必要があります。"
+
+#: advance/sidebars.php:32 advance/theme-options.php:816
+#: advance/theme-options.php:3516 advance/theme-options.php:3527
+#: advance/theme-options.php:3539 advance/theme-options.php:3552
+msgid "Hidden sidebar"
+msgstr "隠しサイドバー"
+
+#: advance/sidebars.php:33
+msgid ""
+"It is always available sidebar, that is activated by clicking on the icon in "
+"the header. Good for some special menus or other tips/information for the "
+"user."
+msgstr ""
+"常に利用可能なサイドバーでヘッダーのアイコンをクリックするとアクティブになり"
+"ます。特殊なメニューやユーザー向けヒントや情報の出力に適します。"
+
+#: advance/sidebars.php:37 advance/theme-options.php:3452
+#: advance/theme-options.php:3462 advance/theme-options.php:3474
+msgid "Basket sidebar"
+msgstr "バスケットサイドバー"
+
+#: advance/sidebars.php:38
+msgid ""
+"It is always available sidebar (but only active if WooCommerce is installed "
+"and activated), that is activated by clicking on the icon in the header. You "
+"should put a shopping cart widget there, as well as, for example, several "
+"special widgets."
+msgstr ""
+"常に利用可能なサイドバーですが WooCommerce をインストールし、有効化した場合の"
+"み、ヘッダーのアイコンをクリックするとアクティブになります。ここにはショピン"
+"グカートウィジェットや特別なウィジェットを設置できます。"
+
+#: advance/sidebars.php:42
+msgid "Header(vertical) default widget area"
+msgstr "ヘッダー (垂直) デフォルトウィジェットエリア"
+
+#: advance/sidebars.php:43
+msgid "Widgets from this area will appear in vertical header only."
+msgstr "このエリアのウィジェットは垂直ヘッダーでのみ表示されます。"
+
+#: advance/sidebars.php:47
+msgid "Footer widget area(Header horizontal)"
+msgstr "フッターウィジェットエリア (水平ヘッダー)"
+
+#: advance/sidebars.php:48
+msgid ""
+"Widgets from this area will appear in footer, only if horizontal header is "
+"used."
+msgstr ""
+"水平ヘッダーが使われている場合のみ、この領域のウィジェットがフッターに表示さ"
+"れます。"
+
+#: advance/theme-options.php:18
+msgid "Show icon"
+msgstr "アイコンの表示"
+
+#: advance/theme-options.php:53
+msgid "100"
+msgstr "100"
+
+#: advance/theme-options.php:54
+msgid "200"
+msgstr "200"
+
+#: advance/theme-options.php:55
+msgid "300"
+msgstr "300"
+
+#: advance/theme-options.php:56
+msgid "Normal 400"
+msgstr "標準 400"
+
+#: advance/theme-options.php:57
+msgid "500"
+msgstr "500"
+
+#: advance/theme-options.php:58
+msgid "600"
+msgstr "600"
+
+#: advance/theme-options.php:59
+msgid "Bold 700"
+msgstr "太字 700"
+
+#: advance/theme-options.php:60
+msgid "800"
+msgstr "800"
+
+#: advance/theme-options.php:61
+msgid "900"
+msgstr "900"
+
+#: advance/theme-options.php:67
+msgid "Uppercase"
+msgstr "先頭を大文字"
+
+#: advance/theme-options.php:73
+msgid "Center"
+msgstr "中央"
+
+#: advance/theme-options.php:129
+msgid "Black"
+msgstr "黒"
+
+#: advance/theme-options.php:130 advance/theme-options.php:666
+#: advance/theme-options.php:678 advance/theme-options.php:753
+#: advance/theme-options.php:1289 advance/theme-options.php:1296
+#: advance/theme-options.php:1391 advance/theme-options.php:1397
+#: advance/theme-options.php:1779 advance/theme-options.php:1790
+#: advance/theme-options.php:1885 advance/theme-options.php:2453
+#: advance/theme-options.php:2464 advance/theme-options.php:2595
+#: advance/theme-options.php:2602 advance/theme-options.php:2637
+#: advance/theme-options.php:2648 advance/theme-options.php:2687
+#: advance/theme-options.php:2698 advance/theme-options.php:2820
+#: advance/theme-options.php:2827 advance/theme-options.php:2862
+#: advance/theme-options.php:2873 advance/theme-options.php:2912
+#: advance/theme-options.php:2923 advance/theme-options.php:3102
+#: advance/theme-options.php:3109 advance/theme-options.php:3144
+#: advance/theme-options.php:3155 advance/theme-options.php:3214
+#: advance/theme-options.php:3226 advance/theme-options.php:3247
+#: advance/theme-options.php:3254
+msgid "Color"
+msgstr "色"
+
+#: advance/theme-options.php:131
+msgid "White"
+msgstr "白"
+
+#: advance/theme-options.php:132
+msgid "Semi transparent"
+msgstr "半透明"
+
+#: advance/theme-options.php:140
+msgid "Pop text"
+msgstr "ポップテキスト"
+
+#: advance/theme-options.php:167 advance/theme-options.php:3239
+msgid "General settings"
+msgstr "一般設定"
+
+#: advance/theme-options.php:176
+msgid "Front page"
+msgstr "フロントページ"
+
+#: advance/theme-options.php:185
+msgid "What to show on the front page?"
+msgstr "フロントページに何を表示しますか ?"
+
+#: advance/theme-options.php:187
+#, php-format
+msgid ""
+"If you choose <strong>Page</strong> then make sure that in <a href=\"%s"
+"\">WordPress Homepage Settings</a> you have selected <strong>A static page</"
+"strong>, that you wish to use as the front page."
+msgstr ""
+"「<strong>固定ページ</strong>」を選択する場合は、フロントページとして使用する"
+"ページを「<a href=\"%s\">ホームページ設定</a>」の「<strong>固定ページ</"
+"strong>」で選択してください。"
+
+#: advance/theme-options.php:189
+msgid "Page"
+msgstr "固定ページ"
+
+#: advance/theme-options.php:190 advance/utilities/layout-parts.php:834
+msgid "Blog"
+msgstr "ブログ"
+
+#: advance/theme-options.php:191 advance/theme-options.php:7024
+#: advance/theme-options.php:7154 advance/theme-options.php:7234
+#: advance/theme-options.php:7265 advance/theme-options.php:7376
+#: advance/theme-options.php:7438
+msgid "Single album"
+msgstr "単一アルバム"
+
+#: advance/theme-options.php:193 advance/theme-options.php:6237
+#: advance/theme-options.php:6318 advance/theme-options.php:6460
+msgid "Single work"
+msgstr "単一ワーク"
+
+#: advance/theme-options.php:202
+msgid "Select album to use as the front page"
+msgstr "フロントページとして使用するアルバムを選択してください"
+
+#: advance/theme-options.php:209
+msgid "Select work to use as the front page"
+msgstr "フロントページとして使用するワークを選択してください"
+
+#: advance/theme-options.php:217
+msgid "General layout"
+msgstr "一般レイアウト"
+
+#: advance/theme-options.php:259
+msgid "Framed"
+msgstr "フレーム"
+
+#: advance/theme-options.php:267
+msgid "Boxed layout"
+msgstr "ボックスレイアウト"
+
+#: advance/theme-options.php:275 advance/theme-options.php:1317
+#: advance/theme-options.php:1324 advance/theme-options.php:2623
+#: advance/theme-options.php:2630 advance/theme-options.php:2848
+#: advance/theme-options.php:2855 advance/theme-options.php:3130
+#: advance/theme-options.php:3137 advance/theme-options.php:3367
+#: advance/theme-options.php:3375
+msgid "Border color"
+msgstr "境界線"
+
+#: advance/theme-options.php:284
+msgid "Borders to show"
+msgstr "表示する境界線"
+
+#: advance/theme-options.php:303
+msgid "Mouse cursor"
+msgstr "マウスカーソル"
+
+#: advance/theme-options.php:306
+msgid "Predefined"
+msgstr "プリセット"
+
+#: advance/theme-options.php:307 advance/theme-options.php:3407
+#: advance/theme-options.php:3455 advance/theme-options.php:3488
+#: advance/theme-options.php:3520 advance/theme-options.php:3570
+#: advance/theme-options.php:5650 advance/theme-options.php:5704
+msgid "Custom"
+msgstr "カスタム"
+
+#: advance/theme-options.php:315
+msgid "Cursor"
+msgstr "カーソル"
+
+#: advance/theme-options.php:324
+msgid "Custom cursor image"
+msgstr "カスタムカーソル画像"
+
+#: advance/theme-options.php:332 advance/theme-options.php:341
+msgid "Page preloader"
+msgstr "ページプリローダー"
+
+#: advance/theme-options.php:349
+msgid "Hide event"
+msgstr "プリローダーを終了するイベント"
+
+#: advance/theme-options.php:350
+msgid ""
+"<strong>On load</strong> is called when the whole site, with all the images, "
+"is loaded, which can take a lot of time on heavier sites, and even more time "
+"on mobile devices. Also,  it can sometimes hang and never hide the "
+"preloader, when there is a problem with some resource. <br /><strong>On DOM "
+"ready</strong> is called when the whole HTML with CSS is loaded, so after "
+"the preloader is hidden, you can still see the loading of images. This is a "
+"much safer option."
+msgstr ""
+"<strong>On load イベント</strong> はサイト全体が画像を含めて表示された後に呼"
+"び出されます。大きなサイトではかなりの時間が必要で、モバイル環境ではさらに遅"
+"くなります。ハングする場合もあり、リソースに問題があるとプリローダーが終了し"
+"ないこともあります。<br /><strong>On DOM ready イベント</strong> は HTML と "
+"CSS がロードされると呼び出されます。したがってプリローダーが終了しても画像が"
+"ロード中の場合があります。 こちらの方が安全なオプションです。"
+
+#: advance/theme-options.php:352
+msgid "On DOM ready"
+msgstr "On DOM ready"
+
+#: advance/theme-options.php:353
+msgid "On load"
+msgstr "On load"
+
+#: advance/theme-options.php:399
+msgid "none"
+msgstr "なし"
+
+#: advance/theme-options.php:400
+msgid "Atom"
+msgstr "アトム"
+
+#: advance/theme-options.php:401
+msgid "Flash"
+msgstr "フラッシュ"
+
+#: advance/theme-options.php:402
+msgid "Indicator"
+msgstr "インジケーター"
+
+#: advance/theme-options.php:403
+msgid "Radar"
+msgstr "レーダー"
+
+#: advance/theme-options.php:404
+msgid "Circle Illusion"
+msgstr "サークルイリュージョン"
+
+#: advance/theme-options.php:405
+msgid "Square of squares"
+msgstr "四角 & 四角"
+
+#: advance/theme-options.php:406
+msgid "Plus minus"
+msgstr "プラスとマイナス"
+
+#: advance/theme-options.php:407
+msgid "Hand"
+msgstr "ハンド"
+
+#: advance/theme-options.php:408
+msgid "Blurry"
+msgstr "明滅"
+
+#: advance/theme-options.php:409
+msgid "Arcs"
+msgstr "円弧"
+
+#: advance/theme-options.php:410
+msgid "Tetromino"
+msgstr "テトロミノ"
+
+#: advance/theme-options.php:411
+msgid "Infinity"
+msgstr "無限大"
+
+#: advance/theme-options.php:412
+msgid "Cloud circle"
+msgstr "クラウドサークル"
+
+#: advance/theme-options.php:413
+msgid "Dots"
+msgstr "ドット"
+
+#: advance/theme-options.php:414
+msgid "Jet-Pack-Man"
+msgstr "ジェットパックマン"
+
+#: advance/theme-options.php:424
+msgid "Animation color"
+msgstr "アニメーションの色"
+
+#: advance/theme-options.php:439 advance/theme-options.php:447
+msgid "Cookie message"
+msgstr "クッキーメッセージ"
+
+#: advance/theme-options.php:496 advance/theme-options.php:506
+#: advance/theme-options.php:797 advance/theme-options.php:806
+#: advance/theme-options.php:1008 advance/theme-options.php:1014
+#: advance/theme-options.php:1066 advance/theme-options.php:2171
+#: advance/theme-options.php:2178 advance/theme-options.php:2185
+#: advance/theme-options.php:2297 advance/theme-options.php:2304
+#: advance/theme-options.php:2386 advance/theme-options.php:2393
+#: advance/theme-options.php:2538 advance/theme-options.php:2544
+#: advance/theme-options.php:2550 advance/theme-options.php:2673
+#: advance/theme-options.php:2680 advance/theme-options.php:2763
+#: advance/theme-options.php:2769 advance/theme-options.php:2775
+#: advance/theme-options.php:2898 advance/theme-options.php:2905
+#: advance/theme-options.php:3045 advance/theme-options.php:3051
+#: advance/theme-options.php:3057 advance/theme-options.php:3194
+#: advance/theme-options.php:3204 advance/theme-options.php:3671
+#: advance/theme-options.php:3678 advance/theme-options.php:4170
+#: advance/theme-options.php:4177 advance/theme-options.php:6188
+#: advance/theme-options.php:6195 advance/theme-options.php:6975
+#: advance/theme-options.php:6982 advance/theme-options.php:7302
+#: advance/theme-options.php:7309
+msgid "Links"
+msgstr "リンク"
+
+#: advance/theme-options.php:514 advance/theme-options.php:957
+#: advance/theme-options.php:1473 advance/theme-options.php:2201
+#: advance/theme-options.php:2330 advance/theme-options.php:2400
+#: advance/theme-options.php:3704 advance/theme-options.php:4202
+#: advance/theme-options.php:5352 advance/theme-options.php:6220
+#: advance/theme-options.php:7007 advance/theme-options.php:7334
+msgid "Text transform"
+msgstr "テキストの変換"
+
+#: advance/theme-options.php:532
+msgid "Closing button"
+msgstr "閉じるボタン"
+
+#: advance/theme-options.php:532 advance/theme-options.php:1838
+#: advance/theme-options.php:2004
+msgid "Text"
+msgstr "テキスト"
+
+#: advance/theme-options.php:533
+msgid "If no text is given, \"X\" will appear instead."
+msgstr "テキストがない場合は代わりに「X」が表示されます。"
+
+#: advance/theme-options.php:542 advance/theme-options.php:551
+msgid "Theme Header"
+msgstr "テーマヘッダー"
+
+#: advance/theme-options.php:543
+msgid ""
+"Theme header is a place where you usually find the logo of your site, main "
+"menu, and a few other elements."
+msgstr ""
+"テーマヘッダーには通常、サイトのロゴやメインメニュー、その他の要素を配置しま"
+"す。"
+
+#: advance/theme-options.php:552
+msgid ""
+"If you do not plan to use theme header or want to replace it with something "
+"else, just disable it here."
+msgstr ""
+"テーマヘッダーを使用しないか、別に準備する場合は、ここでテーマヘッダーを無効"
+"にしてください。"
+
+#: advance/theme-options.php:560 advance/theme-options.php:568
+msgid "Footer"
+msgstr "フッター"
+
+#: advance/theme-options.php:601
+msgid ""
+"It makes the footer uncover while you are scrolling the page to the bottom."
+msgstr "ページを下方にスクロールしている間、フッターを表示しません。"
+
+#: advance/theme-options.php:612
+msgid "Widgets columns number"
+msgstr "ウィジェットの列数"
+
+#: advance/theme-options.php:614
+msgid "1"
+msgstr "1"
+
+#: advance/theme-options.php:615
+msgid "2"
+msgstr "2"
+
+#: advance/theme-options.php:616
+msgid "3"
+msgstr "3"
+
+#: advance/theme-options.php:617
+msgid "4"
+msgstr "4"
+
+#: advance/theme-options.php:618
+msgid "5"
+msgstr "5"
+
+#: advance/theme-options.php:636
+msgid "Privacy Policy Link"
+msgstr "プライバシーポリシーへのリンク"
+
+#: advance/theme-options.php:637
+msgid ""
+"Since WordPress 4.9.6 there is an option to set Privacy Policy page. If you "
+"enable this option it will display a link to it in the footer after footer "
+"content."
+msgstr ""
+"WordPress 4.9.6 からプライバシーポリシーページの設定オプションがあります。有"
+"効にするとフッターコンテンツの後にプライバシーポリシーページへのリンクが表示"
+"されます。"
+
+#: advance/theme-options.php:637
+msgid "Here you can set your Privacy Policy page"
+msgstr "プライバシーポリシーページを設定する"
+
+#: advance/theme-options.php:648 advance/theme-options.php:1771
+#: advance/theme-options.php:2445
+#, php-format
+msgid ""
+"If you need to edit social links go to <a href=\"%s\">Social icons</a> "
+"settings."
+msgstr "SNS アイコンは <a href=\"%s\">SNS アイコンの設定</a> で編集できます。"
+
+#: advance/theme-options.php:692 advance/theme-options.php:1634
+msgid "Narrow"
+msgstr "狭く"
+
+#: advance/theme-options.php:702
+msgid "Style"
+msgstr "スタイル"
+
+#: advance/theme-options.php:704 advance/theme-options.php:1669
+msgid "Classic"
+msgstr "クラシック"
+
+#: advance/theme-options.php:722 advance/theme-options.php:764
+#: advance/theme-options.php:788 advance/theme-options.php:797
+#: advance/theme-options.php:806
+msgid "Lower part"
+msgstr "画面下の部分"
+
+#: advance/theme-options.php:723
+msgid ""
+"If you want to have a different color in the lower part than in the footer "
+"widgets."
+msgstr "フッターウィジェットより下の領域に別の色を配置したい場合。"
+
+#: advance/theme-options.php:731 advance/theme-options.php:842
+#: advance/theme-options.php:1757 advance/theme-options.php:5266
+msgid "Widgets colors"
+msgstr "ウィジェットの色"
+
+#: advance/theme-options.php:732 advance/theme-options.php:843
+#: advance/theme-options.php:1758 advance/theme-options.php:5267
+msgid "Depending on what background you have set up, choose proper option."
+msgstr "設定した背景に応じて、適切なオプションを選択してください。"
+
+#: advance/theme-options.php:734 advance/theme-options.php:845
+#: advance/theme-options.php:1760 advance/theme-options.php:5269
+msgid "On dark"
+msgstr "暗く"
+
+#: advance/theme-options.php:735 advance/theme-options.php:846
+#: advance/theme-options.php:1761 advance/theme-options.php:5270
+msgid "On light"
+msgstr "明るく"
+
+#: advance/theme-options.php:744
+msgid "Separator between widgets and footer content"
+msgstr "ウィジェットとフッターコンテンツの間のセパレータ"
+
+#: advance/theme-options.php:753
+msgid "Separator"
+msgstr "セパレータ"
+
+#: advance/theme-options.php:764 advance/theme-options.php:776
+#: advance/theme-options.php:832 advance/theme-options.php:964
+#: advance/theme-options.php:974 advance/theme-options.php:1020
+#: advance/theme-options.php:1349 advance/theme-options.php:1359
+#: advance/theme-options.php:1403 advance/theme-options.php:1456
+#: advance/theme-options.php:2028 advance/theme-options.php:2145
+#: advance/theme-options.php:2311 advance/theme-options.php:3330
+#: advance/theme-options.php:3685 advance/theme-options.php:4184
+#: advance/theme-options.php:5256 advance/theme-options.php:5335
+#: advance/theme-options.php:6202 advance/theme-options.php:6989
+#: advance/theme-options.php:7316
+msgid "Font size"
+msgstr "フォントサイズ"
+
+#: advance/theme-options.php:776
+msgid "Widgets part"
+msgstr "ウィジェット部分"
+
+#: advance/theme-options.php:789 advance/theme-options.php:798
+#: advance/theme-options.php:807
+msgid "Does not work for footer widgets."
+msgstr "フッターウィジェットには作用しません。"
+
+#: advance/theme-options.php:817
+msgid ""
+"It is active only if it contains active widgets. After activation, displays "
+"the opening button in the header."
+msgstr ""
+"アクティブなウィジェットを含む場合のみ有効化されます。有効化するとヘッダーに"
+"開くボタンが表示されます。"
+
+#: advance/theme-options.php:853 advance/theme-options.php:1583
+#: advance/theme-options.php:1594
+msgid "Side"
+msgstr "横位置"
+
+#: advance/theme-options.php:863 advance/theme-options.php:3633
+msgid "Opening effect"
+msgstr "開く際の効果"
+
+#: advance/theme-options.php:865
+msgid "Slide in on top"
+msgstr "本文の上にスライドイン"
+
+#: advance/theme-options.php:866
+msgid "Reveal"
+msgstr "本文の下から出現"
+
+#: advance/theme-options.php:867
+msgid "Push"
+msgstr "本文を横に押し出す"
+
+#: advance/theme-options.php:868
+msgid "Slide along"
+msgstr "スライドインしながら拡張"
+
+#: advance/theme-options.php:869
+msgid "Reverse slide out"
+msgstr "本文側からスライドイン"
+
+#: advance/theme-options.php:870
+msgid "Fall down"
+msgstr "上から落下"
+
+#: advance/theme-options.php:878
+msgid "Fonts settings"
+msgstr "フォント設定"
+
+#: advance/theme-options.php:887
+msgid "Font for main navigation menu and overlay menu:"
+msgstr "メインナビゲーションとオーバーレイメニュー:"
+
+#: advance/theme-options.php:897
+msgid "Font for Titles/Headings:"
+msgstr "タイトル / ヘッダー:"
+
+#: advance/theme-options.php:907
+msgid "Font for normal(content) text:"
+msgstr "通常の本文テキスト:"
+
+#: advance/theme-options.php:917
+msgid "Font for text logo:"
+msgstr "テキストロゴ:"
+
+#: advance/theme-options.php:928
+msgid "Headings"
+msgstr "見出し"
+
+#: advance/theme-options.php:950 advance/theme-options.php:1466
+#: advance/theme-options.php:2039 advance/theme-options.php:2193
+#: advance/theme-options.php:2322 advance/theme-options.php:3342
+#: advance/theme-options.php:3696 advance/theme-options.php:4194
+#: advance/theme-options.php:5345 advance/theme-options.php:6212
+#: advance/theme-options.php:6999 advance/theme-options.php:7326
+msgid "Font weight"
+msgstr "フォントウエイト"
+
+#: advance/theme-options.php:964 advance/theme-options.php:974
+#: advance/theme-options.php:1349
+msgid "Main titles"
+msgstr "メインタイトル"
+
+#: advance/theme-options.php:974 advance/theme-options.php:1927
+#: advance/theme-options.php:1958 advance/theme-options.php:2061
+#: advance/theme-options.php:2982 advance/theme-options.php:3011
+msgid "on mobile devices"
+msgstr "モバイルデバイスの場合"
+
+#: advance/theme-options.php:975
+msgid "It will be used on devices less than 768 pixels wide."
+msgstr "横 768 ピクセル以下のデバイスで使用されます。"
+
+#: advance/theme-options.php:996
+msgid ""
+"It will change the default white background color that is set under content "
+"on pages, blog, posts, works, and albums."
+msgstr ""
+"固定ページ、ブログ、投稿、ワーク、アルバムなどのデフォルトの白い背景色を変更"
+"します。"
+
+#: advance/theme-options.php:1030 advance/theme-options.php:1038
+msgid "First paragraph"
+msgstr "最初の段落"
+
+#: advance/theme-options.php:1030
+msgid "Highlight"
+msgstr "強調"
+
+#: advance/theme-options.php:1031
+msgid ""
+"If enabled, it highlights(font size and color) the first paragraph in the "
+"content(blog, post, page)."
+msgstr ""
+"有効にすると、ブログ、投稿、固定ページなどのコンテンツの最初の段落をフォント"
+"のサイズや色を変更して強調します。"
+
+#: advance/theme-options.php:1047
+msgid ""
+"These icons will be used in various places across theme if you decide to "
+"activate them."
+msgstr "ここで指定したアイコンはテーマのさまざまな場所で使用されます。"
+
+#: advance/theme-options.php:1055
+msgid "Type of icons"
+msgstr "アイコンの種類"
+
+#: advance/theme-options.php:1057
+msgid "Squares"
+msgstr "四角"
+
+#: advance/theme-options.php:1058
+msgid "Circles"
+msgstr "丸"
+
+#: advance/theme-options.php:1059
+msgid "Only icons"
+msgstr "アイコンのみ"
+
+#: advance/theme-options.php:1067
+msgid ""
+"Drag and drop to change order of icons. Only filled links will show up as "
+"social icons."
+msgstr ""
+"ドラッグ & ドロップしてアイコンの順序を変更できます。アドレスを入力した SNS "
+"アイコンのみが表示されます。"
+
+#: advance/theme-options.php:1076
+msgid "Lightbox settings"
+msgstr "ライトボックス設定"
+
+#: advance/theme-options.php:1077
+msgid ""
+"If you wish to use some other plugin/script for images and items, you can "
+"switch off default theme lightbox. If you are planning to use different "
+"lightbox script instead, then you will have to do some extra work with "
+"scripting to make it work in every theme place."
+msgstr ""
+"画像やアイテムのライトボックスに別のプラグインやスクリプトを使用する場合、"
+"テーマのデフォルトのライトボックスを無効にできます。テーマのすべての場所で別"
+"のスクリプトを使用してライトボックスを表示するには追加の作業が必要です。"
+
+#: advance/theme-options.php:1085
+msgid "Theme lightbox"
+msgstr "テーマのライトボックス"
+
+#: advance/theme-options.php:1087 advance/theme-options.php:1104
+#: advance/theme-options.php:1145 advance/theme-options.php:1155
+#: advance/theme-options.php:1166 advance/theme-options.php:1176
+#: advance/theme-options.php:1184 advance/theme-options.php:1192
+#: advance/theme-options.php:1202 advance/theme-options.php:1210
+#: advance/theme-options.php:1218 advance/theme-options.php:1226
+#: advance/theme-options.php:1234 advance/theme-options.php:1242
+#: advance/theme-options.php:1250 advance/theme-options.php:1258
+#: advance/theme-options.php:1266 advance/theme-options.php:1275
+#: advance/theme-options.php:1282 advance/theme-options.php:1289
+#: advance/theme-options.php:1296 advance/theme-options.php:1303
+#: advance/theme-options.php:1310 advance/theme-options.php:1317
+#: advance/theme-options.php:1324
+msgid "Light Gallery"
+msgstr "Light Gallery"
+
+#: advance/theme-options.php:1095
+msgid "Use theme lightbox for images in posts"
+msgstr "投稿の画像にテーマのライトボックスを使用する"
+
+#: advance/theme-options.php:1096
+msgid ""
+"If enabled, the theme will use a lightbox to display images in the post "
+"content. To work properly, Images should link to \"Media File\"."
+msgstr ""
+"有効にするとテーマは投稿コンテンツの画像を表示する際にライトボックスを使用し"
+"ます。正しく動作するには画像は「メディアファイル」にリンクしてください。"
+
+#: advance/theme-options.php:1155
+msgid "Preload items"
+msgstr "プリロード項目"
+
+#: advance/theme-options.php:1156
+msgid "How many previous and next items should be preloaded."
+msgstr "前後いくつの項目をプリロードするか。"
+
+#: advance/theme-options.php:1166
+msgid "Delay of hiding the interface"
+msgstr "インターフェースを消すまでの遅延"
+
+#: advance/theme-options.php:1184
+msgid "Progress bar"
+msgstr "進捗バー"
+
+#: advance/theme-options.php:1210 advance/theme-options.php:1218
+#: advance/theme-options.php:1226 advance/theme-options.php:1234
+#: advance/theme-options.php:1242
+msgid "Controls"
+msgstr "コントロール"
+
+#: advance/theme-options.php:1210
+msgid "Download"
+msgstr "ダウンロード"
+
+#: advance/theme-options.php:1218
+msgid "Full screen"
+msgstr "全画面"
+
+#: advance/theme-options.php:1250
+msgid "Counter"
+msgstr "カウンター"
+
+#: advance/theme-options.php:1282 advance/theme-options.php:1289
+#: advance/theme-options.php:1296 advance/theme-options.php:1303
+msgid "Semi transparent elements"
+msgstr "半透過要素"
+
+#: advance/theme-options.php:1333
+msgid "Widgets"
+msgstr "ウィジェット"
+
+#: advance/theme-options.php:1341
+msgid "Top margin"
+msgstr "トップマージン"
+
+#: advance/theme-options.php:1342 advance/theme-options.php:1360
+msgid "It only affects the widgets in the vertical sidebars."
+msgstr "垂直サイドバー内のウィジェットにのみ適用されます。"
+
+#: advance/theme-options.php:1371
+msgid "To top button"
+msgstr "先頭に戻るボタン"
+
+#: advance/theme-options.php:1391 advance/theme-options.php:1397
+#: advance/theme-options.php:1403 advance/theme-options.php:1413
+#: advance/theme-options.php:3402 advance/theme-options.php:3413
+#: advance/theme-options.php:3425 advance/theme-options.php:3452
+#: advance/theme-options.php:3462 advance/theme-options.php:3474
+#: advance/theme-options.php:3484 advance/theme-options.php:3494
+#: advance/theme-options.php:3506 advance/theme-options.php:3516
+#: advance/theme-options.php:3527 advance/theme-options.php:3539
+#: advance/theme-options.php:3566 advance/theme-options.php:3577
+#: advance/theme-options.php:3589
+msgid "Icon"
+msgstr "アイコン"
+
+#: advance/theme-options.php:1423 advance/theme-options.php:5278
+msgid "Buttons"
+msgstr "ボタン"
+
+#: advance/theme-options.php:1424
+msgid ""
+"You can change here colors of buttons that submit forms. For shop buttons, "
+"go to the shop settings."
+msgstr ""
+"フォームの「送信」ボタンの色を変更できます。ショップ関連のボタンについては、"
+"ショップ設定で変更できます。"
+
+#: advance/theme-options.php:1480 advance/theme-options.php:2047
+#: advance/theme-options.php:2061 advance/theme-options.php:2997
+#: advance/theme-options.php:3011 advance/theme-options.php:4149
+#: advance/theme-options.php:5359 advance/theme-options.php:6167
+#: advance/theme-options.php:6954 advance/theme-options.php:7281
+msgid "Padding"
+msgstr "パディング"
+
+#: advance/theme-options.php:1493
+msgid "Border radius"
+msgstr "四隅の角丸"
+
+#: advance/theme-options.php:1504 advance/theme-options.php:1512
+msgid "Flyout box"
+msgstr "フライアウトボックス"
+
+#: advance/theme-options.php:1527 advance/theme-options.php:2243
+#: advance/theme-options.php:2270
+msgid "Opening icon"
+msgstr "開くアイコン"
+
+#: advance/theme-options.php:1541
+msgid "Header settings"
+msgstr "ヘッダー設定"
+
+#: advance/theme-options.php:1550
+msgid "Type, variant, background"
+msgstr "タイプ、プリセット、背景"
+
+#: advance/theme-options.php:1560
+msgid "The vertical header does not work in a boxed layout."
+msgstr "垂直ヘッダーはボックスレイアウトで動作しません。"
+
+#: advance/theme-options.php:1562
+msgid "Vertical"
+msgstr "垂直"
+
+#: advance/theme-options.php:1563 advance/theme-options.php:3834
+msgid "Horizontal"
+msgstr "水平"
+
+#: advance/theme-options.php:1570
+msgid "Sticky version"
+msgstr "先頭固定用のヘッダー"
+
+#: advance/theme-options.php:1572
+msgid "Hiding when scrolling down"
+msgstr "スクロールダウン時に隠す"
+
+#: advance/theme-options.php:1573
+msgid "No hiding sticky"
+msgstr "使用する"
+
+#: advance/theme-options.php:1574
+msgid "Disabled, show only default header(not fixed)"
+msgstr "使用しない。デフォルトヘッダーを表示する。先頭には固定しない"
+
+#: advance/theme-options.php:1575
+msgid "Disabled, show only default header fixed"
+msgstr "使用しない。デフォルトヘッダーを表示する。先頭に固定する"
+
+#: advance/theme-options.php:1594 advance/theme-options.php:3818
+#: advance/theme-options.php:4264 advance/theme-options.php:4603
+#: advance/theme-options.php:4888 advance/theme-options.php:5440
+msgid "in RTL languages"
+msgstr "RTL 言語"
+
+#: advance/theme-options.php:1607
+msgid "One line, logo on side"
+msgstr "1行で表示し、ロゴは横"
+
+#: advance/theme-options.php:1608
+msgid "One line, menu centered"
+msgstr "1行で表示し、メニューは中央"
+
+#: advance/theme-options.php:1609 advance/theme-options.php:1874
+#: advance/theme-options.php:2094
+msgid "One line, logo centered"
+msgstr "1行で表示し、ロゴは中央"
+
+#: advance/theme-options.php:1610
+msgid "Logo centered, menu below"
+msgstr "ロゴは中央で、メニューはその下"
+
+#: advance/theme-options.php:1611
+msgid "Logo centered, menu above"
+msgstr "ロゴは中央で、メニューはその上"
+
+#: advance/theme-options.php:1619
+msgid "Header color variants"
+msgstr "ヘッダー色プリセット"
+
+#: advance/theme-options.php:1620
+msgid ""
+"If you want to use theme header color variants(light and dark variants) or "
+"the sticky header variant, then enable this option. Some settings of the "
+"header can then be overridden in color & sticky variants."
+msgstr ""
+"テーマヘッダー色プリセット「ライト」「ダーク」、先頭固定ヘッダープリセットを"
+"使用する場合は有効にしてください。ヘッダー設定のいくつかは色プリセットや先頭"
+"固定プリセットで上書きされます。"
+
+#: advance/theme-options.php:1623
+msgid "Turn on only for a sticky variant"
+msgstr "先頭固定プリセットの場合のみオン"
+
+#: advance/theme-options.php:1632
+msgid "Content width"
+msgstr "コンテンツの幅"
+
+#: advance/theme-options.php:1643
+msgid "Narrow the entire header as well"
+msgstr "ヘッダー全体も同様に狭める"
+
+#: advance/theme-options.php:1670 advance/theme-options.php:3833
+msgid "Vertical centered"
+msgstr "垂直 + 中央"
+
+#: advance/theme-options.php:1678
+msgid "Center the entire content"
+msgstr "コンテンツ全体を中央"
+
+#: advance/theme-options.php:1693
+msgid "Useful in special cases, like when you make a transparent header."
+msgstr "透明なヘッダーを使用する場合など特殊なケースで有用です。"
+
+#: advance/theme-options.php:1714 advance/theme-options.php:2563
+#: advance/theme-options.php:2788 advance/theme-options.php:3070
+msgid "Part of the header menu"
+msgstr "ヘッダーメニューの一部"
+
+#: advance/theme-options.php:1715 advance/theme-options.php:2564
+#: advance/theme-options.php:2789 advance/theme-options.php:3071
+msgid "Only for multi-line variants of the header."
+msgstr "ヘッダーの複数行プリセットのみ"
+
+#: advance/theme-options.php:1727 advance/theme-options.php:2371
+msgid "Bottom border"
+msgstr "領域の下部"
+
+#: advance/theme-options.php:1735 advance/theme-options.php:2582
+#: advance/theme-options.php:2807 advance/theme-options.php:3089
+msgid "Shadow"
+msgstr "影"
+
+#: advance/theme-options.php:1742 advance/theme-options.php:2589
+#: advance/theme-options.php:2814 advance/theme-options.php:3096
+msgid "Separator and lines color"
+msgstr "セパレータと線の色"
+
+#: advance/theme-options.php:1801 advance/theme-options.php:2355
+#: advance/theme-options.php:3383
+msgid "Display it on mobiles"
+msgstr "モバイル時に表示"
+
+#: advance/theme-options.php:1802 advance/theme-options.php:2356
+#: advance/theme-options.php:3384
+msgid "Should it be displayed on devices less than 600 pixels wide."
+msgstr "幅600ピクセル以下のデバイスで表示されます。"
+
+#: advance/theme-options.php:1814 advance/theme-options.php:2495
+#: advance/theme-options.php:2506 advance/theme-options.php:2518
+#: advance/theme-options.php:2528 advance/theme-options.php:2720
+#: advance/theme-options.php:2731 advance/theme-options.php:2743
+#: advance/theme-options.php:2753 advance/theme-options.php:2944
+#: advance/theme-options.php:2955 advance/theme-options.php:2967
+#: advance/theme-options.php:2982 advance/theme-options.php:2997
+#: advance/theme-options.php:3011 advance/theme-options.php:3025
+#: advance/theme-options.php:3035
+msgid "Logo"
+msgstr "ロゴ"
+
+#: advance/theme-options.php:1823
+msgid "Use logos from header variants"
+msgstr "ヘッダープリセットからロゴを使用"
+
+#: advance/theme-options.php:1824
+msgid ""
+"If you want to be able to change the logo in header color variants (light "
+"and dark variants) or in the sticky header variant, then enable this option."
+msgstr ""
+"ヘッダー色プリセット「ライト」「ダーク」や先頭固定ヘッダープリセットからロゴ"
+"を変更する場合は有効にしてください。"
+
+#: advance/theme-options.php:1845
+msgid "Use the SVG logo"
+msgstr "SVG ロゴの使用"
+
+#: advance/theme-options.php:1854 advance/theme-options.php:1862
+#: advance/theme-options.php:2496 advance/theme-options.php:2507
+#: advance/theme-options.php:2721 advance/theme-options.php:2732
+#: advance/theme-options.php:2945 advance/theme-options.php:2956
+msgid "Upload an image for logo."
+msgstr "ロゴの画像をアップロードしてください。"
+
+#: advance/theme-options.php:1861 advance/theme-options.php:2506
+#: advance/theme-options.php:2731 advance/theme-options.php:2955
+msgid "Image for HIGH DPI screen"
+msgstr "高 DPI 画面の画像"
+
+#: advance/theme-options.php:1862 advance/theme-options.php:2507
+#: advance/theme-options.php:2732 advance/theme-options.php:2956
+msgid "For example Retina(iPhone/iPad) screen has HIGH DPI screen."
+msgstr "たとえば iPhone、iPad の Retina 画面は 高 DPI 画面です。"
+
+#: advance/theme-options.php:1872
+msgid "Use a shield for the logo"
+msgstr "ロゴにシールドを使用する"
+
+#: advance/theme-options.php:1874 advance/theme-options.php:2094
+#, php-format
+msgid "Works only in the horizontal header with the variant \"%s\"."
+msgstr "プリセット「%s」の水平ヘッダーでのみ適用されます。"
+
+#: advance/theme-options.php:1885 advance/theme-options.php:1896
+msgid "Shield"
+msgstr "シールド"
+
+#: advance/theme-options.php:1897
+msgid "If your logo does not fit in the shield, try increasing this setting."
+msgstr "ロゴがシールドに合わない場合はこの設定を増やしてください。"
+
+#: advance/theme-options.php:1911 advance/theme-options.php:2935
+msgid "Sticky header"
+msgstr "先頭固定ヘッダー"
+
+#: advance/theme-options.php:1911 advance/theme-options.php:1927
+msgid "How many percent logo should fold up"
+msgstr "何%のロゴを折り返すか"
+
+#: advance/theme-options.php:1912
+msgid "Works only with the sticky header."
+msgstr "固定ヘッダーにのみ適用されます。"
+
+#: advance/theme-options.php:1912 advance/theme-options.php:1928
+msgid ""
+"How many percent(%) of the logo should be hidden by folding up. The "
+"percentage is counted from the header height, not the shield height, so you "
+"may need to use values above 100%."
+msgstr ""
+"ロゴの何%を折り返して隠すかを指定します。シールドではなくヘッダーの高さに対す"
+"る割合のため、100%を超える場合もあります。"
+
+#: advance/theme-options.php:1928 advance/theme-options.php:1959
+#: advance/theme-options.php:2062 advance/theme-options.php:2983
+#: advance/theme-options.php:3012
+msgid "It works only on mobile devices(1024px wide or less)."
+msgstr "モバイルデバイス(1024px以下の横幅)の場合のみ適用されます。"
+
+#: advance/theme-options.php:1943 advance/theme-options.php:1958
+#: advance/theme-options.php:2967 advance/theme-options.php:2982
+msgid "Max width"
+msgstr "最大幅"
+
+#: advance/theme-options.php:1943 advance/theme-options.php:2047
+#: advance/theme-options.php:2967 advance/theme-options.php:2997
+msgid "on desktop"
+msgstr "デスクトップの場合"
+
+#: advance/theme-options.php:1972
+msgid "Height"
+msgstr "高さ"
+
+#: advance/theme-options.php:1973
+msgid "Leave empty if you do not need anything fancy"
+msgstr "必要ない場合は空白にしてください"
+
+#: advance/theme-options.php:2005
+msgid ""
+"If you use more than one word in the logo, you can use <code>&amp;nbsp;</"
+"code> instead of a white space, so the words will not break into many lines."
+msgstr ""
+"ロゴに複数単語を使用する場合は空白の代わりに<code>&amp;nbsp;</code>を使用して"
+"ください。途中での折り返しを防ぎます。"
+
+#: advance/theme-options.php:2007
+#, php-format
+msgid ""
+"If you want to change the font for logo go to <a href=\"%s\">Font settings</"
+"a>."
+msgstr ""
+"ロゴのフォントを変更する場合は<a href=\"%s\">フォント設定</a>にアクセスしてく"
+"ださい。"
+
+#: advance/theme-options.php:2076 advance/theme-options.php:2085
+#: advance/theme-options.php:2538 advance/theme-options.php:2544
+#: advance/theme-options.php:2550 advance/theme-options.php:2763
+#: advance/theme-options.php:2769 advance/theme-options.php:2775
+#: advance/theme-options.php:3045 advance/theme-options.php:3051
+#: advance/theme-options.php:3057
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+#: advance/theme-options.php:2092
+msgid "Reserved space for the main menu"
+msgstr "メインメニューのため予約された空白"
+
+#: advance/theme-options.php:2094
+msgid ""
+"By default, 70% width is reserved for the main menu in this header variant. "
+"You can increase this value if it is not enough for the menu."
+msgstr ""
+"デフォルトではこのヘッダープリセットで70%の幅がメインメニューに予約されていま"
+"す。十分でない場合はこの値を増やしてください。"
+
+#: advance/theme-options.php:2109 advance/theme-options.php:2186
+#: advance/theme-options.php:2551 advance/theme-options.php:2776
+#: advance/theme-options.php:3058 advance/theme-options.php:3619
+msgid "It works only for first level links."
+msgstr "第1レベルのリンクのみに適用されます。"
+
+#: advance/theme-options.php:2117 advance/theme-options.php:2138
+#: advance/theme-options.php:2576 advance/theme-options.php:2801
+#: advance/theme-options.php:3083 advance/theme-options.php:3402
+#: advance/theme-options.php:3413 advance/theme-options.php:3425
+#: advance/theme-options.php:3438
+msgid "Mobile menu"
+msgstr "モバイルメニュー"
+
+#: advance/theme-options.php:2117 advance/theme-options.php:3648
+msgid "Close menu after click"
+msgstr "クリック後にメニューを閉じる"
+
+#: advance/theme-options.php:2118
+msgid ""
+"After turning on the mobile menu will be closed after clicking the link "
+"menu. This option is good for \"one page\" sites. For traditional websites, "
+"it is recommended to disable this option."
+msgstr ""
+"このオプションを有効にすると、モバイルメニューのリンクをクリックするとモバイ"
+"ルメニューが閉じます。これはシングルページのサイトで有用です。通常の Web サイ"
+"トではこのオプションを無効にしてください。"
+
+#: advance/theme-options.php:2126
+msgid "Allow for the mobile menu"
+msgstr "モバイルメニューを許可する"
+
+#: advance/theme-options.php:2127
+msgid ""
+"If you disable this then menu will not switch to mobile menu. You should "
+"consider disabling this option only if you have a clean header with a short "
+"menu."
+msgstr ""
+"無効にするとモバイルメニューに切り替わりません。ヘッダーがシンプルでメニュー"
+"が短いサイトの場合のみ無効にしてください。"
+
+#: advance/theme-options.php:2156
+msgid "Menu item height"
+msgstr "メニュー項目の高さ"
+
+#: advance/theme-options.php:2178 advance/theme-options.php:2185
+#: advance/theme-options.php:2304 advance/theme-options.php:2393
+#: advance/theme-options.php:2544 advance/theme-options.php:2550
+#: advance/theme-options.php:2602 advance/theme-options.php:2680
+#: advance/theme-options.php:2769 advance/theme-options.php:2775
+#: advance/theme-options.php:2827 advance/theme-options.php:2905
+#: advance/theme-options.php:3051 advance/theme-options.php:3057
+#: advance/theme-options.php:3109 advance/theme-options.php:3204
+#: advance/theme-options.php:3254 advance/theme-options.php:4177
+#: advance/theme-options.php:6195 advance/theme-options.php:6982
+#: advance/theme-options.php:7309
+msgid "on hover/active"
+msgstr "マウスホバー時 / アクティブ時"
+
+#: advance/theme-options.php:2209 advance/theme-options.php:2235
+#: advance/theme-options.php:2243 advance/theme-options.php:2257
+#: advance/theme-options.php:2297 advance/theme-options.php:2304
+#: advance/theme-options.php:2311 advance/theme-options.php:2322
+#: advance/theme-options.php:2330
+msgid "Submenu/Mega-Menu"
+msgstr "サブメニュー / メガメニュー"
+
+#: advance/theme-options.php:2216
+msgid "Mega-Menu separator color"
+msgstr "メガメニューのセパレーターの色"
+
+#: advance/theme-options.php:2223
+msgid "Keep the submenu open for the current page"
+msgstr "現行ページのサブメニューは開いたままにする"
+
+#: advance/theme-options.php:2224
+msgid ""
+"If the current page has the link in a the submenu, this option opens the "
+"ancestor submenu."
+msgstr ""
+"現在のページがサブメニューにリンクを持つ場合、上位階層のサブメニューを開きま"
+"す。"
+
+#: advance/theme-options.php:2235
+msgid "Opening/Closing icons"
+msgstr "開閉アイコン"
+
+#: advance/theme-options.php:2257 advance/theme-options.php:2284
+#: advance/theme-options.php:3438 advance/theme-options.php:3552
+#: advance/theme-options.php:3602
+msgid "Closing icon"
+msgstr "閉じるアイコン"
+
+#: advance/theme-options.php:2270 advance/theme-options.php:2284
+msgid "Submenu 3rd level"
+msgstr "サブメニュー 第3レベル"
+
+#: advance/theme-options.php:2339 advance/theme-options.php:2348
+#: advance/theme-options.php:2659 advance/theme-options.php:2666
+#: advance/theme-options.php:2673 advance/theme-options.php:2680
+#: advance/theme-options.php:2687 advance/theme-options.php:2698
+#: advance/theme-options.php:2884 advance/theme-options.php:2891
+#: advance/theme-options.php:2898 advance/theme-options.php:2905
+#: advance/theme-options.php:2912 advance/theme-options.php:2923
+#: advance/theme-options.php:3166 advance/theme-options.php:3174
+#: advance/theme-options.php:3184 advance/theme-options.php:3194
+#: advance/theme-options.php:3204 advance/theme-options.php:3214
+#: advance/theme-options.php:3226
+msgid "Top bar"
+msgstr "トップバー"
+
+#: advance/theme-options.php:2408 advance/theme-options.php:2421
+msgid "Message part"
+msgstr "メッセージパート"
+
+#: advance/theme-options.php:2410
+msgid "Use message"
+msgstr "メッセージの使用"
+
+#: advance/theme-options.php:2412
+#, php-format
+msgid "Use the menu from the \"%s\" position"
+msgstr "「%s」位置からメニューを使用する"
+
+#: advance/theme-options.php:2421 advance/theme-options.php:3656
+#: advance/theme-options.php:4210 advance/theme-options.php:6228
+#: advance/theme-options.php:7015 advance/theme-options.php:7342
+msgid "Text align"
+msgstr "テキスト揃え"
+
+#: advance/theme-options.php:2475 advance/theme-options.php:3268
+#: advance/theme-options.php:3277
+msgid "Language switcher"
+msgstr "言語スイッチャー"
+
+#: advance/theme-options.php:2476 advance/theme-options.php:3269
+msgid "Shows only if the WPML plugin is enabled."
+msgstr "WPML プラグインが有効の場合のみ表示されます。"
+
+#: advance/theme-options.php:2485
+msgid "Variant light"
+msgstr "プリセット「ライト」"
+
+#: advance/theme-options.php:2485 advance/theme-options.php:2710
+#: advance/theme-options.php:2935
+msgid "Override normal settings"
+msgstr "通常設定の上書き"
+
+#: advance/theme-options.php:2487 advance/theme-options.php:2712
+#, php-format
+msgid "Read more in <a href=\"%s\">the documentation</a>."
+msgstr "詳細は<a href=\"%s\">ドキュメント</a>を参照してください。"
+
+#: advance/theme-options.php:2595 advance/theme-options.php:2602
+#: advance/theme-options.php:2820 advance/theme-options.php:2827
+#: advance/theme-options.php:3102 advance/theme-options.php:3109
+#: advance/theme-options.php:3239 advance/theme-options.php:3247
+#: advance/theme-options.php:3254 advance/theme-options.php:3394
+msgid "Tools icons"
+msgstr "ツールアイコン"
+
+#: advance/theme-options.php:2596 advance/theme-options.php:2603
+#: advance/theme-options.php:2821 advance/theme-options.php:2828
+#: advance/theme-options.php:3103 advance/theme-options.php:3110
+#: advance/theme-options.php:3248 advance/theme-options.php:3255
+msgid ""
+"Basket, sidebar, menu and search icons. It is also color for the text of "
+"\"Tools button\"."
+msgstr ""
+"バスケットサイドバー、メニュー、検索アイコン、「ツールボタン」テキストの色を"
+"設定できます。"
+
+#: advance/theme-options.php:2609 advance/theme-options.php:2616
+#: advance/theme-options.php:2623 advance/theme-options.php:2630
+#: advance/theme-options.php:2834 advance/theme-options.php:2841
+#: advance/theme-options.php:2848 advance/theme-options.php:2855
+#: advance/theme-options.php:3116 advance/theme-options.php:3123
+#: advance/theme-options.php:3130 advance/theme-options.php:3137
+#: advance/theme-options.php:3289 advance/theme-options.php:3313
+#: advance/theme-options.php:3321 advance/theme-options.php:3330
+#: advance/theme-options.php:3342 advance/theme-options.php:3351
+#: advance/theme-options.php:3359 advance/theme-options.php:3367
+#: advance/theme-options.php:3375 advance/theme-options.php:3383
+msgid "Tools button"
+msgstr "ツールボタン"
+
+#: advance/theme-options.php:2710
+msgid "Variant dark"
+msgstr "プリセット「ダーク」"
+
+#: advance/theme-options.php:2936
+msgid ""
+"You can change some options here to modify the appearance of the sticky "
+"header(if it is enabled)."
+msgstr "先頭固定ヘッダーのオプションを変更して外観を変えることができます。"
+
+#: advance/theme-options.php:3261
+msgctxt "tool"
+msgid "Search"
+msgstr "検索"
+
+#: advance/theme-options.php:3279
+msgid "Flags"
+msgstr "フラッグ"
+
+#: advance/theme-options.php:3280
+msgid "Codes"
+msgstr "コード"
+
+#: advance/theme-options.php:3290
+msgid "If left empty then the button will not be displayed."
+msgstr "空白のままにするとボタンは表示されません。"
+
+#: advance/theme-options.php:3313
+msgid "Link"
+msgstr "リンク"
+
+#: advance/theme-options.php:3321
+msgid "Open link in new tab"
+msgstr "新しいタブでリンクを開く"
+
+#: advance/theme-options.php:3394
+msgid "Individual icons"
+msgstr "独立アイコン"
+
+#: advance/theme-options.php:3405 advance/theme-options.php:3454
+#: advance/theme-options.php:3487 advance/theme-options.php:3518
+#: advance/theme-options.php:3568
+msgid "Default for the theme"
+msgstr "テーマのデフォルト"
+
+#: advance/theme-options.php:3406 advance/theme-options.php:3519
+#: advance/theme-options.php:3569
+msgid "Animated"
+msgstr "アニメーション"
+
+#: advance/theme-options.php:3425 advance/theme-options.php:3474
+#: advance/theme-options.php:3506 advance/theme-options.php:3539
+#: advance/theme-options.php:3589
+msgid "Size"
+msgstr "サイズ"
+
+#: advance/theme-options.php:3440 advance/theme-options.php:3554
+#: advance/theme-options.php:3604
+msgid "X"
+msgstr "X"
+
+#: advance/theme-options.php:3441 advance/theme-options.php:3555
+#: advance/theme-options.php:3605
+msgid "Left arrow"
+msgstr "左矢印"
+
+#: advance/theme-options.php:3442 advance/theme-options.php:3556
+#: advance/theme-options.php:3606
+msgid "Right arrow"
+msgstr "右矢印"
+
+#: advance/theme-options.php:3484 advance/theme-options.php:3494
+#: advance/theme-options.php:3506 advance/utilities/header.php:350
+#: advance/utilities/layout-parts.php:522
+msgctxt "action"
+msgid "Search"
+msgstr "検索"
+
+#: advance/theme-options.php:3566 advance/theme-options.php:3577
+#: advance/theme-options.php:3589 advance/theme-options.php:3602
+#: advance/theme-options.php:3617 advance/theme-options.php:3626
+msgid "Menu overlay"
+msgstr "メニューオーバーレイ"
+
+#: advance/theme-options.php:3619
+msgid "Enabling this will add a button that displays a full-screen menu."
+msgstr "有効にすると全画面メニューを表示するボタンが追加されます。"
+
+#: advance/theme-options.php:3635 advance/theme-options.php:5649
+#: advance/theme-options.php:5703
+msgid "Default"
+msgstr "デフォルト"
+
+#: advance/theme-options.php:3636
+msgid "Slide in from the top"
+msgstr "上方からスライドイン"
+
+#: advance/theme-options.php:3637
+msgid "Slide in from the left"
+msgstr "左からスライドイン"
+
+#: advance/theme-options.php:3638
+msgid "Slide in from the right"
+msgstr "右からスライドイン"
+
+#: advance/theme-options.php:3639
+msgid "Scale up"
+msgstr "スケールアップ"
+
+#: advance/theme-options.php:3640
+msgid "Growing circle"
+msgstr "拡張する円"
+
+#: advance/theme-options.php:3715
+msgid "Posts list refers to Blog, Search and Archives pages"
+msgstr "ブログ、検索、アーカイブページを参照する投稿"
+
+#: advance/theme-options.php:3723 advance/theme-options.php:4512
+#: advance/theme-options.php:5735 advance/theme-options.php:6533
+msgid "Background"
+msgstr "背景"
+
+#: advance/theme-options.php:3725
+msgid "This will be the default background for pages related to the blog."
+msgstr "ブログに関連するページのデフォルトの背景になります。"
+
+#: advance/theme-options.php:3732 advance/theme-options.php:4521
+#: advance/theme-options.php:5456 advance/theme-options.php:5744
+#: advance/theme-options.php:6542
+msgid "Custom background"
+msgstr "カスタム背景"
+
+#: advance/theme-options.php:3829
+msgid "Post look"
+msgstr "投稿の外観"
+
+#: advance/theme-options.php:3831
+msgid "Vertical no padding"
+msgstr "垂直 + パディングなし"
+
+#: advance/theme-options.php:3832
+msgid "Vertical with padding"
+msgstr "垂直 + パディング"
+
+#: advance/theme-options.php:3841 advance/theme-options.php:4643
+#: advance/theme-options.php:5927 advance/theme-options.php:6714
+msgid "How to place items in rows"
+msgstr "行ごとのアイテムの配置"
+
+#: advance/theme-options.php:3842 advance/theme-options.php:4644
+#: advance/theme-options.php:5928 advance/theme-options.php:6715
+msgid ""
+"If your items have different heights, you can start each row of items from a "
+"new line instead of the masonry style."
+msgstr ""
+"アイテムの高さが異なる場合、Masonry スタイルかアイテムの開始位置を揃えるかを"
+"選択できます。"
+
+#: advance/theme-options.php:3844 advance/theme-options.php:4646
+#: advance/theme-options.php:5930 advance/theme-options.php:6717
+msgid "Masonry"
+msgstr "Masonry"
+
+#: advance/theme-options.php:3845 advance/theme-options.php:4647
+#: advance/theme-options.php:5931 advance/theme-options.php:6718
+msgid "Each row from new line"
+msgstr "アイテムの行頭を揃える"
+
+#: advance/theme-options.php:3853 advance/theme-options.php:4655
+#: advance/theme-options.php:5939 advance/theme-options.php:6726
+msgid ""
+"It is a maximum number of columns displayed on larger devices. On smaller "
+"devices, it can be a lower number of columns."
+msgstr ""
+"横幅の大きなデバイスでの列の最大数。小さなデバイスでは数値を減らしてくださ"
+"い。"
+
+#: advance/theme-options.php:3886 advance/theme-options.php:3893
+#: advance/theme-options.php:4685 advance/theme-options.php:4692
+#: advance/theme-options.php:5986 advance/theme-options.php:5993
+#: advance/theme-options.php:6773 advance/theme-options.php:6780
+msgid "Lazy load"
+msgstr "遅延ロード"
+
+#: advance/theme-options.php:3895 advance/theme-options.php:4694
+#: advance/theme-options.php:5995 advance/theme-options.php:6782
+msgid "By clicking button"
+msgstr "ボタンのクリック時"
+
+#: advance/theme-options.php:3896 advance/theme-options.php:4695
+#: advance/theme-options.php:5996 advance/theme-options.php:6783
+msgid "On scroll"
+msgstr "スクロール時"
+
+#: advance/theme-options.php:3904
+msgid "Display \"Read more\" link"
+msgstr "「続きを読む」リンクの表示"
+
+#: advance/theme-options.php:3905
+msgid ""
+"Should \"Read more\" link be displayed after excerpts on blog list/search "
+"results."
+msgstr ""
+"投稿リストや検索結果の抜粋の後に「続きを読む」リンクを表示するかどうかを設定"
+"できます。"
+
+#: advance/theme-options.php:3912
+msgid "Type of post excerpts"
+msgstr "投稿の抜粋のタイプ"
+
+#: advance/theme-options.php:3914
+msgid ""
+"In the Manual mode, excerpts are used only if you add the \"Read More Tag"
+"\" (&lt;!--more--&gt;).<br /> In the Automatic mode, if you will not provide "
+"the \"Read More Tag\" or explicit excerpt, the content of the post will be "
+"truncated automatically.<br /> This setting only concerns blog list, archive "
+"list, search results."
+msgstr ""
+"「手動」モードでは「続きを読む」タグ (&lt;!--more--&gt;) が追加された場合のみ"
+"抜粋を使用します。<br />「自動」モードでは、「続きを読む」タグ、または明示的"
+"な抜粋が設定されない場合、投稿本文が自動的に切り出されます。<br />この設定は"
+"投稿リスト、アーカイブリスト、検索結果のみに適用されます。"
+
+#: advance/theme-options.php:3924
+msgid "Number of words to cut post"
+msgstr "投稿を切り出す語数"
+
+#: advance/theme-options.php:3925
+msgid "After this many words post will be cut in the automatic mode."
+msgstr "「自動」モードではこの語数を切り出します。"
+
+#: advance/theme-options.php:3936 advance/theme-options.php:4275
+msgid "Display post Media"
+msgstr "投稿のメディアの表示"
+
+#: advance/theme-options.php:3937
+msgid ""
+"You can set to not display post media(featured image/video/slider) inside of "
+"the post brick."
+msgstr ""
+"投稿タイル内で投稿のメディア (アイキャッチ画像、動画、スライダー) の表示を無"
+"効にできます。"
+
+#: advance/theme-options.php:3944
+msgid "Display of posts video"
+msgstr "投稿の動画の表示"
+
+#: advance/theme-options.php:3945
+msgid ""
+"You can set to display videos as featured image on posts list. This can "
+"speed up loading of pages with many posts(blog, archive, search results) "
+"when the videos are used."
+msgstr ""
+"投稿リストで動画をアイキャッチ画像として使用できます。動画が使用された多くの"
+"投稿 (ブログ、アーカイブ、検索結果) を含むページをロードする際のパフォーマン"
+"スを向上できます。"
+
+#: advance/theme-options.php:3952 advance/theme-options.php:3964
+#: advance/theme-options.php:3971 advance/theme-options.php:3978
+#: advance/theme-options.php:4291 advance/theme-options.php:4303
+#: advance/theme-options.php:4310 advance/theme-options.php:4317
+msgid "Post info"
+msgstr "投稿の情報"
+
+#: advance/theme-options.php:3952 advance/theme-options.php:4291
+msgid "Date of publish or last update"
+msgstr "投稿日または最終更新日"
+
+#: advance/theme-options.php:3953 advance/theme-options.php:4292
+msgid ""
+"You can't use both dates, because the Search Engine will not know which date "
+"is correct."
+msgstr ""
+"検索エンジンはどちらの日付が正しいかを判断できないため、両方の日付を設定する"
+"ことはできません。"
+
+#: advance/theme-options.php:3955 advance/theme-options.php:4294
+msgid "Published"
+msgstr "投稿日"
+
+#: advance/theme-options.php:3956 advance/theme-options.php:4295
+msgid "Updated"
+msgstr "更新日"
+
+#: advance/theme-options.php:3964 advance/theme-options.php:4303
+msgid "Author"
+msgstr "投稿者"
+
+#: advance/theme-options.php:3971 advance/theme-options.php:4310
+msgid "Comments number"
+msgstr "コメント数"
+
+#: advance/theme-options.php:3978 advance/theme-options.php:4317
+#: advance/theme-options.php:6004 no-content.php:31
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: advance/theme-options.php:3985 advance/theme-options.php:4324
+msgid "Tags"
+msgstr "タグ"
+
+#: advance/theme-options.php:3986 advance/theme-options.php:4325
+msgid "Displays list of post tags under a post content."
+msgstr "投稿本文の下に投稿タグのリストを表示します。"
+
+#: advance/theme-options.php:4133 advance/theme-options.php:4142
+#: advance/theme-options.php:6151 advance/theme-options.php:6160
+#: advance/theme-options.php:6938 advance/theme-options.php:6947
+#: advance/theme-options.php:7274
+msgid "Filter"
+msgstr "フィルター"
+
+#: advance/theme-options.php:4219 advance/theme-options.php:4342
+msgid "Single post"
+msgstr "単一の投稿"
+
+#: advance/theme-options.php:4276
+msgid ""
+"You can set to not display post media(featured image/video/slider) inside of "
+"the post."
+msgstr ""
+"投稿内で投稿のメディア (アイキャッチ画像、動画、スライダー) の表示を無効にで"
+"きます。"
+
+#: advance/theme-options.php:4283
+msgid "Author info"
+msgstr "投稿者の情報"
+
+#: advance/theme-options.php:4284
+msgid "Will show information about author below post content."
+msgstr "投稿本文の下に投稿者の情報を表示します。"
+
+#: advance/theme-options.php:4332
+msgid "Posts navigation"
+msgstr "投稿ナビゲーション"
+
+#: advance/theme-options.php:4333
+msgid "Links to next and prev post."
+msgstr "次の投稿、前の投稿へのリンク"
+
+#: advance/theme-options.php:4358 advance/theme-options.php:4932
+#: advance/theme-options.php:5501 advance/theme-options.php:6334
+msgid "Title position"
+msgstr "タイトルの位置"
+
+#: advance/theme-options.php:4513
+msgid ""
+"These options will work for all shop pages - product list, single product "
+"and other."
+msgstr ""
+"このオプションは商品リスト、単一の商品、その他すべてのショップページに適用さ"
+"れます。"
+
+#: advance/theme-options.php:4550 advance/theme-options.php:4713
+msgid "Products list"
+msgstr "商品リスト"
+
+#: advance/theme-options.php:4559
+msgid "Search in products instead of pages"
+msgstr "ページの代わりに商品を検索"
+
+#: advance/theme-options.php:4560
+msgid ""
+"It will change WordPress default search function to make shop search. So "
+"when this is activated search function in header or search widget will act "
+"as WooCommerece search widget."
+msgstr ""
+"WordPress 標準の検索機能をショップの検索に変更します。有効にすると、ヘッダー"
+"や検索ウィジェットの検索関数は WooCommerce 検索ウィジェットとして動作します。"
+
+#: advance/theme-options.php:4614 advance/theme-options.php:4624
+msgid "Look of products on list"
+msgstr "リスト上の商品の外観"
+
+#: advance/theme-options.php:4616
+msgid "Text as overlay"
+msgstr "テキストをオーバーレイ"
+
+#: advance/theme-options.php:4617
+msgid "Text under photo"
+msgstr "テキストを画像の下に"
+
+#: advance/theme-options.php:4626
+msgid "Texts to left"
+msgstr "テキストを左に"
+
+#: advance/theme-options.php:4627
+msgid "Texts to center"
+msgstr "テキストを中央に"
+
+#: advance/theme-options.php:4628
+msgid "Texts to right"
+msgstr "テキストを右に"
+
+#: advance/theme-options.php:4636
+msgid "Show second image of product on hover"
+msgstr "マウスホバー時、商品の第2画像を表示する"
+
+#: advance/theme-options.php:4665 advance/theme-options.php:5917
+#: advance/theme-options.php:6704
+msgid "Items per page"
+msgstr "ページ内の項目"
+
+#: advance/theme-options.php:4843 advance/theme-options.php:4916
+msgid "Single product"
+msgstr "単一の商品"
+
+#: advance/theme-options.php:4899
+msgid "Theme thumbnails"
+msgstr "テーマアイキャッチ画像"
+
+#: advance/theme-options.php:4900
+msgid "If disabled it will display standard WooCommerce thumbnails."
+msgstr "無効にすると標準の WooCommerce アイキャッチ画像を表示します。"
+
+#: advance/theme-options.php:4907
+msgid "Related products"
+msgstr "関連する商品"
+
+#: advance/theme-options.php:4908
+msgid "Should related products be displayed on single product page."
+msgstr "単一の商品ページに関連する商品を表示します。"
+
+#: advance/theme-options.php:5075 advance/theme-options.php:5111
+msgid "Other shop pages"
+msgstr "他のショップのページ"
+
+#: advance/theme-options.php:5076 advance/theme-options.php:5110
+msgid "Settings for cart, checkout, order received and my account pages."
+msgstr "カート、チェックアウト、受注、アカウントページの設定。"
+
+#: advance/theme-options.php:5240
+msgid "Pop up basket"
+msgstr "ポップアップバスケット"
+
+#: advance/theme-options.php:5241
+msgid ""
+"When WooCommerce is activated, button opening this basket will appear in the "
+"header. There also have to be some active widgets in \"Basket sidebar\" for "
+"this."
+msgstr ""
+"WooCommerce を有効化すると、このバスケットを開くボタンがヘッダーに表示されま"
+"す。また「バスケットサイドバー」にも有効なウィジェットが表示されます。"
+
+#: advance/theme-options.php:5279
+msgid ""
+"You can change here the colors of buttons used in the shop. Alternative "
+"buttons colors are used in various places in the shop."
+msgstr ""
+"ショップで使用されるボタンの色を変更できます。代替のボタンの色はショップ内の"
+"さまざまな場所で使用されます。"
+
+#: advance/theme-options.php:5311 advance/theme-options.php:5317
+#: advance/theme-options.php:5323 advance/theme-options.php:5329
+msgid "Alternative button"
+msgstr "代替ボタン"
+
+#: advance/theme-options.php:5374
+msgid "Page settings"
+msgstr "固定ページ設定"
+
+#: advance/theme-options.php:5383 advance/theme-options.php:5485
+msgid "Single page"
+msgstr "単一の固定ページ"
+
+#: advance/theme-options.php:5392 advance/theme-options.php:6246
+#: advance/theme-options.php:7163
+msgid "Comments"
+msgstr "コメント"
+
+#: advance/theme-options.php:5425 advance/theme-options.php:5441
+msgid "You can change it in each page settings."
+msgstr "各固定ページ設定で変更できます。"
+
+#: advance/theme-options.php:5428 advance/theme-options.php:5444
+msgid "Children Navigation + sidebar on the left"
+msgstr "左に子ページナビゲーション + サイドバー"
+
+#: advance/theme-options.php:5429 advance/theme-options.php:5445
+msgid "Only children Navigation on the left"
+msgstr "左に子ページナビゲーション"
+
+#: advance/theme-options.php:5431 advance/theme-options.php:5447
+msgid "Children Navigation + sidebar on the right"
+msgstr "右に子ページナビゲーション + サイドバー"
+
+#: advance/theme-options.php:5432 advance/theme-options.php:5448
+msgid "Only children Navigation on the right"
+msgstr "右に子ページナビゲーション"
+
+#: advance/theme-options.php:5638
+msgid "404 page template"
+msgstr "404ページテンプレート"
+
+#: advance/theme-options.php:5657 advance/theme-options.php:5711
+msgid "Default but I want to change the background image"
+msgstr "デフォルトの背景画像を変更する"
+
+#: advance/theme-options.php:5663 advance/theme-options.php:5686
+#: advance/theme-options.php:5717
+msgid "Choose the page as your template"
+msgstr "テンプレートとするページを選択してください"
+
+#: advance/theme-options.php:5670 advance/theme-options.php:5679
+msgid "Maintenance mode"
+msgstr "メンテナンスモード"
+
+#: advance/theme-options.php:5693
+msgid "Password protected page template"
+msgstr "パスワード保護ページテンプレート"
+
+#: advance/theme-options.php:5736
+msgid "These will work for Works list and single work."
+msgstr "ワークリストおよび単一のワークに適用されます。"
+
+#: advance/theme-options.php:5782 advance/theme-options.php:6580
+msgid "Main page"
+msgstr "メインページ"
+
+#: advance/theme-options.php:5783
+msgid ""
+"This page will list all your works and also give the main title for \"work "
+"category\" pages."
+msgstr ""
+"このページではすべてのワークのリストと、「ワークカテゴリー」ページのメインタ"
+"イトルを表示します。"
+
+#: advance/theme-options.php:5806
+msgid "How to open work"
+msgstr "ワークの開き方"
+
+#: advance/theme-options.php:5807
+msgid ""
+"\"In lightbox\" will load work content dynamically with JavaScript. Cause of "
+"that use JavaScripts plugins is very limited in such works. If you need page "
+"builder elements, then use normal mode."
+msgstr ""
+"「ライトボックス内」は JavaScript で動的にワークコンテンツを ロードします。こ"
+"のためワーク内での JavaScript プラグインの使用は非常に制限されます。ページビ"
+"ルダー要素が必要であれば通常モードを使用してください。"
+
+#: advance/theme-options.php:5810
+msgid "In lightbox"
+msgstr "ライトボックス内"
+
+#: advance/theme-options.php:5817 advance/theme-options.php:6604
+msgid "Hide titles of password protected items"
+msgstr "パスワード保護された項目のタイトルを隠す"
+
+#: advance/theme-options.php:5824
+msgid "Work look"
+msgstr "ワークの外観"
+
+#: advance/theme-options.php:5826 advance/theme-options.php:6613
+msgid "Title over photo"
+msgstr "画像の上にタイトル"
+
+#: advance/theme-options.php:5827 advance/theme-options.php:6614
+msgid "Title under photo"
+msgstr "画像の下にタイトル"
+
+#: advance/theme-options.php:5869 advance/theme-options.php:5878
+#: advance/theme-options.php:6656 advance/theme-options.php:6665
+msgid "Its main function is to make texts more visible"
+msgstr "主な機能としてテキストの視認性を向上します"
+
+#: advance/theme-options.php:6004
+msgid "Work info"
+msgstr "ワークの情報"
+
+#: advance/theme-options.php:6285
+msgid "Works navigation"
+msgstr "ワークナビゲーション"
+
+#: advance/theme-options.php:6292 advance/theme-options.php:7224
+msgid "Navigate by categories"
+msgstr "カテゴリーによるナビゲーション"
+
+#: advance/theme-options.php:6293 advance/theme-options.php:7225
+msgid ""
+"If enabled, navigation leads to the next/previous item in the same category. "
+"If disabled, it will navigate through items according to the order of the "
+"\"publication date\"."
+msgstr ""
+"有効にすると同じカテゴリー内の前後の項目にナビゲーションします。無効にすると"
+"「投稿日」の順番に項目をナビゲーションします。"
+
+#: advance/theme-options.php:6301 advance/utilities/cpt-work.php:636
+msgid "Similar works"
+msgstr "同様のワーク"
+
+#: advance/theme-options.php:6302
+msgid ""
+"Will display list(up to 3 items) of similar works at bottom of work content."
+msgstr "ワークコンテンツの下に最大3件までの同様のワークのリストを表示します。"
+
+#: advance/theme-options.php:6309 advance/theme-options.php:7256
+msgid "Display thumbnails instead of video"
+msgstr "動画の代わりにアイキャッチ画像を表示する"
+
+#: advance/theme-options.php:6310 advance/theme-options.php:7257
+msgid "If enabled, the video will be displayed in the lightbox."
+msgstr "有効にするとライトボックスで動画が表示されます。"
+
+#: advance/theme-options.php:6470 advance/theme-options.php:6513
+msgid "Can be overridden in each work."
+msgstr "各ワークを上書きできます。"
+
+#: advance/theme-options.php:6478 advance/theme-options.php:6502
+#: advance/theme-options.php:6513
+msgid "Global for all works."
+msgstr "すべてのワークで共通です。"
+
+#: advance/theme-options.php:6502 advance/theme-options.php:7418
+msgid "Speed of transition."
+msgstr "切り換え速度"
+
+#: advance/theme-options.php:6534
+msgid "These will work for Albums list and single album."
+msgstr "アルバムリストおよび単一のアルバムに適用されます。"
+
+#: advance/theme-options.php:6581
+msgid ""
+"This page will list all your albums and also give the main title for \"album "
+"category\" pages."
+msgstr ""
+"このページではすべてのアルバムのリストと、「アルバムカテゴリー」ページのメイ"
+"ンタイトルを表示します。"
+
+#: advance/theme-options.php:6611
+msgid "Album look"
+msgstr "アルバムの外観"
+
+#: advance/theme-options.php:6791
+msgid "Album meta: Categories"
+msgstr "アルバムメタ: カテゴリー"
+
+#: advance/theme-options.php:7191
+msgid "Display text content in slider or scroller albums"
+msgstr "スライダーまたはスクローラーアルバムにテキストコンテンツを表示する"
+
+#: advance/theme-options.php:7198
+msgid "Title in content"
+msgstr "コンテンツ内のタイトル"
+
+#: advance/theme-options.php:7212
+msgid "Albums navigation"
+msgstr "アルバムナビゲーション"
+
+#: advance/theme-options.php:7214
+msgid "Displayed in text content"
+msgstr "テキストコンテンツ内に表示"
+
+#: advance/theme-options.php:7215
+msgid "At the top of an album"
+msgstr "アルバムの先頭"
+
+#: advance/theme-options.php:7216
+msgid "At the end of an album"
+msgstr "アルバムの末尾"
+
+#: advance/theme-options.php:7265
+msgid "Bricks filter"
+msgstr "タイルのフィルター"
+
+#: advance/theme-options.php:7359
+msgid "Send an e-mail after accepting the album"
+msgstr "アルバムの受理後、メールを送る"
+
+#: advance/theme-options.php:7360
+msgid ""
+"Sends an email after your client has marked the album as completed in the "
+"photo proofing process."
+msgstr ""
+"クライアントがアルバムの写真校正プロセスを完了したとマークするとメールが送信"
+"されます。"
+
+#: advance/theme-options.php:7367
+msgid "Where to send?"
+msgstr "どこに送信しますか ?"
+
+#: advance/theme-options.php:7368
+msgid ""
+"If the field is left blank, it will use the administrator's email address."
+msgstr "フィールドが空白の場合、管理者のメールアドレスが使用されます。"
+
+#: advance/theme-options.php:7386 advance/theme-options.php:7429
+msgid "Can be overridden in each album."
+msgstr "各アルバムを上書きできます。"
+
+#: advance/theme-options.php:7394 advance/theme-options.php:7418
+msgid "Global for all albums."
+msgstr "すべてのアルバムで共通です。"
+
+#: advance/theme-options.php:7439
+msgid ""
+"If you are using AddToAny plugin for sharing, then you should check these "
+"options."
+msgstr ""
+"共有に AddToAny プラグインを使用する場合、以下のオプションを検討してくださ"
+"い。"
+
+#: advance/theme-options.php:7447
+msgid "Use social icons in albums"
+msgstr "アルバムで SNS アイコンを使用する"
+
+#: advance/theme-options.php:7454
+msgid "Share a link to the album or to the attachment page"
+msgstr "アルバムまたは添付ページへのリンクの共有"
+
+#: advance/theme-options.php:7455
+msgid ""
+"When using the share plugin choose one way of sharing. More details in the "
+"documentation."
+msgstr ""
+"共有プラグインを使用する場合には共有方法を選択してください。詳細についてはド"
+"キュメントを参照してください。"
+
+#: advance/theme-options.php:7457
+msgid "Album"
+msgstr "アルバム"
+
+#: advance/theme-options.php:7458
+msgid "Attachment page"
+msgstr "添付ページ"
+
+#: advance/theme-options.php:7468
+msgid "Miscellaneous"
+msgstr "その他の設定"
+
+#: advance/theme-options.php:7477
+msgid "Anchors"
+msgstr "アンカー"
+
+#: advance/theme-options.php:7486
+msgid "Display anchors in address bar"
+msgstr "アドレスバーにアンカーを表示する"
+
+#: advance/theme-options.php:7488
+#, php-format
+msgid ""
+"If disabled it will not show anchors, in the address bar of your browser, "
+"when they are clicked or entered. So address like %1$s will be displayed as "
+"%2$s."
+msgstr ""
+"無効にするとブラウザのアドレスバーがクリックまたは入力された際にアンカーを表"
+"示しません。たとえばアドレス %1$s は %2$s と表示されます。"
+
+#: advance/theme-options.php:7495
+msgid "Scroll to anchor handling"
+msgstr "アンカー位置までスクロールする"
+
+#: advance/theme-options.php:7496
+msgid ""
+"If enabled it will scroll to anchor after it is clicked on the same page. It "
+"can, however, conflict with plugins that uses the same mechanism, and the "
+"page can scroll in a weird way. In such case disable this feature."
+msgstr ""
+"有効にすると、アンカーのクリック時、同一ページ内のアンカー定義位置までスク"
+"ロールします。ただしこの動作は同じ機能を使用するプラグインとぶつかる場合があ"
+"り意図しないスクロールになります。このような場合は無効にしてください。"
+
+#: advance/theme-options.php:7504 advance/theme-options.php:7513
+#: advance/theme-options.php:7521
+msgid "Writing effect"
+msgstr "執筆時の効果"
+
+#: advance/theme-options.php:7514
+msgid ""
+"If disabled it will show all written lines as separate paragraphs on small "
+"devices(less than 600 pixels wide). It is good to disable it to save CPU of "
+"your user devices, and to remove \"jumping screen\" effect on smaller "
+"screens."
+msgstr ""
+"無効にすると横幅600ピクセル以下の小さなデバイスの場合、すべての行を個別の段落"
+"として表示します。ユーザーデバイスの CPU を節約したり、小さな画面での「画面"
+"ジャンプ」を抑えるには無効にしてください。"
+
+#: advance/theme-options.php:7521
+msgid "Text write speed"
+msgstr "テキスト入力速度"
+
+#: advance/theme-options.php:7522
+msgid ""
+"How many ms should pass between printing each character. Bigger value is "
+"slower writing."
+msgstr ""
+"各文字を出力するまでの待ち時間 (ミリ秒)。大きな値にすると執筆は遅くなります。"
+
+#: advance/theme-options.php:7533
+msgid "Optimization"
+msgstr "最適化"
+
+#: advance/theme-options.php:7541
+msgid "Use the web-font loading script"
+msgstr "Web フォントロードスクリプトを使用する"
+
+#: advance/theme-options.php:7542
+msgid ""
+"Once enabled, web-fonts will be loaded using the \"Web Font Loader\" script. "
+"If you want to use the plugin to combine web-fonts added by plugins and the "
+"theme, you should disable this."
+msgstr ""
+"有効にすると「Web Font Loader」スクリプトを使用して Web フォントをロードしま"
+"す。テーマに Web フォントを追加するプラグインを使用する場合は無効にしてくださ"
+"い。"
+
+#: advance/utilities/cpt-album.php:55 advance/utilities/cpt-album.php:65
+#: advance/utilities/cpt-album.php:122 advance/utilities/cpt-album.php:132
+#: advance/utilities/cpt-work.php:132 advance/utilities/cpt-work.php:142
+#, php-format
+msgid "Back to %s"
+msgstr "%s に戻る"
+
+#: advance/utilities/cpt-album.php:148 advance/utilities/cpt-album.php:151
+#: advance/utilities/cpt-work.php:158 advance/utilities/cpt-work.php:161
+msgid "Previous"
+msgstr "前へ"
+
+#: advance/utilities/cpt-album.php:157 advance/utilities/cpt-album.php:160
+#: advance/utilities/cpt-work.php:167 advance/utilities/cpt-work.php:170
+msgid "Next"
+msgstr "次へ"
+
+#: advance/utilities/cpt-album.php:337 advance/utilities/cpt-people.php:117
+#: advance/utilities/cpt-work.php:296 advance/utilities/posts.php:476
+msgid "Apologies, but no results were found for the requested archive."
+msgstr "何も検索できませんでした。"
+
+#: advance/utilities/cpt-album.php:541 advance/utilities/cpt-people.php:270
+#: advance/utilities/cpt-work.php:546 advance/vc-extend.php:50
+msgid "This content is password protected"
+msgstr "このコンテンツはパスワードで保護されています"
+
+#: advance/utilities/cpt-album.php:550 advance/utilities/cpt-people.php:274
+#: advance/utilities/cpt-work.php:555
+msgid "Click and enter your password to view content"
+msgstr "コンテンツを見るにはクリックしパスワードを入力してください"
+
+#: advance/utilities/cpt.php:17
+msgid "Website"
+msgstr "Web サイト"
+
+#: advance/utilities/cpt.php:965
+msgctxt "previous product"
+msgid "Previous"
+msgstr "前へ"
+
+#: advance/utilities/cpt.php:966
+msgctxt "next product"
+msgid "Next"
+msgstr "次へ"
+
+#: advance/utilities/cpt.php:1572 advance/utilities/cpt.php:1596
+#: advance/utilities/layout-parts.php:1271
+msgid "All"
+msgstr "すべて"
+
+#: advance/utilities/cpt.php:1597
+msgid "Selected"
+msgstr "選択済み"
+
+#: advance/utilities/cpt.php:1598
+msgid "Not selected"
+msgstr "非選択"
+
+#: advance/utilities/cpt.php:1599
+msgid "Commented"
+msgstr "コメント"
+
+#: advance/utilities/cpt.php:1602
+msgid ""
+"When you are done with commenting and selecting photos/videos, click this "
+"button."
+msgstr "コメントを入力し画像や動画を選択後にこのボタンをクリックしてください。"
+
+#: advance/utilities/cpt.php:1602
+msgid "I am done with Selecting Items"
+msgstr "項目の選択を完了しました"
+
+#: advance/utilities/cpt.php:1603
+msgid "Working ..."
+msgstr "処理中 ..."
+
+#: advance/utilities/cpt.php:1604
+msgid "Accepted Items:"
+msgstr "項目:"
+
+#: advance/utilities/feature.php:61
+msgid "Click here to scroll the page below"
+msgstr "ページを下にスクロールするにはここをクリックしてください。"
+
+#: advance/utilities/feature.php:480
+msgid ""
+"Your clients have marked the following albums as completed in the photo "
+"proofing process."
+msgstr ""
+"クライアントが次のアルバムの写真校正プロセスを完了したとマークしました。"
+
+#: advance/utilities/feature.php:481
+msgid ""
+"Using the links below, you can view and mark albums as \"viewed\" so that "
+"they do not appear on this list until new changes are made."
+msgstr ""
+"下のリンクを使用してアルバムを確認し「表示済」とマークできます。「表示済」に"
+"すると次に変更されるまでこのリストには表示されません。"
+
+#: advance/utilities/feature.php:493
+#, php-format
+msgid "&mdash; accepted %s ago"
+msgstr "&mdash; %s 前に受理済"
+
+#: advance/utilities/feature.php:500
+msgid "Mark all albums as viewed and hide the message."
+msgstr "すべのてアルバムを「表示済」とマークし、このメッセージを消す。"
+
+#: advance/utilities/header.php:351
+msgid "More info"
+msgstr "詳細"
+
+#: advance/utilities/header.php:352 advance/utilities/header.php:353
+msgid "Main menu"
+msgstr "メインメニュー"
+
+#: advance/utilities/layout-parts.php:513
+msgid "Search &hellip;"
+msgstr "検索 &hellip;"
+
+#: advance/utilities/layout-parts.php:1132 advance/utilities/posts.php:187
+#: archives-template.php:34 page.php:55
+msgid "Pages: "
+msgstr "固定ページ: "
+
+#: advance/utilities/password.php:13
+msgid "password"
+msgstr "パスワード"
+
+#: advance/utilities/password.php:13
+msgid "Submit"
+msgstr "送信"
+
+#: advance/utilities/posts.php:42
+msgid "Updated: "
+msgstr "更新日: "
+
+#: advance/utilities/posts.php:136
+#, php-format
+msgid "by %s "
+msgstr "投稿者: %s "
+
+#: advance/utilities/posts.php:140 attachment.php:53
+#, php-format
+msgid "View all posts by %s"
+msgstr "%s のすべての投稿を表示"
+
+#: advance/utilities/posts.php:260
+msgid "Previous article"
+msgstr "前の記事"
+
+#: advance/utilities/posts.php:268
+msgid "Next article"
+msgstr "次の記事"
+
+#: advance/utilities/posts.php:326 advance/utilities/posts.php:343
+#: content.php:30 content.php:38
+msgid "Read more"
+msgstr "続きを読む"
+
+#: advance/utilities/posts.php:376
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: advance/utilities/posts.php:379
+msgid "Older Comments"
+msgstr "古いコメント"
+
+#: advance/utilities/posts.php:383
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: advance/utilities/posts.php:542 advance/vc-extend.php:52
+#: password-template.php:41 single-work-ajax.php:15
+msgid "To view it please enter your password below"
+msgstr "参照するにはパスワードを入力してください"
+
+#: advance/utilities/woocommerce.php:102
+#, php-format
+msgid "View all posts in %s"
+msgstr "%s のすべての投稿を表示"
+
+#: advance/utilities/woocommerce.php:320
+msgid "Out of stock"
+msgstr "在庫切れ"
+
+#: advance/utilities/woocommerce.php:325
+msgid "Sale"
+msgstr "セール"
+
+#: advance/utilities/woocommerce.php:329
+msgid "New"
+msgstr "新着"
+
+#: advance/utilities/woocommerce.php:598
+msgid "Go to shop"
+msgstr "ショップに移動する"
+
+#: archives-template.php:40
+msgid "Latest 50 posts"
+msgstr "最新の 50 投稿"
+
+#: archives-template.php:52
+msgid "By months"
+msgstr "月ごと"
+
+#: archives-template.php:62
+msgid "Top 10 categories"
+msgstr "トップ 10 カテゴリー"
+
+#: archives-template.php:75
+msgid "Top 10 tags"
+msgstr "トップ 10 タグ"
+
+#: attachment.php:41 attachment.php:43
+#, php-format
+msgid "Return to %s"
+msgstr "%s へ戻る"
+
+#: attachment.php:49
+#, php-format
+msgid "By %1$s"
+msgstr "作成者 %1$s"
+
+#: attachment.php:61
+#, php-format
+msgid "Published %1$s"
+msgstr "投稿日 %1$s"
+
+#: attachment.php:74
+#, php-format
+msgid "Full size is %s pixels"
+msgstr "フルサイズは %s ピクセルです"
+
+#: attachment.php:77
+msgid "Link to full-size image"
+msgstr "フルサイズ画像へのリンク"
+
+#: comments.php:27
+#, php-format
+msgid "%d comment"
+msgid_plural "%d comments"
+msgstr[0] "コメント%d"
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: index.php:42
+#, php-format
+msgid "%1$d Search results for \"%2$s\""
+msgstr "\"%2$s\" の検索結果: %1$d 件"
+
+#: index.php:46
+#, php-format
+msgid "Author Archives: %s"
+msgstr "作成者アーカイブ: %s"
+
+#: index.php:49
+#, php-format
+msgid "Category Archives: %s"
+msgstr "カテゴリーアーカイブ: %s"
+
+#: index.php:52
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "タグアーカイブ: %s"
+
+#: index.php:55
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "%s日アーカイブ"
+
+#: index.php:58
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "%s月アーカイブ"
+
+#: index.php:61
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "%s年アーカイブ"
+
+#: index.php:63
+msgid "Blog Archives"
+msgstr "ブログアーカイブ"
+
+#: no-content.php:15
+#, php-format
+msgid "%s or use Site Map below:"
+msgstr "%s または以下のサイトマップから選択する:"
+
+#: no-content.php:15
+msgid "Go back"
+msgstr "元に戻る"
+
+#: no-content.php:20
+msgid "Main navigation"
+msgstr "メインナビゲーション"
+
+#: no-content.php:38
+msgid "Pages"
+msgstr "ページ"
+
+#: no-content.php:55
+msgid "Albums"
+msgstr "アルバム"
+
+#: password-template.php:39
+msgid "This content is password protected."
+msgstr "このコンテンツはパスワードで保護されています。"
+
+#: searchwp-live-ajax-search/search-results.php:43
+msgid "View all results"
+msgstr "すべての結果を表示"
+
+#: searchwp-live-ajax-search/search-results.php:46
+msgid "No results found."
+msgstr "見つかりませんでした。"
+
+#: searchwp-live-ajax-search/search-results.php:47
+msgid "Please try another search term"
+msgstr "別の検索語を試してください。"
+
+#~ msgid "%d comment(s)"
+#~ msgstr "%d コメント"
+
+#~ msgid "Similar Works"
+#~ msgstr "同様のワーク"
+
+#~ msgid "in"
+#~ msgstr "-"
+
+#~ msgid ""
+#~ "Rife Free is a great portfolio and photography WP theme with 7 ready-to-"
+#~ "use demo layouts. It is also perfect for business, blogging websites and "
+#~ "for your shop because it is WooCommerce compatible. More cool features in "
+#~ "the Rife theme are the: &#10003; Writing Effect &#10003; One Page Mode "
+#~ "&#10003; Mobile/Touch Friendly Image & Video Slider &#10003; Bricks "
+#~ "Gallery for Photographers &#10003; Mega Menu &#10003; Post Grid &#10003; "
+#~ "Google Fonts &#10003; Hidden Sidebar and many more. Over 450 options to "
+#~ "change in the Customizer and much more in each page, post, album or work. "
+#~ "We also integrate Schema.org which helps your website be more visible to "
+#~ "search engines. Elementor compatibility will help you make your great "
+#~ "website even more natural. The theme is RTL and translation-ready (WPML). "
+#~ "&#9733; Check our demos for more details: https://apollo13themes.com/rife/"
+#~ "designs/"
+#~ msgstr ""
+#~ "「Rife Free」は美しいポートフォリオや写真サイトに最適な WordPress テーマで"
+#~ "す。すぐに利用可能なデモレイアウトが7個付属します。ビジネス、ブログ用 Web "
+#~ "サイトにもマッチし、WooCommerce 互換でショッピングサイトにも利用できます。"
+#~ "また「Rife Free」にはクールな機能が多数含まれます。 ✓ 執筆時の効果 ✓ シン"
+#~ "グルページモード ✓ モバイル / タッチフレンドリーな画像 & 動画スライダー ✓ "
+#~ "写真家向けのタイルギャラリー ✓ メガメニュー ✓ 投稿グリッド ✓ Google フォン"
+#~ "ト ✓ 隠しサイドバー 等々。カスタマイザーからは450個以上ものオプションを変"
+#~ "更でき、個別の固定ページ、投稿、アルバム、ワークにはさらにオプションが追加"
+#~ "されます。Schema.org と統合し、検索エンジンからあなたの Web サイトをより見"
+#~ "つけやすくしています。Elementor とも互換で Web サイトをより一層ナチュラル"
+#~ "に仕上げます。「Rife Free」は RTL および国際化 (WPML) 対応しています。★ 詳"
+#~ "細についてはデモを参照してください: https://apollo13themes.com/rife/"
+#~ "designs/"
+
+#~ msgid "Rife Free"
+#~ msgstr "Rife Free"
+
+#~ msgid ""
+#~ "In Pro version of Rife theme, you get access to much more features, that "
+#~ "can help make your page more useful & beautiful."
+#~ msgstr ""
+#~ "Rife テーマの Pro 版 「Rife Pro」にはサイトをより便利に美しくする多数の機"
+#~ "能があります。"
+
+#~ msgid ""
+#~ "To get support for Rife Free we invite you to visit community support "
+#~ "forum on WordPress.org theme repository. We also are monitoring this "
+#~ "forum, however, priority support is provided for Rife Pro users, so we "
+#~ "might not be available."
+#~ msgstr ""
+#~ "Rife Free のサポートが必要であれば WordPress.org テーマリポジトリ上のコ"
+#~ "ミュニティサポートフォーラムにアクセスしてください。ただし Rife Pro ユー"
+#~ "ザーのサポートを優先しますので返信に時間を要する場合があります。"
+
+#~ msgid "Community Support"
+#~ msgstr "コミュニティサポート"
+
+#~ msgid ""
+#~ "Faded out Designs are available only in Rife Pro. You can preview them "
+#~ "from here by clicking on each Design and then using \"Live preview\" "
+#~ "button."
+#~ msgstr ""
+#~ "アーカイブしたデザインは Rife Pro でのみ利用可能です。プレビューするには各"
+#~ "デザインをクリックし、「ライブプレビュー」ボタンを使用します。"
+
+#~ msgid "Info"
+#~ msgstr "情報"
+
+#~ msgid "Try Rife Pro"
+#~ msgstr "Rife Pro を試す"
+
+#~ msgid "You can read more about it in the documentation."
+#~ msgstr "詳細についてドキュメントを参照する。"
+
+#~ msgid ""
+#~ "For Rife Pro users we offer premium support, which means we can help you "
+#~ "more closely & faster with issues that you may encounter."
+#~ msgstr ""
+#~ "Rife Pro ユーザーにはプレミアムサポートが提供されます。質問や問題に対し"
+#~ "て、さらに迅速で密接なサポートを受けられます。"
+
+#~ msgid "Premium Support"
+#~ msgstr "プレミアムサポート"
+
+#~ msgid "Check what you can use for your site on designs page."
+#~ msgstr "Rife Proで利用可能なデザインを確認する。"
+
+#~ msgid ""
+#~ "Each month we are adding new beautiful designs that you can use on sites "
+#~ "that you build. Designs target various niches & also general purpose "
+#~ "pages."
+#~ msgstr ""
+#~ "毎月、サイト構築に利用できる新しいデザインを追加しています。デザインはニッ"
+#~ "チなものから汎用的なものまで多岐にわたります。"
+
+#~ msgid "More Designs!"
+#~ msgstr "追加デザイン"
+
+#~ msgid "Check what we have in stock here on features page."
+#~ msgstr "Rife PRO で追加可能な機能を確認する。"
+
+#~ msgid "More features"
+#~ msgstr "追加機能"
+
+#~ msgid "Rife Pro"
+#~ msgstr "Rife Pro"
+
+#~ msgid ""
+#~ "%1$s users can access our support forum in read mode and check if their "
+#~ "issue was not explained or solved there. Read mode is available for "
+#~ "anyone :-)"
+#~ msgstr ""
+#~ "%1$s ユーザーは読み取り権限でサポートフォーラムにアクセスし、既知の問題の"
+#~ "情報や解決策を確認できます。サポートフォーラムはどなたでも参照できます :-)"
+
+#~ msgid "Get more details in Rife Pro tab."
+#~ msgstr "Rife Pro タブに移動し、詳細情報を参照する。"
+
+#~ msgid ""
+#~ "If you are looking for even more features or Designs, you can always try "
+#~ "Rife Pro version."
+#~ msgstr "追加の機能やデザインが必要であれば、Rife Pro 版をお試しください。"
+
+#~ msgid ""
+#~ "We are glad that you have decided to test & use our Rife Free theme. We "
+#~ "hope it will help you with making your site beautiful!"
+#~ msgstr ""
+#~ "Rife Free テーマのテストおよび利用をご検討いただきありがとうございます。美"
+#~ "しいサイト制作のお手伝いができれば幸いです。"
+
+#~ msgid "Thanks for using Rife Free!"
+#~ msgstr "Rife Free をご利用いただき、ありがとうございます !"
+
+#~ msgid "Rife Elementor Extensions"
+#~ msgstr "Rife Elementor Extensions"
+
+#~ msgid "<strong>Setting custom page is available in %s.</strong>"
+#~ msgstr "<strong>%s ではカスタムページを設定できます。</strong>"
+
+#~ msgid ""
+#~ "<strong>Settings for individual tools icons & animated icons are "
+#~ "available in %s.</strong>"
+#~ msgstr ""
+#~ "<strong>%s では個々のツールアイコンやアニメーションアイコンを設定できま"
+#~ "す。</strong>"
+
+#~ msgid "<strong>More effects are available in %s.</strong><br />"
+#~ msgstr "<strong>%s では複数の効果が追加されます。</strong><br />"
+
+#~ msgid "<strong>Light & dark variants are available in %s.</strong><br />"
+#~ msgstr ""
+#~ "<strong>%s では「明るく」と「暗く」のプリセットが追加されます。</"
+#~ "strong><br />"
+
+#~ msgid "<strong>More variants are available in %s.</strong>"
+#~ msgstr "<strong>%s では複数のプリセットが追加されます。</strong>"
+
+#~ msgid "<strong>Vertical header is available in %s.</strong>"
+#~ msgstr "<strong>%s では「垂直ヘッダー」が追加されます。</strong>"
+
+#~ msgid ""
+#~ "<strong>Detailed setting for lightGallery are available in %s.</strong>"
+#~ msgstr "<strong>%s では lightGallery の詳細な設定が可能です。</strong>"
+
+#~ msgid "<strong>Layout boxed & framed are available in %s.</strong>"
+#~ msgstr ""
+#~ "<strong>%s ではボックスレイアウト、フレームレイアウトを利用できます。</"
+#~ "strong>"
+
+#~ msgid "Archives"
+#~ msgstr "アーカイブ"
+
+#~ msgid "https://apollo13themes.com/"
+#~ msgstr "https://apollo13themes.com/"
+
+#~ msgid "Apollo13Themes"
+#~ msgstr "Apollo13Themes"
+
+#~ msgid "https://apollo13themes.com/rife/free/"
+#~ msgstr "https://apollo13themes.com/rife/free/"

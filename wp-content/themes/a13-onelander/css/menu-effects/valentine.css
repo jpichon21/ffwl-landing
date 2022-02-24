@@ -1,0 +1,93 @@
+.top-menu.menu--valentine > li > a span,
+.top-menu.menu--valentine > li > span.title span{
+	padding: 10px;
+	position: relative;
+}
+.top-menu.menu--valentine > li > a span::before,
+.top-menu.menu--valentine > li > span.title span::before,
+.top-menu.menu--valentine > li > a span::after,
+.top-menu.menu--valentine > li > span.title span::after,
+.top-menu.menu--valentine > li > a em::before,
+.top-menu.menu--valentine > li > span.title em::before,
+.top-menu.menu--valentine > li > a em::after,
+.top-menu.menu--valentine > li > span.title em::after{
+	content: '';
+	position: absolute;
+	-webkit-transform-origin: 350% 350%;
+			transform-origin: 350% 350%;
+	transition: transform 0.5s cubic-bezier(0, 0, 0.2, 1);
+}
+.top-menu.menu--valentine > li > a span::before,
+.top-menu.menu--valentine > li > span.title span::before,
+.top-menu.menu--valentine > li > a span::after,
+.top-menu.menu--valentine > li > span.title span::after{
+	top: 0;
+	width: 2px;
+	height: 100%;
+	-webkit-transform: scale3d(1, 0, 1);
+			transform: scale3d(1, 0, 1);
+}
+.top-menu.menu--valentine > li > a span::before,
+.top-menu.menu--valentine > li > span.title span::before{
+	left: 0;
+	transition-delay: 0.05s;
+}
+.top-menu.menu--valentine > li > a span::after,
+.top-menu.menu--valentine > li > span.title span::after{
+	right: 0;
+	transition-delay: 0.15s;
+}
+.top-menu.menu--valentine > li > a em::before,
+.top-menu.menu--valentine > li > span.title em::before,
+.top-menu.menu--valentine > li > a em::after,
+.top-menu.menu--valentine > li > span.title em::after{
+	left: 0;
+	width: 100%;
+	height: 2px;
+	-webkit-transform: scale3d(0, 1, 1);
+			transform: scale3d(0, 1, 1)
+}
+.top-menu.menu--valentine > li > a em::before,
+.top-menu.menu--valentine > li > span.title em::before{
+	top: 0;
+	transition-delay: 0.1s;
+}
+.top-menu.menu--valentine > li > a em::after,
+.top-menu.menu--valentine > li > span.title em::after{
+	bottom: 0;
+}
+.top-menu.menu--valentine > li:hover > a span::before,
+.top-menu.menu--valentine > li:hover > span.title span::before,
+.top-menu.menu--valentine > li.open > a span::before,
+.top-menu.menu--valentine > li.open > span.title span::before,
+.top-menu.menu--valentine > li.current-menu-ancestor > a span::before,
+.top-menu.menu--valentine > li.current-menu-ancestor > span.title span::before,
+.top-menu.menu--valentine > li.current-menu-item > a span::before,
+.top-menu.menu--valentine > li.current-menu-item > span.title span::before,
+.top-menu.menu--valentine > li:hover > a span::after,
+.top-menu.menu--valentine > li:hover > span.title span::after,
+.top-menu.menu--valentine > li.open > a span::after,
+.top-menu.menu--valentine > li.open > span.title span::after,
+.top-menu.menu--valentine > li.current-menu-ancestor > a span::after,
+.top-menu.menu--valentine > li.current-menu-ancestor > span.title span::after,
+.top-menu.menu--valentine > li.current-menu-item > a span::after,
+.top-menu.menu--valentine > li.current-menu-item > span.title span::after,
+.top-menu.menu--valentine > li:hover > a em::before,
+.top-menu.menu--valentine > li:hover > span.title em::before,
+.top-menu.menu--valentine > li.open > a em::before,
+.top-menu.menu--valentine > li.open > span.title em::before,
+.top-menu.menu--valentine > li.current-menu-ancestor > a em::before,
+.top-menu.menu--valentine > li.current-menu-ancestor > span.title em::before,
+.top-menu.menu--valentine > li.current-menu-item > a em::before,
+.top-menu.menu--valentine > li.current-menu-item > span.title em::before,
+.top-menu.menu--valentine > li:hover > a em::after,
+.top-menu.menu--valentine > li:hover > span.title em::after,
+.top-menu.menu--valentine > li.open > a em::after,
+.top-menu.menu--valentine > li.open > span.title em::after,
+.top-menu.menu--valentine > li.current-menu-ancestor > a em::after,
+.top-menu.menu--valentine > li.current-menu-ancestor > span.title em::after,
+.top-menu.menu--valentine > li.current-menu-item > a em::after,
+.top-menu.menu--valentine > li.current-menu-item > span.title em::after{
+	-webkit-transform: scale3d(1, 1, 1);
+			transform: scale3d(1, 1, 1);
+}

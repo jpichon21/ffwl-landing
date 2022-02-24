@@ -1,0 +1,83 @@
+.top-menu.menu--stephano > li > a span,
+.top-menu.menu--stephano > li > span.title span{
+	padding: 5px 10px;
+	position: relative;
+}
+.top-menu.menu--stephano > li > a span::before,
+.top-menu.menu--stephano > li > span.title span::before,
+.top-menu.menu--stephano > li > a span::after,
+.top-menu.menu--stephano > li > span.title span::after,
+.top-menu.menu--stephano > li > a em::before,
+.top-menu.menu--stephano > li > span.title em::before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 10px;
+	height: 2px;
+	opacity: 0;
+}
+.top-menu.menu--stephano > li > a span::before,
+.top-menu.menu--stephano > li > span.title span::before,
+.top-menu.menu--stephano > li > a span::after,
+.top-menu.menu--stephano > li > span.title span::after{
+	-webkit-transform: translate3d(0, 10px, 0);
+			transform: translate3d(0, 10px, 0);
+	transition: transform 0.3s, opacity 0.3s;
+}
+.top-menu.menu--stephano > li > a span::before,
+.top-menu.menu--stephano > li > span.title span::before{
+	left: 0;
+	-webkit-transform-origin: 0% 0%;
+			transform-origin: 0% 0%;
+}
+.top-menu.menu--stephano > li > a span::after,
+.top-menu.menu--stephano > li > span.title span::after{
+	right: 0;
+	-webkit-transform-origin: 100% 0%;
+			transform-origin: 100% 0%;
+}
+.top-menu.menu--stephano > li > a em::before,
+.top-menu.menu--stephano > li > span.title em::before{
+	left: 0;
+	width: 100%;
+	-webkit-transform: translate3d(0, 10px, 0);
+			transform: translate3d(0, 10px, 0);
+	transition: transform 0.3s, opacity 0.3s;
+}
+.top-menu.menu--stephano > li:hover > a span::before,
+.top-menu.menu--stephano > li:hover > span.title span::before,
+.top-menu.menu--stephano > li.open > a span::before,
+.top-menu.menu--stephano > li.open > span.title span::before,
+.top-menu.menu--stephano > li.current-menu-ancestor > a span::before,
+.top-menu.menu--stephano > li.current-menu-ancestor > span.title span::before,
+.top-menu.menu--stephano > li.current-menu-item > a span::before,
+.top-menu.menu--stephano > li.current-menu-item > span.title span::before{
+	opacity: 1;
+	-webkit-transform: rotate3d(0, 0, 1, -90deg);
+			transform: rotate3d(0, 0, 1, -90deg);
+}
+.top-menu.menu--stephano > li:hover > a span::after,
+.top-menu.menu--stephano > li:hover > span.title span::after,
+.top-menu.menu--stephano > li.open > a span::after,
+.top-menu.menu--stephano > li.open > span.title span::after,
+.top-menu.menu--stephano > li.current-menu-ancestor > a span::after,
+.top-menu.menu--stephano > li.current-menu-ancestor > span.title span::after,
+.top-menu.menu--stephano > li.current-menu-item > a span::after,
+.top-menu.menu--stephano > li.current-menu-item > span.title span::after{
+	opacity: 1;
+	-webkit-transform: rotate3d(0, 0, 1, 90deg);
+			transform: rotate3d(0, 0, 1, 90deg);
+}
+.top-menu.menu--stephano > li:hover > a em::before,
+.top-menu.menu--stephano > li:hover > span.title em::before,
+.top-menu.menu--stephano > li.open > a em::before,
+.top-menu.menu--stephano > li.open > span.title em::before,
+.top-menu.menu--stephano > li.current-menu-ancestor > a em::before,
+.top-menu.menu--stephano > li.current-menu-ancestor > span.title em::before,
+.top-menu.menu--stephano > li.current-menu-item > a em::before,
+.top-menu.menu--stephano > li.current-menu-item > span.title em::before{
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+	transition: transform 0.3s, opacity 0.1s;
+}

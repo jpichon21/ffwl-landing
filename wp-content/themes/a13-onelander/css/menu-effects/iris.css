@@ -1,0 +1,54 @@
+.top-menu.menu--iris > li > a span,
+.top-menu.menu--iris > li > span.title span{
+	padding: 10px;
+	position: relative;
+}
+.top-menu.menu--iris > li > a span::before,
+.top-menu.menu--iris > li > span.title span::before,
+.top-menu.menu--iris > li > a span::after,
+.top-menu.menu--iris > li > span.title span::after{
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	opacity: 0;
+	border-style: solid;
+	transition: transform 0.3s, opacity 0.3s;
+	transition-timing-function: cubic-bezier(0.17, 0.67, 0.05, 1.29);
+}
+.top-menu.menu--iris > li > a span::before,
+.top-menu.menu--iris > li > span.title span::before{
+	top: 0;
+	left: 0;
+	border-width: 2px 0 0 2px;
+	-webkit-transform: translate3d(10px, 10px, 0);
+			transform: translate3d(10px, 10px, 0);
+}
+.top-menu.menu--iris > li > a span::after,
+.top-menu.menu--iris > li > span.title span::after{
+	right: 0;
+	bottom: 0;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: translate3d(-10px, -10px, 0);
+			transform: translate3d(-10px, -10px, 0);
+}
+.top-menu.menu--iris > li:hover > a span::before,
+.top-menu.menu--iris > li:hover > span.title span::before,
+.top-menu.menu--iris > li.open > a span::before,
+.top-menu.menu--iris > li.open > span.title span::before,
+.top-menu.menu--iris > li.current-menu-ancestor > a span::before,
+.top-menu.menu--iris > li.current-menu-ancestor > span.title span::before,
+.top-menu.menu--iris > li.current-menu-item > a span::before,
+.top-menu.menu--iris > li.current-menu-item > span.title span::before,
+.top-menu.menu--iris > li:hover > a span::after,
+.top-menu.menu--iris > li:hover > span.title span::after,
+.top-menu.menu--iris > li.open > a span::after,
+.top-menu.menu--iris > li.open > span.title span::after,
+.top-menu.menu--iris > li.current-menu-ancestor > a span::after,
+.top-menu.menu--iris > li.current-menu-ancestor > span.title span::after,
+.top-menu.menu--iris > li.current-menu-item > a span::after,
+.top-menu.menu--iris > li.current-menu-item > span.title span::after{
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+}
